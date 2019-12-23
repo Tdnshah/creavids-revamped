@@ -1,0 +1,259 @@
+html{
+	font-family: 'Montserrat', sans-serif;
+}
+
+#main{
+	background-image: url('../../Assets/healthcare_png/Healthcare_PNG\ \(1\).png'),url('../../Assets/healthcare_png/Healthcare_PNG\ \(2\).png'),url('../../Assets/healthcare_png/Healthcare_PNG (4).png'),url('../../Assets/healthcare_png/Healthcare_PNG (5).png');
+	background-repeat: no-repeat,no-repeat,no-repeat;
+	background-position: left,left,right,right;
+	/* background-position-x: -2rem,-1rem,69rem,72rem; */
+	background-position-y: 23rem,70rem,30rem,75rem;
+	background-size: 15rem,15rem,15rem,15rem;
+}
+
+.active {
+ background-color: aqua;
+}
+
+
+#landMain{
+ background-image: url('../../Assets/landingPage/Landing\ Page-09.png'),url('../../Assets/landingPage/Landing\ Page-10.png');
+	background-repeat: no-repeat,no-repeat;
+	background-position: left,right;
+	background-position-y: 97rem,140rem;
+	background-position-x: -08rem,60rem;
+	background-size: 50rem,80rem;
+}
+
+#thumbnail {
+ position: relative;
+ display: inline-block;
+ cursor: pointer;
+}
+
+#thumbnail-icon::before {
+   position:absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   /* content: "f144";
+   font-family: Font Awesome 5 Free; */
+   font-size: 100px;
+   color: #AFE776;
+   opacity: 1;
+   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+#thumbnail-icon:hover::before {
+   color:#41e1f2;
+}
+
+
+
+
+
+
+
+/* #hero{
+	background-image: url('../../Assets/healthcare_png/Healthcare_PNG\ \(3\).png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 63%;
+	background-position-y:0%;
+} */
+@media only screen and (max-width: 640px) {
+  #hero {
+    background:none;
+	}
+	#main {
+    background:none;
+  }
+}
+
+/*
+ Process Page
+*/
+
+#section1{
+	background-image: url('../../Assets/process/Process_1.png');
+}
+svg{
+	width: 20px;
+	height: 20px
+}
+
+.divider{
+	border-left: 6px solid #81e6d9;
+ border-style: dotted;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin-left: -3px;
+ top: 0;
+
+}
+
+#getAQuote{
+	background: -webkit-linear-gradient(90deg, #41e1f2 0%, #AFE776 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#beferAfter::before{
+				content:'';
+    position:absolute;
+    width:8px;
+				height:8px;
+				top:65%;
+				left:20%;
+				background:linear-gradient(90deg, #41e1f2 0%, #AFE776 100%) ;
+}
+#beferAfter::after{
+	content:'';
+	position:absolute;
+	width:8px;
+	height:8px;
+	top:65%;
+	right:20%;
+	background:linear-gradient(90deg, #41e1f2 0%, #AFE776 100%) ;
+
+}
+
+#container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+ padding-left:50%;
+}
+
+#circle {
+	border-radius: 50%;
+	background-color: 	#55DAD7;
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	opacity: 0;
+}
+
+.item {
+	z-index: 100;
+	padding: 5px;
+}
+
+.item img {
+ width: 360px;
+ border: 10px solid #fff;
+ border-radius: 50%;
+}
+
+#circle {
+	border-radius: 50%;
+	background-color: 	#55DAD7;
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	opacity: 0;
+	animation: scaleIn 7s infinite cubic-bezier(.36, .11, .89, .32);
+}
+
+@keyframes scaleIn {
+	from {
+			transform: scale(.5, .5);
+			opacity: .3;
+	}
+	to {
+			transform: scale(7.5, 7.5);
+			opacity: 0;
+	}
+}
+
+
+/* about */
+#text-gradient {
+	background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#overline::before {
+	content:'';
+	display: block;
+	background: #41e1f2;
+	width: 150px;
+	height: 4px;
+}
+
+/* clients section */
+#bajaj {
+		background-image: url(../../Assets/about/clients/Bajaj-Finserv.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+		background-size: contain;
+}
+
+#gharda {
+	background-image: url(../../Assets/about/clients/Gharda.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#spenn {
+	background-image: url(../../Assets/about/clients/Spenn.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#board {
+	background-image: url(../../Assets/about/clients/Board.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#life-hub {
+	background-image: url(../../Assets/about/clients/Life-Hub.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#dream-factory {
+	background-image: url(../../Assets/about/clients/Dream-Factory.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#ungerboeck {
+	background-image: url(../../Assets/about/clients/Ungerboeck.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#garadia {
+	background-image: url(../../Assets/about/clients/Garadia.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#moovila {
+	background-image: url(../../Assets/about/clients/Moovila.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#virvita {
+	background-image: url(../../Assets/about/clients/Virvite.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
