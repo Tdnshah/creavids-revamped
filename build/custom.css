@@ -3,7 +3,7 @@ html{
 }
 
 #main{
-	background-image: url('../../Assets/healthcare_png/Healthcare_PNG\ \(1\).png'),url('../../Assets/healthcare_png/Healthcare_PNG\ \(2\).png'),url('../../Assets/healthcare_png/Healthcare_PNG (4).png'),url('../../Assets/healthcare_png/Healthcare_PNG (5).png');
+	background-image: url('../Assets/healthcare_png/Healthcare_PNG\ \(1\).png'),url('../Assets/healthcare_png/Healthcare_PNG\ \(2\).png'),url('../Assets/healthcare_png/Healthcare_PNG (4).png'),url('../Assets/healthcare_png/Healthcare_PNG (5).png');
 	background-repeat: no-repeat,no-repeat,no-repeat;
 	background-position: left,left,right,right;
 	/* background-position-x: -2rem,-1rem,69rem,72rem; */
@@ -17,7 +17,7 @@ html{
 
 
 #landMain{
- background-image: url('../../Assets/landingPage/Landing\ Page-09.png'),url('../../Assets/landingPage/Landing\ Page-10.png');
+ background-image: url('../Assets/landingPage/Landing\ Page-09.png'),url('../Assets/landingPage/Landing\ Page-10.png');
 	background-repeat: no-repeat,no-repeat;
 	background-position: left,right;
 	background-position-y: 97rem,140rem;
@@ -56,7 +56,7 @@ html{
 
 
 /* #hero{
-	background-image: url('../../Assets/healthcare_png/Healthcare_PNG\ \(3\).png');
+	background-image: url('../Assets/healthcare_png/Healthcare_PNG\ \(3\).png');
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 63%;
@@ -76,7 +76,7 @@ html{
 */
 
 #section1{
-	background-image: url('../../Assets/process/Process_1.png');
+	background-image: url('../Assets/process/Process_1.png');
 }
 svg{
 	width: 20px;
@@ -190,69 +190,69 @@ svg{
 
 /* clients section */
 #bajaj {
-		background-image: url(../../Assets/about/clients/Bajaj-Finserv.png);
+		background-image: url(../Assets/about/clients/Bajaj-Finserv.png);
   background-position: center center;
   background-repeat: no-repeat;
 		background-size: contain;
 }
 
 #gharda {
-	background-image: url(../../Assets/about/clients/Gharda.png);
+	background-image: url(../Assets/about/clients/Gharda.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #spenn {
-	background-image: url(../../Assets/about/clients/Spenn.png);
+	background-image: url(../Assets/about/clients/Spenn.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #board {
-	background-image: url(../../Assets/about/clients/Board.png);
+	background-image: url(../Assets/about/clients/Board.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 #life-hub {
-	background-image: url(../../Assets/about/clients/Life-Hub.png);
+	background-image: url(../Assets/about/clients/Life-Hub.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #dream-factory {
-	background-image: url(../../Assets/about/clients/Dream-Factory.png);
+	background-image: url(../Assets/about/clients/Dream-Factory.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #ungerboeck {
-	background-image: url(../../Assets/about/clients/Ungerboeck.png);
+	background-image: url(../Assets/about/clients/Ungerboeck.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #garadia {
-	background-image: url(../../Assets/about/clients/Garadia.png);
+	background-image: url(../Assets/about/clients/Garadia.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #moovila {
-	background-image: url(../../Assets/about/clients/Moovila.png);
+	background-image: url(../Assets/about/clients/Moovila.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
 #virvita {
-	background-image: url(../../Assets/about/clients/Virvite.png);
+	background-image: url(../Assets/about/clients/Virvite.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;

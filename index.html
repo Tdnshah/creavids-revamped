@@ -7,7 +7,7 @@
 	<title>Creavids | HealthCare</title>
 	<link rel="stylesheet" href="./build/tailwind.css">
 	<link rel="stylesheet" href="./build/custom.css">
-	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="./build/animation/aos.css" />
  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans&display=swap" rel="stylesheet">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous">
 </head>
@@ -15,7 +15,7 @@
  <header class="lg:px-16 px-6 lg:py-0 py-2 flex items-center w-full fixed z-50">
   <div class="flex flex-1 justify-between items-center">
    <div class="flex flex-wrap items-center">
-    <img src="../Assets/staticLogo.png" class="p-3	w-24" alt="">
+    <img src="./Assets/staticLogo.png" class="p-3	w-24" alt="">
     <a href="/index.html" class="text-3xl text-teal-300 font-hairline">Creavids</a>
    </div>
    <div class="hidden lg:inline p-4">
@@ -28,7 +28,7 @@
        <a href="/about.html" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">About</a>
       </li>
       <li>
-       <a href="/portfolio.html" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Portfolio</a>
+       <a href="/portfolio.html" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Explore</a>
       </li>
       <!-- <li>
        <a href="/public/services.html" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Services</a>
@@ -50,7 +50,7 @@
 		<main id="landMain" class="lg:py-24">
 
    <!--Show Features-->
-  <section class="w-full h-screen flex z-0 relative" style="background-image: url('../../Assets/landingPage/Landing Page-03.png'); background-repeat:no-repeat;background-size: cover; background-position: center;">
+  <section class="w-full h-screen flex z-0 relative" style="background-image: url('./Assets/landingPage/Landing Page-03.png'); background-repeat:no-repeat;background-size: cover; background-position: center;">
 				<div class="lg:w-full mt-56 ml-20">
 					<div class="">
       <h1 class="text-white font-bold text-6xl uppercase">CREATE VIDEOS THAT</h1>
@@ -62,7 +62,7 @@
 								<div id="container">
 											<div class="item">
 
-										<img src="../Assets/landingPage/playButton.png" />
+										<img src="./Assets/landingPage/playButton.png" />
 								</div>
 										<div id="circle" style="animation-delay: 0s"></div>
 										<div id="circle" style="animation-delay: 1s"></div>
@@ -81,9 +81,9 @@
   <section class="mx-auto max-w-screenFullWidth">
   <!--Video-->
   <section class="w-full h-screen">
-					<div class="my-32 mx-auto w-9/12 justify-center py-8" style="background-image: url('../../Assets/landingPage/video-placeholder.png');background-repeat: no-repeat; background-position: center; background-size: cover;">
+					<div class="my-32 mx-auto w-9/12 justify-center py-8" style="background-image: url('./Assets/landingPage/video-placeholder.png');background-repeat: no-repeat; background-position: center; background-size: cover;">
        <div id="thumbnail" onclick="myFunction()">
-         <img width="890" height="500" class="mx-auto justify-center" src="../Assets/landingPage/showreelThumbnail.jpg" alt="">
+         <img width="890" height="500" class="mx-auto justify-center" src="./Assets/landingPage/showreelThumbnail.jpg" alt="">
          <i class="fas fa-play-circle" id="thumbnail-icon"></i>
        </div>
        <div id="video">
@@ -97,10 +97,10 @@
   <section class="w-full">
     <div class="w-full flex flex-wrap mx-auto my-20">
      <div class="mx-auto">
-      <img src="../Assets/landingPage/Landing Page-05.png" class="w-1/3 mx-auto" alt="">
+      <img src="./Assets/landingPage/Landing Page-05.png" class="w-1/3 mx-auto" alt="">
      </div>
      <div class="px-24">
-      <img src="../Assets/landingPage/Landing Page-06.png" class="mx-auto" alt="">
+      <img src="./Assets/landingPage/Landing Page-06.png" class="mx-auto" alt="">
      </div>
     </div>
   </section>
@@ -109,10 +109,10 @@
   <section class="w-full">
     <div class="w-full flex flex-wrap mx-auto my-20">
      <div class="mx-auto my-16">
-      <img src="../Assets/landingPage/Landing Page-08.png" class="w-1/3 mx-auto" alt="">
+      <img src="./Assets/landingPage/Landing Page-08.png" class="w-1/3 mx-auto" alt="">
      </div>
      <div class="px-24">
-      <img src="../Assets/landingPage/Landing Page-07.png" class="mx-auto" alt="">
+      <img src="./Assets/landingPage/Landing Page-07.png" class="mx-auto" alt="">
      </div>
     </div>
   </section>
@@ -181,13 +181,13 @@
     <div class="w-full mx-auto my-40">
      <div class="my-16">
        <h1 class="ita uppercase text-5xl font-bold text-gray-600 px-64 mx-auto text-center">Consult Now For<br/>Custom Tailored Projects</h1>
-       <a href="/contact.html"><img src="../Assets/about/About-08.jpg" class="w-1/4 mx-auto my-24" alt=""></a>
+       <a href="/contact.html"><img src="./Assets/about/About-08.jpg" class="w-1/4 mx-auto my-24" alt=""></a>
      </div>
     </div>
   </section>
  </section>
 		</main>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script src="./build/animation/aos.js"></script>
 		<script>
    function myFunction() {
      var x = document.getElementById("thumbnail");
