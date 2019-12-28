@@ -257,3 +257,9 @@ svg{
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+
+
+#service-section1 {
+ background-image: url('./../Assets/services/png/Service\ feature-01.png');
+ background-position-x: right;
+}
