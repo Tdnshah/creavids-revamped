@@ -21,7 +21,7 @@
   </head>
   <body class="antialiased overflow-x-hidden mx-auto">
     <header
-      class="bg-creavidsBg lg:px-16 px-6 lg:py-0 py-2 flex items-center w-full fixed z-50"
+      class="bg-white lg:px-16 px-6 lg:py-0 py-2 flex items-center w-full fixed z-50 shadow-crevidsShadowHeader"
     >
       <div class="flex flex-1 justify-between items-center">
         <div class="flex flex-wrap items-center">
@@ -57,13 +57,13 @@
               <!-- <li>
        <a href="/services.html" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Services</a>
       </li> -->
-              <li>
+              <!-- <li>
                 <a
                   href="/blog.html"
                   class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide"
                   >Blog</a
                 >
-              </li>
+              </li> -->
               <!-- <li>
        <a href="/contact.html" class="text-gray-800 uppercase mr-5 text-sm font-semibold tracking-wide">Contact</a>
       </li> -->
@@ -83,18 +83,25 @@
     <main id="landMain" class="lg:pt-24">
       <!--Show Features-->
       <section
-        class="w-full h-screen flex z-0 relative"
+        class="w-full flex z-0"
         style="background-image: url('./Assets/landingPage/Landing Page-03.png'); background-repeat:no-repeat;background-size: cover; background-position: center;"
       >
-        <div class="lg:w-full mt-56 ml-20">
+        <div class="lg:w-full h-full my-48 ml-20">
           <div class="">
-            <h1 class="text-white font-bold text-6xl uppercase">
-              CREATE VIDEOS THAT
+            <h1 class="text-white font-bold py-4 text-5xl uppercase">
+              CREATE VIDEOS FOR
             </h1>
             <h1
               class="text-gray-900 font-extrabold text-6xl uppercase"
               id="sequence"
             ></h1>
+            <h1>
+              <a href="" class="text-gray-900 font-extrabold text-6xl uppercase typewrite" data-period="2000"
+                data-type='[ "YOUR BRAND", "YOUR PRODUCT", "YOUR SERVICE" ]'>
+                <span class="wrap"></span>
+              </a>
+            </h1>
+
           </div>
         </div>
         <!-- <div class="absolute w-full">
@@ -120,16 +127,13 @@
 
       <section class="mx-auto max-w-screenFullWidth">
         <!--Video-->
-        <section class="w-full h-screen">
-          <div
-            class="my-32 mx-auto w-9/12 justify-center py-8"
-            style="background-image: url('./Assets/landingPage/video-placeholder.png');background-repeat: no-repeat; background-position: center; background-size: cover;"
-          >
-            <div id="thumbnail" onclick="myFunction()">
+        <section class="w-full my-24">
+          <div class="mx-auto w-9/12 justify-center">
+            <div id="thumbnail" class="" onclick="myFunction()">
               <img
                 width="890"
                 height="500"
-                class="mx-auto justify-center"
+                class="mx-auto justify-center shadow-crevidsShadow"
                 src="./Assets/landingPage/showreelThumbnail.jpg"
                 alt=""
               />
@@ -139,7 +143,7 @@
               <iframe
                 width="890"
                 height="500"
-                class="mx-auto justify-center"
+                class="mx-auto justify-center shadow-crevidsShadow"
                 src="https://www.youtube.com/embed/VfzfQaPcd7U?autoplay=1"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -149,23 +153,16 @@
           </div>
         </section>
 
-        <!--Heres What Client-->
-        <section class="w-full">
-          <div class="w-full flex flex-wrap mx-auto my-20">
-          <div  class="flex mx-auto pb-16 px-64">
+
+        <!-- <section class="w-full my-24">
+          <div class="w-full flex flex-wrap mx-auto my-16">
+            <div  class="flex mx-auto pb-16 px-64">
               <h1 class="flex text-5xl font-semibold px-20 text-creavidsDarkGray">
                 Here's What Clients
                 Love About Creavids
                 <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class=" h-40">
               </h1>
             </div>
-            <!-- <div class="mx-auto">
-              <img
-                src="./Assets/landingPage/Landing Page-05.png"
-                class="w-1/3 mx-auto"
-                alt=""
-              />
-            </div> -->
             <div class="px-24">
               <img
                 src="./Assets/landingPage/Landing Page-06.png"
@@ -174,44 +171,150 @@
               />
             </div>
           </div>
+        </section> -->
+
+        <!--Heres What Client-->
+        <section class="w-full my-24">
+          <div class="w-full flex flex-wrap mx-auto my-16">
+            <div class="flex mx-auto pb-16 px-64">
+              <h1 class="flex text-5xl font-semibold px-20 text-creavidsDarkGray">
+                Here's What Clients
+                Love About Creavids
+                <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady"
+                  class=" h-40">
+              </h1>
+            </div>
+            <div class="w-full px-16 flex flex-wrap">
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-4 shadow-2xl">
+                    <img src="./Assets/landingPage/clients/dollars.png"
+                      class="h-48 w-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-lg px-8 text-creavidsDarkGray font-bold">
+                      All-inclusive fixed budget cost
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-4 shadow-2xl">
+                    <img src="./Assets/landingPage/clients/hunderd.png"
+                      class="h-48 w-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-lg px-4 text-creavidsDarkGray font-bold">
+                      Your money is safe with us 100% money back guarantee
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-4 shadow-2xl justify-center">
+                    <img src="./Assets/landingPage/clients/orignal.png"
+                      class="h-48 w-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-lg px-4 text-creavidsDarkGray font-bold">
+                      Orignal content for every video
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-4 shadow-2xl justify-center ">
+                    <img src="./Assets/landingPage/clients/laptop.png"
+                      class="w-48 h-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-lg px-4 text-creavidsDarkGray font-bold">
+                      Multiple iteration included in the budget
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <!--OurWork-->
-        <section class="w-full">
-          <div class="w-full flex flex-wrap mx-auto my-20">
-            <div class="mx-auto my-16">
+        <section class="w-full my-24">
+          <div class="w-full flex flex-wrap mx-auto my-16">
+            <div class="flex mx-auto pb-16 px-64">
               <img
                 src="./Assets/landingPage/Landing Page-08.png"
                 class="w-1/3 mx-auto"
                 alt=""
               />
             </div>
-            <div class="px-24">
-              <img
-                src="./Assets/landingPage/Landing Page-07.png"
-                class="mx-auto"
-                alt=""
-              />
-            </div>
-          </div>
-        </section>
-
-        <!--We Collabrate-->
-        <section class="w-full">
-          <div class="w-full mx-auto my-24">
-            <div class="">
-              <h1
-                class="ita uppercase text-5xl font-bold text-creavidsDarkGray px-40 mx-auto text-center"
-              >
-                We Collabrate With Ambitious <br />
-                Brands and People
-              </h1>
+            <div class="w-full px-16 flex flex-wrap">
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-8 shadow-2xl">
+                    <img src="./Assets/landingPage/ourProcess/scriptWriting.png" class="h-48 w-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-2xl text-creavidsDarkGray font-bold">
+                      Script Writing
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-8 shadow-2xl">
+                    <img src="./Assets/landingPage/ourProcess/styles.png" class="h-48 w-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-2xl text-creavidsDarkGray font-bold">
+                      Style
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-8 shadow-2xl justify-center">
+                    <img src="./Assets/landingPage/ourProcess/storyBoard.png" class="h-48 w-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-2xl text-creavidsDarkGray font-bold">
+                      Storyboard
+                    </h1>
+                  </div>
+                </div>
+              </div>
+              <div class="w-1/4">
+                <div class="mr-10">
+                  <div class="bg-white rounded-lg p-8 shadow-2xl justify-center ">
+                    <img src="./Assets/landingPage/ourProcess/animation.png" class="w-48 h-48 mx-auto" alt="">
+                  </div>
+                  <div class="text-center">
+                    <h1 class="py-8 text-2xl text-creavidsDarkGray font-bold">
+                      Animation
+                    </h1>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
 
         <!--Clients-->
-        <section>
+        <section class="w-full my-24">
+          <div class="w-full mx-auto">
+            <div class="">
+              <h1
+                class="ita uppercase text-5xl font-bold text-creavidsDarkGray px-40 mx-auto text-center">
+                We Collabrate With Ambitious <br />
+                Brands and People
+              </h1>
+            </div>
+          </div>
           <div class="mx-20">
             <div class="px-1">
               <div class="flex flex-wrap">
@@ -251,27 +354,25 @@
         </section>
 
         <!--Consult Now For -->
-        <section class="w-full">
-          <div class="w-full mx-auto mt-40">
-            <div class="my-16">
+        <section class="w-full my-24">
+          <div class="w-full mx-auto">
               <h1
-                class="ita uppercase text-5xl font-bold text-gray-600 px-64 mx-auto text-center"
+                class="uppercase text-5xl font-bold text-gray-600 px-64 mx-auto text-center"
               >
                 Consult Now For<br />Custom Tailored Projects
               </h1>
               <a href="/contact.html"
                 ><img
                   src="./Assets/about/About-08.jpg"
-                  class="w-1/4 mx-auto my-24"
+                  class="w-1/4 mx-auto"
                   alt=""
               /></a>
-            </div>
           </div>
         </section>
       </section>
     </main>
     <footer>
-      <div class="flex flex-wrap shadow-2xl">
+      <div class="flex flex-wrap shadow-crevidsShadowFooter">
         <div class="flex flex-wrap w-1/2">
           <div class="w-1/2 p-12 justify-center my-auto">
             <a href="/index.html">
@@ -288,19 +389,19 @@
               Company
             </p>
 
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/about.html"><img src="./Assets/footer/About.png" class="mt-1 mr-6 ml-2 h-8" alt=""> About</a></li>
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/explore.html"><img src="./Assets/footer/Explore.png" class="mt-2 mr-4 w-6 h-6" alt="">Explore</a></li>
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/process.html"><img src="./Assets/footer/Process.png" class="mt-2 mr-4 w-6 h-6" alt="">Process</a></li>
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/services.html"><img src="./Assets/footer/Service.png" class="mt-2 mr-4 w-6 h-6" alt=""> Service</a>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/about.html"><img src="./Assets/footer/About.png" class="mt-1 mr-6 ml-2 h-8" alt=""> About</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/explore.html"><img src="./Assets/footer/Explore.png" class="mt-2 mr-4 w-6 h-6" alt="">Explore</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/process.html"><img src="./Assets/footer/Process.png" class="mt-2 mr-4 w-6 h-6" alt="">Process</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/services.html"><img src="./Assets/footer/Service.png" class="mt-2 mr-4 w-6 h-6" alt=""> Service</a>
             </a>
             </a></li >
            </ul>
          </div>
          <div class="w-1/4 pt-20 mt-2 pl-8 justify-center">
           <ul>
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/"><img src="./Assets/footer/Agencies.png" class="mt-2 mr-4 w-6 h-6" alt=""> Agencies</a></li>
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/"><img src="./Assets/footer/Learn.png" class="mt-2 mr-4 w-6 h-6" alt="">Learn</a></li>
-            <li class="flex my-2 text-xl text-creavidsarkTeal font-bold"><a class="flex" href="/faq.html"><img src="./Assets/footer/FAQ.png" class="mt-2 mr-4 w-6 h-6" alt="">FAQ</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/"><img src="./Assets/footer/Agencies.png" class="mt-2 mr-4 w-6 h-6" alt=""> Agencies</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/"><img src="./Assets/footer/Learn.png" class="mt-2 mr-4 w-6 h-6" alt="">Learn</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/faq.html"><img src="./Assets/footer/FAQ.png" class="mt-2 mr-4 w-6 h-6" alt="">FAQ</a></li>
            </ul>
         </div>
         </div>
@@ -310,13 +411,13 @@
             <p class="py-4 text-xl text-creavidsGreen uppercase font-semibold">
               INDUSTRIES
             </p>
-            <li class="flex my-2 text-xl italic text-creavidsarkTeal font-bold"><a class="flex" href="/health.html">Healthcare</a></li>
-            <li class="flex my-2 text-xl italic text-creavidsarkTeal font-bold"><a class="flex" href="/manufacturing.html">Manufacturing</a></li>
-            <li class="flex my-2 text-xl italic text-creavidsarkTeal font-bold"><a class="flex" href="/">Blockchain</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/health.html">Healthcare</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/manufacturing.html">Manufacturing</a></li>
+            <li class="flex my-2 text-xl text-creavidsTeal font-bold"><a class="flex" href="/">Blockchain</a></li>
            </ul>
          </div>
         <div class="w-2/3 my-auto">
-          <p class="text-xl p-4 text-creavidsTeal font-semibold">
+          <p class="text-xl p-4 tex text-creavidsTeal font-semibold">
           Lane No. 5 Koregaon Park, Pune - 411001 <br>
           Email: letstalk@creavids.co
           </p>
@@ -357,26 +458,62 @@
         }
       }
       AOS.init();
-      var example = [
-        "SHOW FEATURES",
-        "Highlight Features",
-        "Explain Product",
-        "Engage Audience",
-        "Showcase Usability"
-      ];
+      var TxtType = function (el, toRotate, period) {
+          this.toRotate = toRotate;
+          this.el = el;
+          this.loopNum = 0;
+          this.period = parseInt(period, 10) || 2000;
+          this.txt = '';
+          this.tick();
+          this.isDeleting = false;
+        };
 
-      textSequence(0);
-      function textSequence(i) {
-        if (example.length > i) {
-          setTimeout(function() {
-            document.getElementById("sequence").innerHTML = example[i];
-            textSequence(++i);
-          }, 1000); // 1 second (in milliseconds)
-        } else if (example.length == i) {
-          // Loop
-          textSequence(0);
-        }
-      }
+        TxtType.prototype.tick = function () {
+          var i = this.loopNum % this.toRotate.length;
+          var fullTxt = this.toRotate[i];
+
+          if (this.isDeleting) {
+            this.txt = fullTxt.substring(0, this.txt.length - 1);
+          } else {
+            this.txt = fullTxt.substring(0, this.txt.length + 1);
+          }
+
+          this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+          var that = this;
+          var delta = 200 - Math.random() * 100;
+
+          if (this.isDeleting) { delta /= 2; }
+
+          if (!this.isDeleting && this.txt === fullTxt) {
+            delta = this.period;
+            this.isDeleting = true;
+          } else if (this.isDeleting && this.txt === '') {
+            this.isDeleting = false;
+            this.loopNum++;
+            delta = 500;
+          }
+
+          setTimeout(function () {
+            that.tick();
+          }, delta);
+        };
+
+        window.onload = function () {
+          var elements = document.getElementsByClassName('typewrite');
+          for (var i = 0; i < elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+          }
+          // INJECT CSS
+          var css = document.createElement("style");
+          css.type = "text/css";
+          css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+          document.body.appendChild(css);
+        };
     </script>
     <style>
       #thumbnail {

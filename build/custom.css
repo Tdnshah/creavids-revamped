@@ -1,6 +1,10 @@
 html {
   font-family: "Montserrat", sans-serif;
-  background-color: #f7fafc;
+  /* background-color: #f7fafc; */
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
 #main {
   background-image: url("../Assets/healthcare_png/Healthcare_PNG\ \(1\).png"),
