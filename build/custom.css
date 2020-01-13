@@ -13,8 +13,8 @@ html {
     url("../Assets/healthcare_png/Healthcare_PNG (5).png");
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-position: left, left, right, right;
-  /* background-position-x: -2rem,-1rem,69rem,72rem; */
-  background-position-y: 23rem, 70rem, 30rem, 75rem;
+  /* background-position-x: 0rem,-1rem,0rem,0rem; */
+  background-position-y: 35rem, 75rem, 40rem, 85rem;
   background-size: 15rem, 15rem, 15rem, 15rem;
 }
 
