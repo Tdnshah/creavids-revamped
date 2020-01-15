@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./build/custom.css" />
   <link rel="stylesheet" href="./build/animation/aos.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
 </head>
 
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
@@ -95,7 +96,7 @@
             } elseif (!$newPage && $messageSuccessful) {
 
               echo ("<p class='text-center text-xl p-4 text-creavidsGreen font-semibold'>Thank you for contacting Creavids.co. <br> You Message has been successfully send and our executive will connect with you soon.");
-            } elseif(!$newPage && $messageFailed){
+            } elseif (!$newPage && $messageFailed) {
               '<p class="text-center text-red-600 text-xl"> Seems Like something went wrong please try again</p>
               <form action="" method="POST" class="p-6">
               <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="name" placeholder="Name" />
