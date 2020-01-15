@@ -13,6 +13,7 @@
 </head>
 
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
+  <?php include "./sendMail.php" ?>
   <header class="bg-white lg:px-16 px-6 lg:py-0 py-2 flex items-center w-full fixed z-50 shadow-crevidsShadowHeader">
     <div class="flex flex-1 justify-between items-center">
       <div class="flex flex-wrap items-center">
@@ -63,7 +64,10 @@
             </h1>
           </div>
           <div class="m-6">
-            <form action="" method="POST" class="p-6">
+            <?php
+
+            if ($newPage) {
+              echo ('<form action="" method="POST" class="p-6">
               <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="name" placeholder="Name" />
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="emailid" placeholder="Email Address" />
@@ -83,11 +87,43 @@
                 <option value="notsure">Not Sure</option>
               </select>
 
-              <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="form_message" placeholder="We're listening...." />
+              <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="form_message" placeholder="We\'re listening...." />
 
               <input id="send" name="submit" type="submit" value="submit" class=" w-1/2 mt-5 ml-40 uppercase text-5xl tracking-widest text-white shadow-2xl" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
               </input>
-            </form>
+            </form>');
+            } elseif (!$newPage && $messageSuccessful) {
+
+              echo ("<p class='text-center text-xl p-4 text-creavidsGreen font-semibold'>Thank you for contacting Creavids.co. <br> You Message has been successfully send and our executive will connect with you soon.");
+            } elseif(!$newPage && $messageFailed){
+              '<p class="text-center text-red-600 text-xl"> Seems Like something went wrong please try again</p>
+              <form action="" method="POST" class="p-6">
+              <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="name" placeholder="Name" />
+
+              <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="emailid" placeholder="Email Address" />
+
+              <select name="syvideostyle" class="py-4 px-2 bg-white my-4 w-full border-b-4 border-teal-400 font-hairline text-xl text-gray-500 focus:text-black ">
+                <option>Select your video style.</option>
+                <option value="2D">2D Animation</option>
+                <option value="3D">3D Animation</option>
+                <option value="notsure">Not Sure</option>
+              </select>
+
+              <select name="hlyayvideo2b" class="py-4 px-2  my-4 w-full bg-white border-b-4 border-teal-400 font-hairline text-xl text-gray-500 focus:text-black">
+                <option>How long you anticipate your video to be?</option>
+                <option value="60">60 Seconds</option>
+                <option value="90">90 Seconds</option>
+                <option value="120">120 Seconds</option>
+                <option value="notsure">Not Sure</option>
+              </select>
+
+              <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="form_message" placeholder="We\'re listening...." />
+
+              <input id="send" name="submit" type="submit" value="submit" class=" w-1/2 mt-5 ml-40 uppercase text-5xl tracking-widest text-white shadow-2xl" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
+              </input>
+            </form>';
+            }
+            ?>
           </div>
         </div>
         <div class="bg-white w-1/3 h-full shadow-2xl mt-20 mb-32 ml-5 mr-20">
@@ -182,7 +218,6 @@
         </div>
       </div>
     </div>
-    <?php include "./sendMail.php" ?>
   </footer>
   <script src="./build/animation/aos.js"></script>
   <script>
