@@ -1,6 +1,6 @@
 <?php include('./header.php') ?>
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
-  <main class="px-20 lg:py-16">
+  <main class="px-20 lg:py-20">
     <!-- <section class="flex flex-wrap relative">
       <div class="w-full md:w-1/2 lg:w-5/12 my-auto">
           <h1 class="text-teal-400 font-bold text-5xl pl-8">Here's what client's love about creavids</h1>

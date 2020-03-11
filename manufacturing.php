@@ -2,7 +2,7 @@
 <?php include('header.php')?>
 <body class="antialiased bg-grey-200  overflow-x-hidden mx-auto">
 		<main id="manufacturing-main" class="w-full lg:pt-24 items-center">
-			<section class="mx-auto py-24"  id="manufacturing-hero">
+			<section class="mx-auto py-20"  id="manufacturing-hero">
 				<div class="flex flex-wrap bounceIn">
 					<div class="w-1/2 my-auto text-justify overflow-auto">
 						<div class="w-full lg:pl-20 lg:pr-20 lg:pb-10">

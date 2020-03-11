@@ -1,6 +1,6 @@
 <?php include('./header.php')?>
   <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
-    <main class="lg:pt-24">
+    <main class="lg:pt-20">
       <section
         class="items-center h-full"
         style="background:url('./Assets/contact/Contact-bg.png'),linear-gradient(90deg, #41e1f2 0%, #AFE776 100%); background-repeat: no-repeat,no-repeat; background-size: cover,cover;background-position: center,center;"

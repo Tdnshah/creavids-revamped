@@ -1,7 +1,7 @@
 <?php include('./header.php') ?>
 
 <body class="antialiased bg-grey-200 mx-auto overflow-x-hidden mx-auto">
-  <main class="p-6 lg:pt-32 items-center">
+  <main class="p-6 lg:pt-20 items-center">
     <section class="w-full lg:h-screen bg-no-repeat bg-contain bg-center" id="section1"></section>
     <section class="mx-auto max-w-screenFullWidth">
       <section class="w-full">

@@ -1,7 +1,7 @@
 <?php include('./header.php')?>
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
 
-		<main class="lg:py-24 items-center bg-creavidsLightGray">
+		<main class="lg:py-20 items-center bg-creavidsLightGray">
 					<section class="bg-gray-300">
 							<img class="w-64 pt-6 mx-auto"  src="./Assets/blog/Blog-01.png" alt="">
 							<h1 class="py-4 text-center text-3xl uppercase font-semibold text-gray-800"> Explore Video Samples </h1>

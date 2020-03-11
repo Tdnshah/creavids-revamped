@@ -1,6 +1,6 @@
 <?php include('./header.php');?>
   <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
-    <main class="lg:py-24">
+    <main class="lg:py-20">
       <section class="bg-white py-10">
         <h1 class="py-2 px-64 text-center text-3xl font-semibold text-gray-700">
           Explore videos that get you the eyeballs you deserve. <br />Every

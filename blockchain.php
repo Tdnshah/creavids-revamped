@@ -1,7 +1,7 @@
 
 <?php include('header.php') ?>
 <body class="antialiased bg-grey-200  overflow-x-hidden mx-auto">
-	<main id="mainBlockchain" class="lg:pt-24">
+	<main id="mainBlockchain" class="lg:pt-20">
 		<section class="mx-auto max-w-screenFullWidth lg:pt-16">
 			<div class="flex flex-wrap bounceIn" id="BlockChainHero">
 				<div class="w-1/2 my-auto overflow-auto">

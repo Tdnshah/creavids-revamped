@@ -1,6 +1,6 @@
 <?php include('./header.php'); ?>
 <body class="antialiased bg-grey-200  overflow-x-hidden mx-auto">
-  <main class="lg:pt-24">
+  <main class="lg:pt-20">
 		<div class="w-full md:w-3/5 mx-auto p-4 justify-center">
 			<h1 class="text-4xl py-8 font-bold uppercase text-teal-400 text-center">
 				Frequently Asked Questions <br>on Animated Video Production Service

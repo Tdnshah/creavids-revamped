@@ -47,7 +47,7 @@
 				</div>
 			</div>
 		</header>
-		<main id="main" class="lg:pt-24">
+		<main id="main" class="lg:pt-20">
 			<section class="mx-auto max-w-screenFullWidth lg:pt-16">
 				<div class="flex flex-wrap bounceIn" id="hero">
 					<div class="w-1/2 my-auto text-justify overflow-auto">

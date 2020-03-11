@@ -1,7 +1,7 @@
 
 <?php include('./header.php');?>
   <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
-    <main class="lg:py-24">
+    <main class="lg:py-20">
       <section>
         <div class="mx-auto my-20">
           <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12" />
