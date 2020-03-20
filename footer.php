@@ -32,8 +32,8 @@
           </ul>
         </div>
       </div>
-      <div class="flex flex-wrap lg:w-1/2">
-        <div class="lg:w-1/3 p-8 justify-center">
+      <div class="flex flex-wrap lg:w-1/2 mx-auto">
+        <div class="lg:w-1/3 p-8 justify-center hidden lg:block">
           <ul>
             <p class="py-4 text-xl text-creavidsDarkGray uppercase font-semibold">
               INDUSTRIES

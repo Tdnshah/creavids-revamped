@@ -3,17 +3,17 @@
 <body class="antialiased overflow-x-hidden mx-auto">
   <main id="landMain" class="">
     <!--Show Features-->
-    <section class="h-screen w-full flex z-0" style="background-image: url('./Assets/landingPage/image10.png');
+    <section class="lg:h-screen w-full flex z-0" style="background-image: url('./Assets/landingPage/image10.png');
         background-repeat:no-repeat;background-size: cover; background-position:
         center;">
       <div class="my-auto ml-20">
         <div class="my-8">
-          <h1 class="text-white font-bold  text-6xl uppercase">
+          <h1 class="text-white font-bold lg:text-6xl uppercase">
             CREATE VIDEOS FOR
           </h1>
           <h1>
-            <span class="text-gray-900 font-extrabold  uppercase typewrite text-6xl">YOUR </span><a href="" class="text-gray-900 font-extrabold  uppercase typewrite text-6xl" data-period="" data-type='[ "BRAND.", "PRODUCT.", "SERVICE." ]'>
-             <span class="wrap"></span>
+            <span class="text-gray-900 font-extrabold  uppercase typewrite lg:text-6xl">YOUR </span><a href="" class="text-gray-900 font-extrabold  uppercase typewrite lg:text-6xl" data-period="" data-type='[ "BRAND.", "PRODUCT.", "SERVICE." ]'>
+              <span class="wrap"></span>
             </a>
           </h1>
 
@@ -42,7 +42,7 @@
 
     <section class="mx-auto max-w-screenFullWidth">
       <!--Video-->
-      <section class="w-full my-24 ">
+      <section class="w-full my-8 lg:my-24 ">
         <div class="mx-auto w-9/12 justify-center">
           <div id="thumbnail" class="" onclick="myFunction()">
             <img width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="./Assets/landingPage/showreelThumbnail.jpg" alt="" />
@@ -55,59 +55,59 @@
       </section>
 
       <!--Heres What Client-->
-      <section class="w-full my-24 ">
+      <section class="w-full lg:my-24 ">
         <div class="w-full flex flex-wrap mx-auto">
-          <div class="flex mx-auto pb-24 px-64">
-            <h1 class="flex text-5xl font-semibold px-20 text-creavidsDarkGray capitalize">
+          <div class="flex mx-auto pb-8 lg:pb-24 lg:px-64">
+            <h1 class="flex text-2xl lg:text-5xl font-semibold px-20 text-creavidsDarkGray capitalize">
               Here's What Clients<br>
               Love About Creavids
-              <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class=" h-40">
+              <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class="h-16 lg:h-40">
             </h1>
           </div>
           <div class="w-full px-16 flex flex-wrap">
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/clients/dollars.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-lg px-8 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
                     All-inclusive fixed budget cost
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/clients/hunderd.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-lg px-4 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
                     Your money is safe with us 100% money back guarantee
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/clients/orignal.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-lg px-4 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
                     Orignal content for </br> every video
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/clients/laptop.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-lg px-4 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
                     Multiple iteration included in the budget
                   </h1>
                 </div>
@@ -118,55 +118,55 @@
       </section>
 
       <!--OurWork-->
-      <section class="w-full my-24">
+      <section class="w-full lg:my-24">
         <div class="w-full flex flex-wrap mx-auto">
           <div class="flex mx-auto pb-24 px-64">
             <img src="./Assets/landingPage/Landing Page-08.png" class="w-1/2 mx-auto" alt="" />
           </div>
           <div class="w-full px-16 flex flex-wrap">
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/scriptWriting.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-2xl text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
                     Script Writing
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/styles.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-2xl text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
                     Style
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/storyBoard.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-2xl text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
                     Storyboard
                   </h1>
                 </div>
               </div>
             </div>
-            <div class="w-1/4">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/animation.png" class="mx-auto" alt="">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 text-2xl text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
                     Animation
                   </h1>
                 </div>
@@ -177,46 +177,46 @@
       </section>
 
       <!--We collabrate-->
-      <section class="w-full my-24">
+      <section class="lg:w-full my-8 lg:my-24">
         <div class="w-full flex flex-wrap mx-auto">
-          <div class="mx-auto pb-12">
-            <h1 class="capitalize text-5xl font-bold text-creavidsDarkGray px-40 text-center">
+          <div class="mx-auto lg:pb-12">
+            <h1 class="capitalize text-2xl lg:text-5xl font-bold text-creavidsDarkGray lg:px-40 text-center">
               We Collabrate With <br />Ambitious
               Brands and People
             </h1>
           </div>
         </div>
-        <div class="mx-20">
+        <div class="lg:mx-20">
           <div class="px-1">
             <div class="flex flex-wrap">
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="bajaj"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="gharda"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="spenn"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="board"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="life-hub"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="dream-factory"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="ungerboeck"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="garadia"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="moovila"></div>
               </div>
-              <div class="w-1/5 px-1 py-1">
+              <div class="w-full lg:w-1/5 px-1 py-1">
                 <div class="h-56 mx-auto w-1/2" id="virvita"></div>
               </div>
             </div>
@@ -225,12 +225,12 @@
       </section>
 
       <!--Consult Now For -->
-      <section class="w-full my-24 ">
+      <section class="w-full lg:my-24 ">
         <div class="w-full mx-auto">
-          <h1 class="pb-12 text-5xl font-bold text-creavidsDarkGray px-64 mx-auto text-center capitalize">
+          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
             Consult Now For<br />Custom Tailored Projects
           </h1>
-          <a href="/contact.php"><img src="./Assets/about/About-08.jpg" class="w-1/4 mx-auto my-16 " alt="" /></a>
+          <a href="/contact.php"><img src="./Assets/about/About-08.jpg" class="w-1/2 lg:w-1/4 mx-auto my-16 " alt="" /></a>
         </div>
       </section>
     </section>
