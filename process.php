@@ -6,7 +6,7 @@
     <section class="mx-auto max-w-screenFullWidth">
       <section class="w-full">
         <div class="lg:m-20 lg:px-32 text-center tracking-wide">
-          <h1 class="text-3xl text-gray-800 font-semibold">
+          <h1 class="text-xl lg:text-3xl text-gray-800 font-semibold">
             Explained below is the milestone-based video production process
             that maintains transparency and lets you be in control of the
             project.
@@ -15,7 +15,7 @@
       </section>
       <!--Discovery Call-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Process_0.3-01-02.png" alt="" class="mx-auto my-auto w-1/2 h-1/3" />
         </div>
@@ -39,7 +39,7 @@
       </section>
       <!--Scripting Writing-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
             <h1 class="text-teal-300 text-4xl font-bold">
@@ -62,7 +62,7 @@
       </section>
       <!--Styles-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Process_0.3-01-04.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
@@ -86,7 +86,7 @@
       </section>
       <!--Story Boarding Writing Wrong Image Pending-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
             <h1 class="text-teal-300 text-4xl font-bold">
@@ -109,7 +109,7 @@
       </section>
       <!--Voice Over-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Process_0.3-01-05.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
@@ -133,7 +133,7 @@
       </section>
       <!--Animation-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
             <h1 class="text-teal-300 text-4xl font-bold">
@@ -156,7 +156,7 @@
       </section>
       <!--Music-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
-        <div class="divider"></div>
+        <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Process_0.3-01-07.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
@@ -185,8 +185,8 @@
             <div class="w-64 h-64 mx-auto">
               <img src="./Assets/process/Process_0.3-01-08.png" alt="" />
             </div>
-            <div class="text-creavidsGray text-center px-40">
-              <h1 class="text-xl font-medium">
+            <div class="text-creavidsGray text-center lg:px-40">
+              <h1 class="text-base lg:text-xl font-medium">
                 aaaaannnndddd it's a wrap!! Your video is delivered to you in
                 full HD along with the copyrights.<br />
                 You are now licensed to spread this awesomeness piece of
@@ -201,20 +201,20 @@
         <div data-aos="flip-down" class="flex-1 flex-wrap lg:py-4">
           <div class="w-full py-6">
             <div class=" flex flex-wrap py-6">
-              <div class="w-full py-6 lg:w-1/2">
+              <div class="w-full py-6 lg:w-1/2 mx-20">
                 <!-- <a href="" class="text-white mr-2 mt-5 px-10 py-3 text-lg font-semibold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Process</a> -->
-                <img src="./Assets/process/Process_0.3-01-09.png" alt="" class="w-1/2 m-auto" />
+                <img src="./Assets/process/Process_0.3-01-09.png" alt="" class="lg:w-1/2 m-auto" />
               </div>
 
-              <div class="w-full py-6 lg:w-1/2">
+              <div class="w-full py-6 lg:w-1/2 mx-20">
                 <!-- <a href="" class="text-white text-lg mr-2 mt-5 px-8 py-3 font-semibold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Let's Talk!</a> -->
-                <a href="/contact.php"><img src="./Assets/process/Process_0.3-01-10.png" alt="" class="w-1/2 m-auto animated heartBeat" /></a>
+                <a href="/contact.php"><img src="./Assets/process/Process_0.3-01-10.png" alt="" class="lg:w-1/2 m-auto animated heartBeat" /></a>
               </div>
             </div>
           </div>
           <div class="w-full py-6">
             <div class="text-teal-500 text-center">
-              <h1 class="text-4xl font-bold uppercase ">
+              <h1 class="text-xl lg:text-4xl font-bold uppercase ">
                 Creavids is easy, see how
               </h1>
               <div id="lappyVid" class="my-24 mx-auto">

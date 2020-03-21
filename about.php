@@ -15,8 +15,8 @@
       </div>
     </section>
     <section>
-      <div class="w-1/2 mx-auto my-10">
-        <p class="text-xl text-justify font-semibold text-gray-600 tracking-wide">
+      <div class="lg:w-1/2 mx-10 lg:mx-auto my-10">
+        <p class="lg:text-xl text-justify font-semibold text-gray-600 tracking-wide">
           We believe every brand has a story. We work with our clients to help
           them identify that story and showcase it in the way your target
           audience will connect with. Our goal is to produce quality content
@@ -24,8 +24,8 @@
           project with.
         </p>
       </div>
-      <div class="w-1/2 mx-auto my-10">
-        <p class="text-xl text-justify font-semibold text-gray-600 tracking-wide">
+      <div class="lg:w-1/2 mx-10 lg:mx-auto my-10">
+        <p class="lg:text-xl text-justify font-semibold text-gray-600 tracking-wide">
           Being a part of over 1000 videos globally, we are a team of
           passionate artists. Integrity, flexibility, transparency and of
           course creativity are some of the things that you can depend upon us
@@ -50,77 +50,77 @@
       <div class="my-2 mx-20">
         <div class="py-2 px-1" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
           <div class="flex flex-wrap">
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Healthcare</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Banking & Finance</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">ECommerce</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Social Media</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Manufacturing</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Marketing & Advertising</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Market Research & Analytics</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Education & Learning</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Information Technology</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Entertainment & Fashion</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Energy & Renewables</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Staffing & Recruitment</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center">Construction & Real Estate</h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center"></h1>
               </div>
             </div>
-            <div class="lg:w-1/5 px-1 py-1">
+            <div class="w-full lg:w-1/5 px-1 py-1">
               <div class="bg-white h-40 py-24">
                 <h1 class="text-center"></h1>
               </div>
@@ -130,48 +130,48 @@
       </div>
     </section>
     <section>
-      <div class="mx-64 my-20" id="overline">
-        <h1 class="font-bold text-5xl text-gray-700 tracking-wide py-2">
+      <div class="mx-20 lg:mx-64 my-20" id="overline">
+        <h1 class="font-bold lg:text-5xl text-gray-700 tracking-wide py-2">
           CLIENTS
         </h1>
       </div>
       <div class="my-2 mx-20">
         <div class="py-2 px-1">
           <div class="flex flex-wrap">
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="bajaj"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="bajaj"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="gharda"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="gharda"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="spenn"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="spenn"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="board"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="board"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="life-hub"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="life-hub"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="dream-factory"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="dream-factory"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="ungerboeck"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="ungerboeck"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="garadia"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="garadia"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="moovila"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="moovila"></div>
             </div>
-            <div class="w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto w-1/2" id="virvita"></div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-56 mx-auto lg:w-1/2" id="virvita"></div>
             </div>
           </div>
         </div>
       </div>
-      <div class="mx-auto w-1/4 my-20">
+      <div class="mx-24 lg:mx-auto lg:w-1/4 my-20">
         <a href="/contact.php"><img src="./Assets/about/About-08.jpg" /></a>
       </div>
     </section>
