@@ -203,7 +203,7 @@
             <div class=" flex flex-wrap py-6">
               <div class="w-full py-6 lg:w-1/2 mx-20 lg:mx-0">
                 <!-- <a href="" class="text-white mr-2 mt-5 px-10 py-3 text-lg font-semibold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Process</a> -->
-                <img src="./Assets/process/Process_0.3-01-09.png" alt="" class="w-1/2 m-auto" />
+                <img src="./Assets/process/Process_0.3-01-09.png" alt="" class="lg:w-1/2 m-auto" />
               </div>
 
               <div class="w-full py-6 lg:w-1/2 mx-20 lg:mx-0">
