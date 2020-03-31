@@ -51,19 +51,19 @@
           <div class="flex flex-wrap">
             <ul class="w-full flex flex-wrap text-creavidsDarkGray text-2xl mx-16 justify-between">
               <li class="">
-                <a href="https://www.facebook.com/creavidsvideo/"><i class="fab fa-facebook-f"></a></i>
+                <a href="https://www.facebook.com/creavidsvideo/" target="_blank"><i class="fab fa-facebook-f"></a></i>
               </li>
               <li class="">
-                <a href="https://twitter.com/creavids1"><i class="fab fa-twitter"></a></i>
+                <a href="https://twitter.com/creavids1" target="_blank"><i class="fab fa-twitter"></a></i>
               </li>
               <li class="">
-                <a href="https://www.instagram.com/creavidsvideo/"><i class="fab fa-instagram"></a></i>
+                <a href="https://www.instagram.com/creavidsvideo/" target="_blank"><i class="fab fa-instagram"></a></i>
               </li>
               <li class="">
-                <a href="https://www.youtube.com/channel/UC93uHm5aHDcFFemuStgEeuA"><i class="fab fa-youtube"></a></i>
+                <a href="https://www.youtube.com/channel/UC93uHm5aHDcFFemuStgEeuA" target="_blank"><i class="fab fa-youtube"></a></i>
               </li>
               <li class="">
-                <a href="https://in.linkedin.com/company/creavids"> <i class="fab fa-linkedin-in"></a></i>
+                <a href="https://in.linkedin.com/company/creavids" target="_blank"> <i class="fab fa-linkedin-in"></a></i>
               </li>
             </ul>
           </div>
