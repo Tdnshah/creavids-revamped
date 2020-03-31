@@ -1,4 +1,5 @@
 <?php include('./header.php') ?>
+
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
   <main class="px-20 lg:py-20">
     <!-- <section class="flex flex-wrap relative">
@@ -93,9 +94,15 @@
         <img src="./Assets/services/png/Service feature-14.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
       </div>
     </section>
+    <section class="w-full">
+      <div class="w-full mx-auto">
+        <h1 class="font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
+          CREATING VIDEO SHOULDN'T BE STRESSFUL.
+        </h1>
+      </div>
+    </section>
 
-
-    <section class="my-32">
+    <section class="my-16">
       <div class="mx-auto">
       </div>
       <div class="flex-1 flex-wrap lg:py-4">
