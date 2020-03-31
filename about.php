@@ -172,7 +172,9 @@
         </div>
       </div>
       <div class="mx-24 lg:mx-auto lg:w-1/4 my-20">
-        <a href="/contact.php"><img src="./Assets/about/About-08.jpg" /></a>
+        <div class="text-center">
+          <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+        </div>
       </div>
     </section>
   </main>

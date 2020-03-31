@@ -230,8 +230,9 @@
           <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
             Consult Now For<br />Custom Tailored Projects
           </h1>
-          <a href="/contact.php"><img src="./Assets/about/About-08.jpg" class="w-1/2 lg:w-1/4 mx-auto my-16 " alt="" /></a>
-        </div>
+          <div class="text-center">
+            <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+          </div>
       </section>
     </section>
   </main>

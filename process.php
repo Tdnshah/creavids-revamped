@@ -202,13 +202,15 @@
           <div class="w-full py-6">
             <div class=" flex flex-wrap py-6">
               <div class="w-full py-6 lg:w-1/2 mx-20 lg:mx-0">
-                <!-- <a href="" class="text-white mr-2 mt-5 px-10 py-3 text-lg font-semibold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Process</a> -->
-                <img src="./Assets/process/Process_0.3-01-09.png" alt="" class="lg:w-1/2 m-auto" />
+                <div class="text-center">
+                  <a href="" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
+                </div>
               </div>
 
               <div class="w-full py-6 lg:w-1/2 mx-20 lg:mx-0">
-                <!-- <a href="" class="text-white text-lg mr-2 mt-5 px-8 py-3 font-semibold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Let's Talk!</a> -->
-                <a href="/contact.php"><img src="./Assets/process/Process_0.3-01-10.png" alt="" class="lg:w-1/2 m-auto animated heartBeat" /></a>
+                <div class="text-center">
+                  <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
+                </div>
               </div>
             </div>
           </div>
