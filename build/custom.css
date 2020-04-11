@@ -23,15 +23,33 @@ html {
 
 #mainBlockchain {
   background-image: url("../Assets/blockChain/Blockchain\ and\ Cryptocurrencies-04.png"),
-
-    url("../Assets/blockChain/Blockchain\ and\ Cryptocurrencies-03.png");
+  url("../Assets/blockChain/Blockchain\ and\ Cryptocurrencies-03.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left, right;
-  /* background-position-x: 0rem,-1rem,0rem,0rem; */
   background-position-y: 40rem, 40rem;
   background-size: 35rem, 15rem;
 }
 
+#mainBlog{
+  background-image: url("../Assets/blog/Blog-09.png"),
+  url("../Assets/blog/Blog-10.png");
+  background-repeat: no-repeat,no-repeat;
+  background-position: left,right;
+  background-size: 20rem,20rem;
+}
+
+#rowBlog{
+   background-image: url("../Assets/blog/Blog-02.png"),
+   url("../Assets/blog/Blog-08.png"),
+   url("../Assets/blog/Blog-04.png"),
+   url("../Assets/blog/Blog-05.png"),
+   url("../Assets/blog/Blog-06.png"),
+   url("../Assets/blog/Blog-07.png");
+   background-size: 4rem,5rem,5rem,4rem, 4rem,4rem;
+   background-position-x: 0.5rem,right,60rem, left, right, right;
+   background-position-y: 10rem,3rem,2rem,95%,80%,bottom ;
+   background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat;
+}
 .active {
   background-color: aqua;
 }
