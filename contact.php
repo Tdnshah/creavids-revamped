@@ -17,6 +17,7 @@
 
               if ($newPage) {
                 echo ('<form action="" method="POST" class="p-6">
+              <input type="hidden" name="formName" value="contactusForm">
               <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="name" placeholder="Name" />
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="emailid" placeholder="Email Address" />
@@ -38,7 +39,7 @@
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="form_message" placeholder="We\'re listening...." />
 
-              <input id="send" name="submit" type="submit" value="submit" class="lg:w-1/2 lg:text-5xl lg:ml-40 uppercase p-2 mt-5 text-xl tracking-widest text-white shadow-2xl" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
+              <input id="send" name="submit" type="submit" value="submit" class="lg:w-1/2 lg:text-5xl lg:ml-40 uppercase p-2 mt-5 text-xl tracking-widest text-white shadow-2xl hover:font-bold" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
               </input>
             </form>');
               } elseif (!$newPage && $messageSuccessful) {
@@ -47,6 +48,7 @@
               } elseif (!$newPage && $messageFailed) {
                 '<p class="text-center text-red-600 text-xl"> Seems Like something went wrong please try again</p>
               <form action="" method="POST" class="p-6">
+              <input type="hidden" name="formName" value="contactusForm">
               <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="name" placeholder="Name" />
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="emailid" placeholder="Email Address" />
@@ -68,7 +70,7 @@
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="form_message" placeholder="We\'re listening...." />
 
-              <input id="send" name="submit" type="submit" value="submit" class="lg:w-1/2 lg:text-5xl lg:ml-40 uppercase p-2 mt-5 text-xl tracking-widest text-white shadow-2xl" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
+              <input id="send" name="submit" type="submit" value="submit" class="lg:w-1/2 lg:text-5xl lg:ml-40 uppercase p-2 mt-5 text-xl tracking-widest text-white shadow-2xl hover:font-bold" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
               </input>
             </form>';
               }

@@ -363,7 +363,6 @@ svg {
 	background-repeat: no-repeat;
   background-position: center;
 	background-size: cover;
-
 }
 
 #manufacturing-main {
@@ -487,3 +486,15 @@ svg {
 #menu-toggle:checked+#menu {
     display: block;
   }
+/* Partnership page */
+#partnership-main {
+
+}
+
+
+ #partnership-hero {
+   background-image: url('../Assets/partnership/partnerLandingBackground.png');
+   background-repeat: no-repeat;
+   background-position: right;
+   background-size: 60rem;
+ }

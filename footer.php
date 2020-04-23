@@ -41,6 +41,7 @@
             <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/health.php">Healthcare</a></li>
             <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/manufacturing.php">Manufacturing</a></li>
             <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/blockchain.php">Blockchain</a></li>
+            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/partnership.php">Partnership</a></li>
           </ul>
         </div>
         <div class="lg:w-2/3 my-auto">
