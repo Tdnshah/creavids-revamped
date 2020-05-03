@@ -6,7 +6,7 @@
 			<div class="flex flex-wrap bounceIn" id="BlockChainHero">
 				<div class="lg:w-1/2 my-auto overflow-auto">
 					<div class="w-full px-8 lg:pl-20 lg:pr-20 lg:pb-10">
-						<h1 class="pb-2 text-3xl text-center font-bold lg:text-4xl lg:font-semibold lg:tracking-wider text-teal-300">
+						<h1 class="pb-2 text-3xl text-center font-bold lg:text-left lg:text-4xl lg:font-semibold lg:tracking-wider text-teal-300">
 							BLOCKCHAIN AND
 							CRYPTOCURRENCIES
 						</h1>

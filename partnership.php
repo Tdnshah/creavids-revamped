@@ -9,7 +9,7 @@
       <div class="flex flex-wrap bounceIn">
         <div class="p-6 lg:w-1/2 my-auto text-justify overflow-auto">
           <div class="w-full lg:pl-20 lg:pb-10">
-            <h1 class="pb-2 text-3xl text-center font-semibold lg:text-5xl lg:font-semibold lg:tracking-wider underline text-teal-300">
+            <h1 class="pb-2 text-3xl text-center font-semibold lg:text-left lg:text-5xl lg:font-semibold text-teal-300">
               Partnership Program
             </h1>
             <p class="text-lg text-gray-600">

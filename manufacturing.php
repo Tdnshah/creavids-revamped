@@ -5,7 +5,7 @@
 		<section class="mx-auto lg:py-20" id="manufacturing-hero">
 			<div class="flex flex-wrap bounceIn px-8">
 				<div class="lg:w-1/2 my-auto text-justify overflow-auto">
-					<div class="w-full lg:pl-20 lg:pr-20 lg:pb-10">
+					<div class="w-full lg:pl-16 lg:pr-16 lg:pb-10">
 						<h1 class="pb-2 text-4xl text-center font-semibold lg:text-6xl lg:font-semibold lg:tracking-wider underline text-teal-300">
 							Manufacturing
 						</h1>
