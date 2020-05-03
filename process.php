@@ -201,22 +201,22 @@
         <div data-aos="flip-down" class="flex-1 flex-wrap lg:py-4">
           <div class="w-full py-6">
             <div class=" flex flex-wrap py-6">
-              <div class="w-full py-6 lg:w-1/2 mx-20 lg:mx-0">
+              <div class="w-full py-6 lg:w-1/2">
                 <div class="text-center">
-                  <a href="" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
+                  <a href="" class="hover:text-creavidsGreen text-gray-500 text-lg px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
                 </div>
               </div>
 
-              <div class="w-full py-6 lg:w-1/2 mx-20 lg:mx-0">
+              <div class="w-full py-6 lg:w-1/2">
                 <div class="text-center">
-                  <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
+                  <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
                 </div>
               </div>
             </div>
           </div>
           <div class="w-full py-6">
             <div class="text-teal-500 text-center">
-              <h1 class="text-xl lg:text-4xl font-bold uppercase ">
+              <h1 class="text-xl text-4xl font-bold uppercase ">
                 Creavids is easy, see how
               </h1>
               <div id="lappyVid" class="my-24 mx-auto">

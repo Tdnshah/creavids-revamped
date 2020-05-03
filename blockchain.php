@@ -4,13 +4,13 @@
 	<main id="mainBlockchain" class="lg:pt-20">
 		<section class="mx-auto max-w-screenFullWidth lg:pt-16">
 			<div class="flex flex-wrap bounceIn" id="BlockChainHero">
-				<div class="w-1/2 my-auto overflow-auto">
-					<div class="w-full lg:pl-20 lg:pr-20 lg:pb-10">
-						<h1 class="pb-2 text-4xl font-bold lg:text-4xl lg:font-semibold lg:tracking-wider text-teal-300">
+				<div class="lg:w-1/2 my-auto overflow-auto">
+					<div class="w-full px-8 lg:pl-20 lg:pr-20 lg:pb-10">
+						<h1 class="pb-2 text-3xl text-center font-bold lg:text-4xl lg:font-semibold lg:tracking-wider text-teal-300">
 							BLOCKCHAIN AND
 							CRYPTOCURRENCIES
 						</h1>
-						<p class="text-lg text-gray-600 text-justify">
+						<p class="lg:text-lg text-gray-600 text-justify">
 							Every once in a while we are faced with technologies with
 							the potential to change the world, blockchain is certainly
 							one such technology. With its trustless, decentralized,
@@ -23,7 +23,7 @@
 						</p>
 					</div>
 				</div>
-				<div class="w-1/2">
+				<div class="lg:w-1/2">
 					<!-- <img src="./Assets/blockChain/Blockchain and Cryptocurrencies-01.png" alt=""> -->
 				</div>
 			</div>
@@ -43,7 +43,7 @@
 										<h1></h1>
 									</div>
 									<div class="">
-										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/qbIP1TEX33Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/qbIP1TEX33Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mx-auto"></iframe>
 									</div>
 								</div>
 								<div data-aos="zoom-in-down" class="w-full lg:w-1/3 lg:px-8">
@@ -52,7 +52,7 @@
 										</h1>
 									</div>
 									<div class="">
-										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/w4nDwLfsU9k" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/w4nDwLfsU9k" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mx-auto"></iframe>
 									</div>
 								</div>
 								<div data-aos="zoom-in-down" class="w-full lg:w-1/3 lg:px-8">
@@ -60,7 +60,7 @@
 										<h1></h1>
 									</div>
 									<div class="">
-										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/2LPelF7nA9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/2LPelF7nA9w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mx-auto"></iframe>
 									</div>
 								</div>
 							</div>
@@ -72,7 +72,7 @@
 										<h1></h1>
 									</div>
 									<div class="">
-										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/jduVN643Prc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/jduVN643Prc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mx-auto"></iframe>
 									</div>
 								</div>
 								<div data-aos="zoom-in-down" class="w-full lg:w-1/3 lg:px-8">
@@ -81,7 +81,7 @@
 										</h1>
 									</div>
 									<div class="">
-										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/Y2UMIxm4o7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/Y2UMIxm4o7Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mx-auto"></iframe>
 									</div>
 								</div>
 								<div data-aos="zoom-in-down" class="w-full lg:w-1/3 lg:px-8">
@@ -89,7 +89,7 @@
 										<h1></h1>
 									</div>
 									<div class="">
-										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/z1NydoKd_Q0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+										<iframe width="263.333" height="150" src="https://www.youtube.com/embed/z1NydoKd_Q0" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="mx-auto"></iframe>
 									</div>
 								</div>
 							</div>
@@ -100,14 +100,14 @@
 			<div class="flex-1 flex-wrap lg:py-4">
 				<div class="w-full py-6">
 					<div class="text-gray-800 text-center">
-						<h1 class="text-4xl font-bold uppercase">
+						<h1 class="text-2xl lg:text-4xl font-bold uppercase">
 							CHALLENGES RESOLVED VIA VIDEOS
 						</h1>
 					</div>
 				</div>
 				<div class="w-full py-6">
 					<div class="max-w-sm w-full lg:max-w-full">
-						<div class="rounded-lg shadow-2xl bg-gray-100 w-7/12 mx-auto mb-10">
+						<div class="rounded-lg shadow-2xl bg-gray-100 w-10/12 lg:w-7/12 mx-auto mb-10">
 							<div class="px-6 py-4">
 								<div class="text-teal-400 font-bold text-4xl my-4">Faster decision
 									making</div>
@@ -120,7 +120,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="rounded-lg shadow-2xl bg-gray-100 w-7/12 mx-auto mb-10">
+						<div class="rounded-lg shadow-2xl bg-gray-100 w-10/12 lg:w-7/12 mx-auto mb-10">
 							<div class="px-6 py-4">
 								<div class="text-teal-400 font-bold text-4xl my-4">Uniform way of
 									communication</div>
@@ -131,7 +131,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="rounded-lg shadow-2xl bg-gray-100 w-7/12 mx-auto mb-10">
+						<div class="rounded-lg shadow-2xl bg-gray-100 w-10/12 lg:w-7/12 mx-auto mb-10">
 							<div class="px-6 py-4">
 								<div class="text-teal-400 font-bold text-4xl my-4">Complex concepts
 									made simple</div>
@@ -145,7 +145,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="rounded-lg shadow-2xl bg-gray-100 w-7/12 mx-auto mb-10">
+						<div class="rounded-lg shadow-2xl bg-gray-100 w-10/12 lg:w-7/12 mx-auto mb-10">
 							<div class="px-6 py-4">
 								<div class="text-teal-400 font-bold text-4xl my-4">Social media
 									awareness</div>
@@ -164,7 +164,7 @@
 			<div class="flex-1 flex-wrap lg:py-4">
 				<div class="w-full py-6">
 					<div class="text-teal-400 text-center">
-						<h1 class="text-5xl font-bold">
+						<h1 class="text-3xl lg:text-5xl font-bold">
 							It&#8217;s easy to get started
 						</h1>
 					</div>
@@ -179,7 +179,7 @@
 							</h1>
 						</div>
 						<div class="w-full py-6 lg:w-1/2 lg:pr-24">
-							<a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-3xl lg:px-32 lg:py-16 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+							<a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-3xl px-32 py-16 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
 							<h1 class="text-2xl text-gray-600 font-semibold py-16">
 								Talk to video producer
 							</h1>

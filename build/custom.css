@@ -498,3 +498,28 @@ svg {
    background-position: right;
    background-size: 60rem;
  }
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+#BlockChainHero,
+#manufacturing-hero,
+#partnership-hero {
+    background-image: none;
+  }
+#mainBlockchain, #manufacturing-main {
+    background-image: none;
+  }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+#BlockChainHero,
+#manufacturing-hero,
+#partnership-hero {
+    background-image: none;
+  }
+#mainBlockchain, #manufacturing-main {
+    background-image: none;
+  }
+}

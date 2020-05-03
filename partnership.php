@@ -5,11 +5,11 @@
   <?php include('./sendMail.php') ?>
 
   <main id="partnership-main" class="w-full lg:pt-24 items-center">
-    <section class="mx-auto py-24" id="partnership-hero">
+    <section class="mx-auto lg:py-24" id="partnership-hero">
       <div class="flex flex-wrap bounceIn">
-        <div class="w-1/2 my-auto text-justify overflow-auto">
+        <div class="p-6 lg:w-1/2 my-auto text-justify overflow-auto">
           <div class="w-full lg:pl-20 lg:pb-10">
-            <h1 class="pb-2 text-4xl font-semibold lg:text-5xl lg:font-semibold lg:tracking-wider underline text-teal-300">
+            <h1 class="pb-2 text-3xl text-center font-semibold lg:text-5xl lg:font-semibold lg:tracking-wider underline text-teal-300">
               Partnership Program
             </h1>
             <p class="text-lg text-gray-600">
@@ -29,7 +29,7 @@
         </div>
       </div>
     </section>
-    <section class="w-full lg:my-24 ">
+    <section class="w-full lg:my-24">
       <div class="w-full flex flex-wrap mx-auto">
         <div class="flex mx-auto pb-8 lg:pb-24 lg:px-64">
           <h1 class="flex text-2xl lg:text-5xl font-bold px-20 text-creavidsTeal capitalize">
@@ -71,36 +71,35 @@
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                  Multiple revisions
-                  and iterations
+                  Multiple revisions and iterations
                 </h1>
               </div>
             </div>
           </div>
-        </div>
-        <div class="w-full px-56 flex flex-wrap">
-          <div class="lg:w-1/2">
-            <div>
+          <div class="w-full px-16 lg:px-56 flex flex-wrap">
+            <div class="lg:w-1/2">
               <div>
-                <img src="./Assets/partnership/sections/Partnership-04.png" class="mx-auto h-64" alt="">
-              </div>
-              <div class="text-center">
-                <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                  Transfer of Copyrights
-                </h1>
+                <div>
+                  <img src="./Assets/partnership/sections/Partnership-04.png" class="mx-auto h-64" alt="">
+                </div>
+                <div class="text-center">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                    Transfer of Copyrights
+                  </h1>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="lg:w-1/2">
-            <div>
+            <div class="lg:w-1/2">
               <div>
-                <img src="./Assets/partnership/sections/Partnership-09.png" class="mx-auto h-64" alt="">
-              </div>
-              <div class="text-center">
-                <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                  High-Resolution
-                  final video
-                </h1>
+                <div>
+                  <img src="./Assets/partnership/sections/Partnership-09.png" class="mx-auto h-64" alt="">
+                </div>
+                <div class="text-center">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                    High-Resolution
+                    final video
+                  </h1>
+                </div>
               </div>
             </div>
           </div>
@@ -170,13 +169,13 @@
       <div class="py-8 lg:pb-0 flex flex-wrap lg:py-6 lg:px-32">
         <div class="w-full py12 lg:py-6">
           <div data-aos="zoom-in" class="text-center lg:px-40">
-            <p class="text-justify text-sm text-gray-600 lg:text-center lg:text-lg lg:font-bold tracking-wide py-6 captalise ">
+            <p class="text-justify text-sm text-gray-600 px-4 lg:text-center lg:text-lg lg:font-bold tracking-wide py-6 captalise ">
               All that is left to you is getting the client on-board and we
               take care of the rest! Wait there’s more.... If you decide to
               book our “multiple video package” we would even offer you a
               discounted budget. Talk to our sales today
             </p>
-            <h1 class="text-4xl py-8 font-semibold uppercase text-teal-400">
+            <h1 class="text-2xl lg:text-4xl py-8 font-semibold uppercase text-teal-400">
               LET’S WORK TOGETHER.
             </h1>
             <div class="lg:m-6">
@@ -188,7 +187,7 @@
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="emailid" placeholder="Official Email Address" />
 
-              <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="company_name" placeholder="Company Name" />
+              <input type="text" class="py-4    px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="company_name" placeholder="Company Name" />
 
               <input type="text" class="py-4 px-2 my-4 w-full border-b-4 border-teal-400 font-hairline text-xl" name="company_website" placeholder="Company Website" />
 
@@ -204,11 +203,9 @@
               <input id="send" name="submit" type="submit" value="submit" class="lg:text-3xl uppercase p-2 mt-5 text-xl tracking-widest text-white shadow-2xl hover:font-bold" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
               </input>
             </form>');
-              }
-              elseif (!$newPage && $messageSuccessful) {
+              } elseif (!$newPage && $messageSuccessful) {
                 echo ("<p class='text-center text-xl p-4 text-creavidsGreen font-semibold'>Thank you for contacting Creavids.co. <br> You Message has been successfully send and our executive will connect with you soon.");
-              }
-              elseif (!$newPage && $messageFailed) {
+              } elseif (!$newPage && $messageFailed) {
                 '<form action="" method="POST" class="p-6">
                <input type="hidden" name="formName" value="partnershipForm">
               <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="fullname" placeholder="Full Name" />
