@@ -4,7 +4,7 @@
   <main class="lg:py-20">
     <section>
       <div class="mx-auto my-20">
-        <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12" />
+        <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12 animated bounceInDown" />
       </div>
       <div class="w-full mx-auto">
         <p class="text-2xl text-center italic font-semibold text-gray-600 tracking-wider">
@@ -38,10 +38,10 @@
     </section>
     <section>
       <div class="mx-auto">
-        <img src="./Assets/about/About-04.jpg" class="w-9/12 mx-auto my-16" />
+        <img src="./Assets/about/About-04.jpg" class="w-9/12 mx-auto my-16" data-aos="fade-down-left" />
       </div>
     </section>
-    <section>
+    <section data-aos="fade-right" data-aos-duration="750" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <div class="mx-20 my-24 lg:mx-64" id="overline">
         <h1 class="font-bold text-gray-700 tracking-wide py-2 lg:text-5xl">
           VIDEOS OF EVERY INDUSTRY AND PURPOSE
@@ -129,7 +129,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section data-aos="fade-left" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
       <div class="mx-20 lg:mx-64 my-20" id="overline">
         <h1 class="font-bold lg:text-5xl text-gray-700 tracking-wide py-2">
           CLIENTS
@@ -139,40 +139,55 @@
         <div class="py-2 px-1">
           <div class="flex flex-wrap">
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="bajaj"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="bajaj"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="gharda"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="gharda"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="spenn"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="spenn"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="board"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="board"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="life-hub"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="life-hub"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="dream-factory"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="dream-factory"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="ungerboeck"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="ungerboeck"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="garadia"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="garadia"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="moovila"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="moovila"></div>
             </div>
             <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-56 mx-auto lg:w-1/2" id="virvita"></div>
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="virvita"></div>
+            </div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="scoutapm"></div>
+            </div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="gmt_g7"></div>
+            </div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="MetricFire"></div>
+            </div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="Sysplorer"></div>
+            </div>
+            <div class="w-full lg:w-1/5 px-1 py-1">
+              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="Blockbonds"></div>
             </div>
           </div>
         </div>
       </div>
       <div class="mx-24 lg:mx-auto lg:w-1/4 my-20">
-        <div class="text-center">
+        <div class="text-center hoverAnimation">
           <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
         </div>
       </div>

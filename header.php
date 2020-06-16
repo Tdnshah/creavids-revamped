@@ -5,6 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <base href="http://localhost/">
   <title>Creavids</title>
   <link rel="stylesheet" href="./build/tailwind.css" />
   <link rel="stylesheet" href="./build/custom.css" />
@@ -28,7 +29,7 @@
   <div class="flex-1 flex justify-between items-center">
     <div class="flex flex-wrap items-center">
       <img src="./Assets/staticLogo.png" class="p-3	w-20" alt="" />
-      <a href="/index.php" class="text-3xl text-teal-300 font-hairline">Creavids</a>
+      <a href="/index" class="text-3xl text-teal-300 font-hairline">Creavids</a>
     </div>
   </div>
 
@@ -42,71 +43,29 @@
     <nav>
       <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
         <li>
-          <a href="/process.php" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Process</a>
+          <a href="/process" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Process</a>
         </li>
         <li>
-          <a href="/about.php" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">About</a>
+          <a href="/about" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">About</a>
         </li>
         <li>
-          <a href="/explore.php" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Explore</a>
+          <a href="/explore" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Explore</a>
         </li>
         <!-- <li>
-          <a href="/services.php" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Services</a>
+          <a href="/services" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Services</a>
         </li> -->
         <!-- <li>
-          <a href="/blog.php" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Blog</a>
+          <a href="/blog" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Blog</a>
         </li> -->
         <!-- <li>
-          <a href="/contact.php" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Contact</a>
+          <a href="/contact" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Contact</a>
         </li> -->
       </ul>
     </nav>
-    <a href="/contact.php" class="lg:ml-4 flex items-center justify-start mb-4
+    <a href="/contact" class="lg:ml-4 flex items-center justify-start mb-4
       pointer-cursor text-white mr-2 mt-5 px-4 py-2 font-bold uppercase shadow-xl
       rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
       Request A Quote
     </a>
   </div>
-
 </header>
-
-<!-- <header class="bg-white h-24  lg:px-16 px-6 lg:py-0 py-2 flex items-center w-full fixed z-50 shadow-crevidsShadowHeader">
-  <div class="flex flex-1 justify-between items-center">
-    <div class="flex flex-wrap items-center">
-      <img src="./Assets/staticLogo.png" class="p-3	w-24" alt="" />
-      <a href="/index.php" class="text-3xl text-teal-300 font-hairline">Creavids</a>
-    </div>
-    <div class="hidden lg:inline p-4">
-      <nav>
-        <ul class="flex flex-1">
-          <li>
-            <a href="/process.php" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Process</a>
-          </li>
-          <li>
-            <a href="/about.php" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">About</a>
-          </li>
-          <li>
-            <a href="/explore.php" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Explore</a>
-          </li>
-          <li>
-            <a href="/services.php" class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide">Services</a>
-          </li>
-          <li>
-            <a
-              href="/blog.php"
-              class="text-gray-800 uppercase mr-4 text-sm font-semibold tracking-wide"
-              >Blog</a
-            >
-          </li>
-          <li>
-            <a href="/contact.php" class="text-gray-800 uppercase mr-5 text-sm font-semibold tracking-wide">Contact</a>
-          </li>
-          <li>
-            <a href="/contact.php" class="text-white mr-2 mt-5 px-4 py-2 font-bold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Request
-              A Quote</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header> -->

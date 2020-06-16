@@ -221,6 +221,13 @@ svg {
 }
 
 /* clients section */
+.hoverAnimation:hover{
+  animation: pulse;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s;
+  /* don't forget to set a duration! */
+}
+
 #bajaj {
   background-image: url(../Assets/about/clients/Bajaj-Finserv.png);
   background-position: center center;
@@ -289,6 +296,38 @@ svg {
   background-repeat: no-repeat;
   background-size: contain;
 }
+#scoutapm{
+   background-image: url(../Assets/about/clients/scoutapm.png);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+#Sysplorer {
+  background-image: url(../Assets/about/clients/Sysplorer.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#MetricFire {
+  background-image: url(../Assets/about/clients/MetricFire.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#gmt_g7 {
+  background-image: url(../Assets/about/clients/GMT_G7.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#Blockbonds {
+  background-image: url(../Assets/about/clients/Blockbonds.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 
 #service-section1 {
   background-image: url("./../Assets/services/png/Service\ feature-01.png");
@@ -505,7 +544,9 @@ svg {
 #partnership-hero {
     background-image: none;
   }
-#mainBlockchain, #manufacturing-main {
+#mainBlockchain,
+#manufacturing-main,
+#mainBlog {
     background-image: none;
   }
 
@@ -519,7 +560,481 @@ svg {
 #partnership-hero {
     background-image: none;
   }
-#mainBlockchain, #manufacturing-main {
+#mainBlockchain,
+#manufacturing-main,
+#mainBlog {
     background-image: none;
   }
+}
+
+
+hr.style-four {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+/*--------*/
+
+/*
+Copyright (c) 2017 Chris Patuzzo https: //twitter.com/chrispatuzzo
+
+Permission is hereby granted,
+free of charge,
+to any person obtaining a copy of this software and associated documentation files (the "Software"),
+to deal in the Software without restriction,
+including without limitation the rights to use,
+copy,
+modify,
+merge,
+publish,
+distribute,
+sublicense,
+and/or sell copies of the Software,
+and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS",
+WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY,
+WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE,
+ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+#blogmd body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px;
+  color: #333;
+}
+
+#blogmd body>*:first-child {
+  margin-top: 0 !important;
+}
+
+#blogmd body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+#blogmd a {
+  color: #4183C4;
+  text-decoration: none;
+}
+
+#blogmd a.absent {
+  color: #cc0000;
+}
+
+#blogmd a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#blogmd h1,
+#blogmd h2,
+#blogmd h3,
+#blogmd h4,
+#blogmd h5,
+#blogmd h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative;
+}
+
+#blogmd h2:first-child,
+#blogmd h1:first-child,
+#blogmd h1:first-child+h2,
+#blogmd h3:first-child,
+#blogmd h4:first-child,
+#blogmd h5:first-child,
+#blogmd h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#blogmd h1:hover a.anchor,
+#blogmd h2:hover a.anchor,
+#blogmd h3:hover a.anchor,
+#blogmd h4:hover a.anchor,
+#blogmd h5:hover a.anchor,
+#blogmd h6:hover a.anchor {
+  text-decoration: none;
+}
+
+#blogmd h1 tt,
+#blogmd h1 code {
+  font-size: inherit;
+}
+
+#blogmd h2 tt,
+h2 code {
+  font-size: inherit;
+}
+
+#blogmd h3 tt,
+h3 code {
+  font-size: inherit;
+}
+
+#blogmd h4 tt,
+h4 code {
+  font-size: inherit;
+}
+
+#blogmd h5 tt,
+h5 code {
+  font-size: inherit;
+}
+
+#blogmd h6 tt,
+h6 code {
+  font-size: inherit;
+}
+
+#blogmd h1 {
+  font-size: 28px;
+  color: black;
+}
+
+#blogmd h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black;
+}
+
+#blogmd h3 {
+  font-size: 18px;
+}
+
+#blogmd h4 {
+  font-size: 16px;
+}
+
+#blogmd h5 {
+  font-size: 14px;
+}
+
+#blogmd h6 {
+  color: #777777;
+  font-size: 14px;
+}
+
+#blogmd p,
+#blogmd blockquote,
+#blogmd ul,
+#blogmd ol,
+#blogmd dl,
+#blogmd li,
+#blogmd table,
+#blogmd pre {
+  margin: 15px 0;
+}
+
+#blogmd hr {
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+#blogmd body>h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#blogmd body>h1:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#blogmd body>h1:first-child+h2 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#blogmd body>h3:first-child,
+#blogmd body>h4:first-child,
+#blogmd body>h5:first-child,
+#blogmd body>h6:first-child {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#blogmd a:first-child h1,
+#blogmd a:first-child h2,
+#blogmd a:first-child h3,
+#blogmd a:first-child h4,
+#blogmd a:first-child h5,
+#blogmd a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#blogmd h1 p,
+#blogmd h2 p,
+#blogmd h3 p,
+#blogmd h4 p,
+#blogmd h5 p,
+#blogmd h6 p {
+  margin-top: 0;
+}
+
+#blogmd li p.first {
+  display: inline-block;
+}
+
+#blogmd ul,
+ol {
+  padding-left: 30px;
+}
+
+#blogmd ul :first-child,
+ol :first-child {
+  margin-top: 0;
+}
+
+#blogmd ul :last-child,
+ol :last-child {
+  margin-bottom: 0;
+}
+
+#blogmd dl {
+  padding: 0;
+}
+
+#blogmd dl dt {
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 0;
+  margin: 15px 0 5px;
+}
+
+#blogmd dl dt:first-child {
+  padding: 0;
+}
+
+#blogmd dl dt> :first-child {
+  margin-top: 0;
+}
+
+#blogmd dl dt> :last-child {
+  margin-bottom: 0;
+}
+
+#blogmd dl dd {
+  margin: 0 0 15px;
+  padding: 0 15px;
+}
+
+#blogmd dl dd> :first-child {
+  margin-top: 0;
+}
+
+#blogmd dl dd> :last-child {
+  margin-bottom: 0;
+}
+
+#blogmd blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777;
+}
+
+#blogmd blockquote> :first-child {
+  margin-top: 0;
+}
+
+#blogmd blockquote> :last-child {
+  margin-bottom: 0;
+}
+
+#blogmd table {
+  padding: 0;
+}
+
+#blogmd table tr {
+  border-top: 1px solid #cccccc;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+#blogmd table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+#blogmd table tr th {
+  font-weight: bold;
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+#blogmd table tr td {
+  border: 1px solid #cccccc;
+  text-align: left;
+  margin: 0;
+  padding: 6px 13px;
+}
+
+#blogmd table tr th :first-child,
+table tr td :first-child {
+  margin-top: 0;
+}
+
+#blogmd table tr th :last-child,
+table tr td :last-child {
+  margin-bottom: 0;
+}
+
+#blogmd img {
+  max-width: 100%;
+}
+
+#blogmd span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+#blogmd span.frame>span {
+  border: 1px solid #dddddd;
+  display: block;
+  float: left;
+  overflow: hidden;
+  margin: 13px 0 0;
+  padding: 7px;
+  width: auto;
+}
+
+#blogmd span.frame span img {
+  display: block;
+  float: left;
+}
+
+#blogmd span.frame span span {
+  clear: both;
+  color: #333333;
+  display: block;
+  padding: 5px 0 0;
+}
+
+#blogmd span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+#blogmd span.align-center>span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: center;
+}
+
+#blogmd span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#blogmd span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+#blogmd span.align-right>span {
+  display: block;
+  overflow: hidden;
+  margin: 13px 0 0;
+  text-align: right;
+}
+
+#blogmd span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+#blogmd span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left;
+}
+
+#blogmd span.float-left span {
+  margin: 13px 0 0;
+}
+
+#blogmd span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right;
+}
+
+#blogmd span.float-right>span {
+  display: block;
+  overflow: hidden;
+  margin: 13px auto 0;
+  text-align: right;
+}
+
+#blogmd code,
+tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+}
+
+#blogmd pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent;
+}
+
+#blogmd .highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+#blogmd pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+#blogmd pre code,
+pre tt {
+  background-color: transparent;
+  border: none;
 }

@@ -203,13 +203,13 @@
             <div class=" flex flex-wrap py-6">
               <div class="w-full py-6 lg:w-1/2">
                 <div class="text-center">
-                  <a href="" class="hover:text-creavidsGreen text-gray-500 text-lg px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
+                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
                 </div>
               </div>
 
               <div class="w-full py-6 lg:w-1/2">
                 <div class="text-center">
-                  <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
+                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
                 </div>
               </div>
             </div>
