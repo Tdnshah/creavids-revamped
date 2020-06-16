@@ -33,14 +33,12 @@
   <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
   <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
   <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
   <link rel="manifest" href="favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
 </head>
 <header class="lg:bg-white lg:fixed lg:px-16 px-6 bg-white flex flex-wrap items-center lg:w-full lg:py-0 py-2 lg:z-50 shadow-crevidsShadowHeader">
   <div class="flex-1 flex justify-between items-center">
