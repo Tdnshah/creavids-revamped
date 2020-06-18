@@ -62,11 +62,11 @@
 				showFullPost: false,
 				fullPostIndex: "",
 				loader: true,
-				api_url: 'http://localhost:1337'
+				api_url: 'https://blog.creavids.co/'
 			},
 			methods: {
 				loadBlogArticles() {
-					axios.get('http://localhost:1337/blogs').then(function(response) {
+					axios.get(this.api_url + 'blogs').then(function(response) {
 						this.loader = false;
 						this.showAllPost = true;
 						this.blogArticles = (response.data)

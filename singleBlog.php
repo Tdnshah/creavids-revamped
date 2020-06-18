@@ -25,7 +25,6 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vue-simple-markdown@1.1.4/dist/vue-simple-markdown.min.js"></script>
   <script type="text/javascript" src="https://unpkg.com/vue@latest"></script>
-  <script type="text/javascript" src="https://unpkg.com/vue-plyr@latest"></script>
   <script src="https://unpkg.com/marked@0.3.6"></script>
   <script>
     Vue.filter('truncate', function(value, limit) {
@@ -43,17 +42,21 @@
         fullPostIndex: "",
         loader: true,
         postId: <?php echo $_REQUEST['param1'] ?>,
+        api_url: 'https://blog.creavids.co'
       },
       computed: {
         compiledMarkdown: function() {
           return marked(this.blogSingleArticle.Body, {
             sanitize: true
           });
+        },
+        compiledMarkdownVideoBody: function() {
+          return ""
         }
       },
       methods: {
         loadSingleBlogArticle: async function() {
-          await axios.get('http://localhost:1337/blogs/' + this.postId)
+          await axios.get(this.api_url + '/blogs/' + this.postId)
             .then(function(response) {
               this.loader = false;
               this.showAllPost = true;
