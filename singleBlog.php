@@ -57,8 +57,8 @@
             }.bind(this))
         },
       },
-      beforeMount: async function() {
-        await this.loadSingleBlogArticle();
+      beforeMount: function() {
+        this.loadSingleBlogArticle();
       },
     })
   </script>
