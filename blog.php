@@ -30,7 +30,7 @@
 										</a></div>
 								</div>
 								<div class="px-6 py-4 bg-white text-center">
-									<a :href="api_url '/singleBlog/' + blogArticle.id" class="mr-2 mt-5 px-4 py-1 no-underline hover:underline text-blue-500 text-base border-2 border-teal-300 hover:shadow-outline rounded-full">Read More</a>
+									<a :href="'/singleBlog/' + blogArticle.id" class="mr-2 mt-5 px-4 py-1 no-underline hover:underline text-blue-500 text-base border-2 border-teal-300 hover:shadow-outline rounded-full">Read More</a>
 								</div>
 							</div>
 						</div>
@@ -45,7 +45,6 @@
 	</main>
 
 	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.0"></script>
-	<script src="https://unpkg.com/vue-router"></script>
 	<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 	<script>
 		Vue.filter('truncate', function(value, limit) {
@@ -62,11 +61,11 @@
 				showFullPost: false,
 				fullPostIndex: "",
 				loader: true,
-				api_url: 'https://blog.creavids.co/'
+				api_url: 'https://blog.creavids.co'
 			},
 			methods: {
 				loadBlogArticles() {
-					axios.get(this.api_url + 'blogs').then(function(response) {
+					axios.get(this.api_url + '/blogs').then(function(response) {
 						this.loader = false;
 						this.showAllPost = true;
 						this.blogArticles = (response.data)
