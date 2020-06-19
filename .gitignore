@@ -4,3 +4,7 @@ icon/*
 oldSite/*
 stats/*
 git/*
+
+#custom
+env.php
+.htaccess
