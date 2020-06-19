@@ -1,6 +1,14 @@
 # Enable Rewriting
+ErrorDocument 404 http://localhost/404/
+ErrorDocument 500 http://localhost/500/
 RewriteEngine on
+
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ /404.php [L]
+
+RewriteCond %{REQUEST_URI} ^/500/$
+RewriteRule ^(.*)$ /500.php [L]
+
 RewriteRule ^([a-z]+)\/([0-9]+)\/?$ singleBlog.php?param=$1&param1=$2 [NC]
-RewriteRule ^([a-z]+)\/?$ $1.php [NC]
-
-
+RewriteRule ^([a-z0-9]+)\/?$ $1.php [NC]

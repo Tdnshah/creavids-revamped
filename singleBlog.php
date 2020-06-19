@@ -32,7 +32,7 @@
       return value
     })
     Vue.filter('marked', function(input) {
-      if(input){
+      if (input) {
         return marked(input)
       }
     })
@@ -54,6 +54,7 @@
               this.loader = false;
               this.showAllPost = true;
               this.blogSingleArticle = response.data;
+              document.title = "Creavids | " + this.blogSingleArticle.Title;
             }.bind(this))
         },
       },

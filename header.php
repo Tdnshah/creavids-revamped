@@ -1,3 +1,22 @@
+<?php
+include('/env.php');
+$currentPage = $_SERVER['REQUEST_URI'];
+$currentPage = str_replace('/', '', $currentPage);
+if ($currentPage == 'index' || $currentPage == '') {
+  $currentPage = 'Home';
+}
+$metaDescription = 'We are Creavids, literally meaning creavitve animated video We believe every brand has a story. We work with our clients to help them identify that story and showcase it in the way your target audience will connect with. Our goal is to produce quality content that helps our clients fulfill the purpose that they started the project with.
+
+Being a part of over 1000 videos globally, we are a team of passionate artists. Integrity, flexibility, transparency and of course creativity are some of the things that you can depend upon us for. We are not afraid to put our money where our mouth is, we offer you unlimited edits during the video production process and even refund your money if the product is not worth the buck you paid us. Talk to us about what we can do for you.';
+$keywords = ['Animated Videos', 'Explainer Videos', 'Educational Videos', 'Commercial Videos', 'Increase Business', 'Marketing Material'];
+
+function echoKeyword ($keywords){
+  foreach($keywords as $keyword){
+    echo $keyword . ',';
+  }
+};
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,11 +24,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <base href="https://creavids.co/">
-  <title>Creavids</title>
-  <link rel="stylesheet" href="./build/tailwind.css" />
-  <link rel="stylesheet" href="./build/custom.css" />
-  <link rel="stylesheet" href="./build/animation/aos.css" />
+  <meta name="description" content="<?php echo $metaDescription ?>">
+  <meta name="keywords" content="<?php echoKeyword($keywords) ?>">
+
+  <title>Creavids | <?php echo ucfirst($currentPage) ?> </title>
+  <link rel="stylesheet" href="/build/tailwind.css" />
+  <link rel="stylesheet" href="/build/custom.css" />
+  <link rel="stylesheet" href="/build/animation/aos.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -43,8 +64,8 @@
 <header class="lg:bg-white lg:fixed lg:px-16 px-6 bg-white flex flex-wrap items-center lg:w-full lg:py-0 py-2 lg:z-50 shadow-crevidsShadowHeader">
   <div class="flex-1 flex justify-between items-center">
     <div class="flex flex-wrap items-center">
-      <img src="./Assets/staticLogo.png" class="p-3	w-20" alt="" />
-      <a href="/index" class="text-3xl text-teal-300 font-hairline">Creavids</a>
+      <img src="/Assets/staticLogo.png" class="p-3	w-20" alt="" />
+      <a href="/" class="text-3xl text-teal-300 font-hairline">Creavids</a>
     </div>
   </div>
 

@@ -225,13 +225,13 @@
       </section>
 
       <!--Consult Now For -->
-      <section class="w-full lg:my-24 ">
+      <section class="w-full lg:my-24 my-16">
         <div class="w-full mx-auto">
           <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
             Consult Now For<br />Custom Tailored Projects
           </h1>
           <div class="text-center">
-            <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+            <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
           </div>
       </section>
     </section>
