@@ -67,7 +67,7 @@
             </div>
           </div>
         </section>
-        <section class="mx-auto w-3/4">
+        <section class="mx-auto w-3/4" v-if="relatedBlogArticle.length > 0">
           <h3 class="text-xl font-semibold text-gray-800">More From Creavids</h3>
           <hr class="border-gray-400">
           <div class="flex flex-wrap">
@@ -111,9 +111,6 @@
       data: {
         relatedBlogArticle: [],
         blogSingleArticle: [],
-        showAllPost: false,
-        showFullPost: false,
-        fullPostIndex: "",
         loader: true,
         postId: <?php echo $_REQUEST['param1'] ?>,
         api_url: '<?php echo getenv('CREAVIDS_API_URI') ?>'
@@ -131,7 +128,6 @@
           await axios.get(this.api_url + '/blogs/' + this.postId)
             .then(function(response) {
               this.loader = false;
-              this.showAllPost = true;
               this.blogSingleArticle = response.data;
               document.title = "Creavids | " + this.blogSingleArticle.Title;
               this.loadRelatedBlogArticle();
