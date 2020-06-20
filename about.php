@@ -188,7 +188,7 @@
       </div>
       <div class="mx-24 lg:mx-auto lg:w-1/4 my-20">
         <div class="text-center hoverAnimation">
-          <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+          <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
         </div>
       </div>
     </section>

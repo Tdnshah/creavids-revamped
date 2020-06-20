@@ -181,7 +181,7 @@
 							</h1>
 						</div>
 						<div class="w-full py-6 lg:w-1/2 lg:pr-24">
-							<a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-3xl px-32 py-16 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+							<a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-3xl px-32 py-16 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
 							<h1 class="text-2xl text-gray-600 font-semibold py-16">
 								Talk to video producer
 							</h1>

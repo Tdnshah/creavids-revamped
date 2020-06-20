@@ -114,7 +114,7 @@
 
             </div>
             <div class="w-full py-6 lg:w-1/2 lg:pr-24">
-              <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-3xl lg:px-32 lg:py-16 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's
+              <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-3xl lg:px-32 lg:py-16 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's
                 Talk</a>
 
             </div>

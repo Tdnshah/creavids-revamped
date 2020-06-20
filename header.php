@@ -1,5 +1,5 @@
 <?php
-include('/env.php');
+include('./env.php');
 $currentPage = $_SERVER['REQUEST_URI'];
 $currentPage = str_replace('/', '', $currentPage);
 if ($currentPage == 'index' || $currentPage == '') {
@@ -10,8 +10,9 @@ $metaDescription = 'We are Creavids, literally meaning creavitve animated video 
 Being a part of over 1000 videos globally, we are a team of passionate artists. Integrity, flexibility, transparency and of course creativity are some of the things that you can depend upon us for. We are not afraid to put our money where our mouth is, we offer you unlimited edits during the video production process and even refund your money if the product is not worth the buck you paid us. Talk to us about what we can do for you.';
 $keywords = ['Animated Videos', 'Explainer Videos', 'Educational Videos', 'Commercial Videos', 'Increase Business', 'Marketing Material'];
 
-function echoKeyword ($keywords){
-  foreach($keywords as $keyword){
+function echoKeyword($keywords)
+{
+  foreach ($keywords as $keyword) {
     echo $keyword . ',';
   }
 };
@@ -26,6 +27,11 @@ function echoKeyword ($keywords){
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <meta name="description" content="<?php echo $metaDescription ?>">
   <meta name="keywords" content="<?php echoKeyword($keywords) ?>">
+  <meta property="og:url" content="https://creavids.co" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Creavids An Animated Video making Company" />
+  <meta property="og:description" content="| Marketing | Media | Animation | Video Making Company |" />
+  <meta property="og:image" content="<?php echo getenv('CREAVIDS_SERVER_ENV') ?>Assets/creavids_screenshot.png" />
 
   <title>Creavids | <?php echo ucfirst($currentPage) ?> </title>
   <link rel="stylesheet" href="/build/tailwind.css" />
@@ -44,6 +50,14 @@ function echoKeyword ($keywords){
     gtag('js', new Date());
 
     gtag('config', 'UA-123320683-1');
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "WebSite",
+      "name": "Creavids",
+      "url": "https://creavids.co"
+    }
   </script>
   <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
@@ -68,7 +82,6 @@ function echoKeyword ($keywords){
       <a href="/" class="text-3xl text-teal-300 font-hairline">Creavids</a>
     </div>
   </div>
-
   <label for="menu-toggle" class="pointer-cursor lg:hidden block"><svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
       <title>menu</title>
       <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>

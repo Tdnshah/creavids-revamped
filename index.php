@@ -49,7 +49,7 @@
             <i class="fas fa-play-circle" id="thumbnail-icon"></i>
           </div>
           <div id="video">
-            <iframe width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="https://www.youtube.com/embed/VfzfQaPcd7U?autoplay=1" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="https://www.youtube.com/embed/VfzfQaPcd7U?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </section>
@@ -231,7 +231,7 @@
             Consult Now For<br />Custom Tailored Projects
           </h1>
           <div class="text-center">
-            <a href="/contact.php" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+            <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
           </div>
       </section>
     </section>
