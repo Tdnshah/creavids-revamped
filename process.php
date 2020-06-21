@@ -6,7 +6,7 @@
     <section class="mx-auto max-w-screenFullWidth">
       <section class="w-full">
         <div class="lg:m-20 lg:px-32 text-center tracking-wide">
-          <h1 class="text-xl lg:text-3xl text-gray-800 font-semibold">
+          <h1 class="text-base lg:text-3xl text-gray-800 font-semibold">
             Explained below is the milestone-based video production process
             that maintains transparency and lets you be in control of the
             project.
@@ -26,10 +26,10 @@
             </svg>
           </div>
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold text">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold text">
               <span>Discovery Call</span>
             </h1>
-            <p class="text-xl font-medium text-gray-600 pr-24">
+            <p class="text-base lg:text-xl font-medium text-gray-600 lg:pr-24">
               This call is not only an ice breaker but also a platform for
               exchanging possible ideas, processes, or any other questions you
               might have.
@@ -42,10 +42,10 @@
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
               <span>Script Writing</span>
             </h1>
-            <p class="text-xl pl-32 tracking-wide font-medium text-gray-600">
+            <p class="teext-base lg:text-xl lg:pl-32 tracking-wide font-medium text-gray-600">
               Our team lays out to you how they envisage the video to unfold
               both in narrative and written visuals.
             </p>
@@ -74,10 +74,10 @@
             </svg>
           </div>
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold text">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold text">
               <span>Styles</span>
             </h1>
-            <p class="text-xl font-medium pr-32 text-justify text-gray-600 pr-24">
+            <p class="text-base lg:text-xl font-medium lg:pr-24 text-justify text-gray-600">
               Get a first look at how the characters, backgrounds, color
               schemes in your video look.
             </p>
@@ -89,10 +89,10 @@
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
               <span>Storyboard</span>
             </h1>
-            <p class="text-xl pl-32 font-medium pl-32 text-justify text-gray-600">
+            <p class="text-base lg:text-xl font-medium lg:pl-32 text-justify text-gray-600">
               This is a frame by frame illustration of the script created
               using the approved assets
             </p>
@@ -121,10 +121,10 @@
             </svg>
           </div>
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold text">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold text">
               <span>Voice Over</span>
             </h1>
-            <p class="text-xl font-medium text-justify pr-32 text-gray-600 pr-24">
+            <p class="text-xl font-medium text-justify text-gray-600 lg:pr-24">
               An artist that you choose records the final VO and seeks your
               approval.
             </p>
@@ -136,10 +136,10 @@
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
               <span>Animation</span>
             </h1>
-            <p class="text-xl pl-32 font-medium tracking-wider text-justify text-gray-600">
+            <p class="text-base lg:text-xl lg:pl-32 font-medium tracking-wider text-justify text-gray-600">
               Your video is coming to life, all the characters are assigned
               motion and the scenarios change from being static.
             </p>
@@ -167,10 +167,10 @@
             </svg>
           </div>
           <div>
-            <h1 class="text-teal-300 text-4xl font-bold text">
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold text">
               <span>Music And Sound Design</span>
             </h1>
-            <p class="text-xl font-medium text-justify pr-32 text-gray-600">
+            <p class="text-base lg:text-xl font-medium text-justify text-gray-600 lg:24">
               Appropriate music and sound design is used to boost the oomph
               and appeal of your video. Your video not only looks good but
               also sounds good now.
@@ -203,13 +203,13 @@
             <div class=" flex flex-wrap py-6">
               <div class="w-full py-6 lg:w-1/2">
                 <div class="text-center">
-                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
+                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg px-4 lg:px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Start Your Video Project</a>
                 </div>
               </div>
 
               <div class="w-full py-6 lg:w-1/2">
-                <div class="text-center">
-                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 px-16 py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
+                <div class="text-center my-4">
+                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 px-16 py-8 font-semibold uppercase" style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
                 </div>
               </div>
             </div>
@@ -220,7 +220,7 @@
                 Creavids is easy, see how
               </h1>
               <div id="lappyVid" class="my-24 mx-auto">
-                <div>
+                <div class="hidden lg:block">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/sjsZELJL7jU" frameborder="0" allowfullscreen></iframe>
                 </div>
               </div>

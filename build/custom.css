@@ -546,12 +546,14 @@ svg {
 @media (max-width: 767px) {
 #BlockChainHero,
 #manufacturing-hero,
-#partnership-hero {
+#partnership-hero,
+#service-section1 {
     background-image: none;
   }
 #mainBlockchain,
 #manufacturing-main,
-#mainBlog {
+#mainBlog,
+#service-section1 {
     background-image: none;
   }
 
@@ -1044,27 +1046,27 @@ pre tt {
   border: none;
 }
 /* Loader css */
-svg {
+#loader svg {
   overflow: visible;
   width: 100px;
   height: 150px;
 }
 
-svg g {
+#loader svg g {
   animation: slide 2s linear infinite;
 }
 
-svg g:nth-child(2) {
+#loader svg g:nth-child(2) {
   animation-delay: 0.5s;
 }
 
-svg g:nth-child(2) path {
+#loader svg g:nth-child(2) path {
   animation-delay: 0.5s;
   stroke-dasharray: 0px 158px;
   stroke-dashoffset: 1px;
 }
 
-svg path {
+#loader svg path {
   stroke: url(#gradient);
   stroke-width: 20px;
   stroke-linecap: round;

@@ -3,7 +3,7 @@
 <body>
   <main class="">
     <div id="app">
-      <div class="flex items-center justify-center h-screen" v-if="loader">
+      <div class="flex items-center justify-center h-screen" id="loader" v-if="loader">
         <svg>
           <g>
             <path d="M 50,100 A 1,1 0 0 1 50,0" />

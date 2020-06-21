@@ -4,7 +4,7 @@
   <main class="lg:py-20">
     <section>
       <div class="mx-auto my-20">
-        <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12 animated bounceInDown" />
+        <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12" />
       </div>
       <div class="w-full mx-auto">
         <p class="text-2xl text-center italic font-semibold text-gray-600 tracking-wider">
@@ -38,10 +38,10 @@
     </section>
     <section>
       <div class="mx-auto">
-        <img src="./Assets/about/About-04.jpg" class="w-9/12 mx-auto my-16" data-aos="fade-down-left" />
+        <img src="./Assets/about/About-04.jpg" class="w-9/12 mx-auto my-16"/>
       </div>
     </section>
-    <section data-aos="fade-right" data-aos-duration="750" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <section>
       <div class="mx-20 my-24 lg:mx-64" id="overline">
         <h1 class="font-bold text-gray-700 tracking-wide py-2 lg:text-5xl">
           VIDEOS OF EVERY INDUSTRY AND PURPOSE
@@ -129,7 +129,7 @@
         </div>
       </div>
     </section>
-    <section data-aos="fade-left" data-aos-duration="1500" data-aos-offset="300" data-aos-easing="ease-in-sine">
+    <section>
       <div class="mx-20 lg:mx-64 my-20" id="overline">
         <h1 class="font-bold lg:text-5xl text-gray-700 tracking-wide py-2">
           CLIENTS
@@ -188,7 +188,7 @@
       </div>
       <div class="mx-24 lg:mx-auto lg:w-1/4 my-20">
         <div class="text-center hoverAnimation">
-          <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+          <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg px-8 py-4 lg:px-16 lg:py-8 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
         </div>
       </div>
     </section>
