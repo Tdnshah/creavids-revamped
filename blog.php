@@ -30,7 +30,7 @@
     <div v-else>
      <section class="lg:pt-16 px-16" id="rowBlog">
       <div class="flex flex-wrap">
-       <div class="sm:full md:1/2 lg:w-1/4 overflow-hidden my-4 px-4 h-auto" v-for="blogArticle in this.blogArticles">
+       <div class="sm:full md:1/2 lg:w-1/4 overflow-hidden mx-auto lg:mx-0 my-4 px-4 h-auto" v-for="blogArticle in this.blogArticles">
         <div class="border border-creavidsTeal">
          <a :href="blogArticle.link" class="">
           <img class="w-full" :src="api_url + blogArticle.FeaturedImage.url" alt="">

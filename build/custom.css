@@ -102,14 +102,6 @@ a:hover{
   background-position: center;
 	background-size: contain;
 }
-@media only screen and (max-width: 640px) {
-  #hero {
-    background: none;
-  }
-  #main {
-    background: none;
-  }
-}
 
 /*
  Process Page
@@ -547,13 +539,16 @@ svg {
 #BlockChainHero,
 #manufacturing-hero,
 #partnership-hero,
-#service-section1 {
+#service-section1,
+#mainBlog,
+#rowBlog {
     background-image: none;
   }
 #mainBlockchain,
 #manufacturing-main,
 #mainBlog,
-#service-section1 {
+#service-section1,
+#rowBlog {
     background-image: none;
   }
 
@@ -564,16 +559,40 @@ svg {
 
 #BlockChainHero,
 #manufacturing-hero,
-#partnership-hero {
+#partnership-hero,
+#service-section1,
+#mainBlog,
+#rowBlog {
     background-image: none;
   }
 #mainBlockchain,
 #manufacturing-main,
-#mainBlog {
+#mainBlog,
+#service-section1,
+#rowBlog {
     background-image: none;
   }
 }
 
+@media only screen and (max-width: 640px) {
+  #hero,
+  #mainBlockchain,
+  #manufacturing-main,
+  #mainBlog,
+  #service-section1,
+  #rowBlog {
+    background: none;
+  }
+
+  #main,
+  #mainBlockchain,
+  #manufacturing-main,
+  #mainBlog,
+  #service-section1,
+  #rowBlog {
+    background: none;
+  }
+}
 
 hr.style-four {
   height: 12px;
