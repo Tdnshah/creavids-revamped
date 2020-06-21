@@ -78,7 +78,7 @@ function echoKeyword($keywords)
 <header class="lg:bg-white lg:fixed lg:px-16 px-6 bg-white flex flex-wrap items-center lg:w-full lg:py-0 py-2 lg:z-50 shadow-crevidsShadowHeader">
   <div class="flex-1 flex justify-between items-center">
     <div class="flex flex-wrap items-center">
-    <img src="/Assets/staticLogo.png" class="p-3	w-20" alt="" />
+    <img src="/Assets/staticLogo.png" class="p-3	w-20" alt="creavids-logo" />
       <a href="/" class="text-3xl text-teal-300 font-hairline">Creavids</a>
     </div>
   </div>

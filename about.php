@@ -4,7 +4,7 @@
   <main class="lg:py-20">
     <section>
       <div class="mx-auto my-20">
-        <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12" />
+        <img src="./Assets/about/About-02.jpg" class="w-1/4 mx-auto my-12" alt="say-hello" />
       </div>
       <div class="w-full mx-auto">
         <p class="text-2xl text-center italic font-semibold text-gray-600 tracking-wider">
@@ -38,7 +38,7 @@
     </section>
     <section>
       <div class="mx-auto">
-        <img src="./Assets/about/About-04.jpg" class="w-9/12 mx-auto my-16"/>
+        <img src="./Assets/about/About-04.jpg" class="w-9/12 mx-auto my-16" alt="animated-video-teamwork"/>
       </div>
     </section>
     <section>

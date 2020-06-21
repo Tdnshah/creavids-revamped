@@ -17,7 +17,7 @@
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Process_0.3-01-02.png" alt="" class="mx-auto my-auto w-1/2 h-1/3" />
+          <img src="./Assets/process/Process_0.3-01-02.png" alt="discovery-call" class="mx-auto my-auto w-1/2 h-1/3" />
         </div>
         <div data-aos="fade-down-left" class="w-full md:w-1/2 lg:w-1/2 my-auto flex">
           <div>
@@ -57,14 +57,14 @@
           </div>
         </div>
         <div data-aos="fade-down-left" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Process_0.3-01-03.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
+          <img src="./Assets/process/Process_0.3-01-03.png" alt="script-writing" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
       </section>
       <!--Styles-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Process_0.3-01-04.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
+          <img src="./Assets/process/Process_0.3-01-04.png" alt="styles" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
 
         <div data-aos="fade-down-left" class="w-full md:w-1/2 lg:w-1/2 my-auto flex">
@@ -104,14 +104,14 @@
           </div>
         </div>
         <div data-aos="fade-down-left" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Story board-01.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
+          <img src="./Assets/process/Story board-01.png" alt="storyboarding" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
       </section>
       <!--Voice Over-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Process_0.3-01-05.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
+          <img src="./Assets/process/Process_0.3-01-05.png" alt="voice-over" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
 
         <div data-aos="fade-down-left" class="w-full md:w-1/2 lg:w-1/2 my-auto flex">
@@ -151,14 +151,14 @@
           </div>
         </div>
         <div data-aos="fade-down-left" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Process_0.3-01-06.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
+          <img src="./Assets/process/Process_0.3-01-06.png" alt="animation" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
       </section>
       <!--Music-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
         <div data-aos="fade-down-right" class="w-full md:w- lg:w-1/2 p-0">
-          <img src="./Assets/process/Process_0.3-01-07.png" alt="" class="mx-auto my-auto w-1/2 h-1/2" />
+          <img src="./Assets/process/Process_0.3-01-07.png" alt="music" class="mx-auto my-auto w-1/2 h-1/2" />
         </div>
         <div data-aos="fade-down-left" class="w-full md:w-1/2 lg:w-1/2 my-auto flex">
           <div>
@@ -183,7 +183,7 @@
         <div data-aos="flip-down" class="flex-1 flex-wrap lg:py-4">
           <div class="w-full py-6 mx-auto">
             <div class="w-64 h-64 mx-auto">
-              <img src="./Assets/process/Process_0.3-01-08.png" alt="" />
+              <img src="./Assets/process/Process_0.3-01-08.png" alt="video-is-ready" />
             </div>
             <div class="text-creavidsGray text-center lg:px-40">
               <h1 class="text-base lg:text-xl font-medium">

@@ -30,7 +30,7 @@
      </div>
     </div>
     <div class="hidden lg:block lg:w-1/2">
-     <img src="./Assets/healthcare_png/Healthcare_PNG (3).png" alt="">
+     <img src="./Assets/healthcare_png/Healthcare_PNG (3).png" alt="healtcare">
     </div>
    </div>
    <div class="py-8 lg:pb-0 flex flex-wrap lg:py-6 lg:px-32">

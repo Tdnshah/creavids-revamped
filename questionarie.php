@@ -200,7 +200,7 @@
         }
         if (n == x.length - 1) {
           document.getElementById("nextBtn").innerHTML =
-            "<img src='./Assets/icons/send.svg' class='my-6' width='30px' height='30px'>";
+            "<img src='./Assets/icons/send.svg' class='my-6' width='30px' height='30px' alt='send-icon'>";
         } else {
           document.getElementById("nextBtn").innerHTML = ">";
         }

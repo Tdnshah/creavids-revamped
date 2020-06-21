@@ -19,79 +19,79 @@
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-02.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-02.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="fixed-cost-in-budget">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-03.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-03.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="100%-guarantee">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-04.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-04.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="original-content">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-05.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-05.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="mutliple-iterations">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-12.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-12.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="within-24hrs">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-06.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-06.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="transfer-copyrights">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-07.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-07.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="24x7-available">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-08.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-08.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="dedicated-video-production-team">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-09.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-09.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="expert-consultation">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-13.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-13.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="multilingual-video">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-10.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-10.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="project-management">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-15.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-15.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="easy-payment">
       </div>
     </section>
 
     <section class="my-12">
       <div class="mx-auto">
-        <img src="./Assets/services/png/Service feature-14.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto">
+        <img src="./Assets/services/png/Service feature-14.png" class="w-full md:w-10/12 lg:w-10/12 mx-auto" alt="expert-consultation">
       </div>
     </section>
     <section class="w-full">

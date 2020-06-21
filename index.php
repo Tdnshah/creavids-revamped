@@ -45,7 +45,7 @@
       <section class="w-full my-8 lg:my-24 ">
         <div class="mx-auto w-9/12 justify-center">
           <div id="thumbnail" class="" onclick="myFunction()">
-            <img width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="./Assets/landingPage/showreelThumbnail.jpg" alt="" />
+            <img width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="./Assets/landingPage/showreelThumbnail.jpg" alt="video-animation" />
             <i class="fas fa-play-circle" id="thumbnail-icon"></i>
           </div>
           <div id="video">
@@ -61,14 +61,14 @@
             <h1 class="flex text-2xl lg:text-5xl font-semibold px-20 text-creavidsDarkGray capitalize">
               Here's What Clients<br>
               Love About Creavids
-              <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class="h-16 lg:h-40">
+              <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class="h-16 lg:h-40" alt="client-testimonial">
             </h1>
           </div>
           <div class="w-full px-16 flex flex-wrap">
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/clients/dollars.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/clients/dollars.png" class="mx-auto" alt="money-dollar">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
@@ -80,7 +80,7 @@
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/clients/hunderd.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/clients/hunderd.png" class="mx-auto" alt="assurance-100%">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -92,7 +92,7 @@
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/clients/orignal.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/clients/orignal.png" class="mx-auto" alt="original-videos">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -104,7 +104,7 @@
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/clients/laptop.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/clients/laptop.png" class="mx-auto" alt="digital-laptop">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -121,13 +121,13 @@
       <section class="w-full lg:my-24">
         <div class="w-full flex flex-wrap mx-auto">
           <div class="flex mx-auto pb-24 px-64">
-            <img src="./Assets/landingPage/Landing Page-08.png" class="w-1/2 mx-auto" alt="" />
+            <img src="./Assets/landingPage/Landing Page-08.png" class="w-1/2 mx-auto" alt="landing-page-08" />
           </div>
           <div class="w-full px-16 flex flex-wrap">
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/ourProcess/scriptWriting.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/ourProcess/scriptWriting.png" class="mx-auto" alt="script-writing">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
@@ -139,7 +139,7 @@
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/ourProcess/styles.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/ourProcess/styles.png" class="mx-auto" alt="styles">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
@@ -151,7 +151,7 @@
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/ourProcess/storyBoard.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/ourProcess/storyBoard.png" class="mx-auto" alt="story-boarding">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">
@@ -163,7 +163,7 @@
             <div class="lg:w-1/4">
               <div>
                 <div>
-                  <img src="./Assets/landingPage/ourProcess/animation.png" class="mx-auto" alt="">
+                  <img src="./Assets/landingPage/ourProcess/animation.png" class="mx-auto" alt="ourprocess-animation">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-2xl text-creavidsDarkGray font-bold">

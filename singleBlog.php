@@ -75,7 +75,7 @@
               <p class="py-2">Related reads</p>
               <div>
                 <a :href="'/singleBlog/' + relatedPost.id" class="">
-                  <img class="w-full h-56" :src="api_url + relatedPost.FeaturedImage.url" alt="">
+                  <img class="w-full h-56" :src="api_url + relatedPost.FeaturedImage.url" :alt="relatedPost.FeaturedImage.name">
                 </a>
                 <div class="py-4">
                   <div class="mb-2">

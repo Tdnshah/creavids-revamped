@@ -40,7 +40,7 @@
           <div class="lg:w-1/3">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-01.png" class="mx-auto h-64" alt="">
+                <img src="./Assets/partnership/sections/Partnership-01.png" class="mx-auto h-64" alt="creative-director">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
@@ -53,7 +53,7 @@
           <div class="lg:w-1/3">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-02.png" class="mx-auto h-64" alt="">
+                <img src="./Assets/partnership/sections/Partnership-02.png" class="mx-auto h-64" alt="exprienced-team">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -67,7 +67,7 @@
           <div class="lg:w-1/3">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-03.png" class="mx-auto h-64" alt="">
+                <img src="./Assets/partnership/sections/Partnership-03.png" class="mx-auto h-64" alt="multiple-revision">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -80,7 +80,7 @@
             <div class="lg:w-1/2">
               <div>
                 <div>
-                  <img src="./Assets/partnership/sections/Partnership-04.png" class="mx-auto h-64" alt="">
+                  <img src="./Assets/partnership/sections/Partnership-04.png" class="mx-auto h-64" alt="transfer-copyrights">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -92,7 +92,7 @@
             <div class="lg:w-1/2">
               <div>
                 <div>
-                  <img src="./Assets/partnership/sections/Partnership-09.png" class="mx-auto h-64" alt="">
+                  <img src="./Assets/partnership/sections/Partnership-09.png" class="mx-auto h-64" alt="hd-video">
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -117,7 +117,7 @@
           <div class="lg:w-1/4">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-08.png" class="mx-auto" alt="">
+                <img src="./Assets/partnership/sections/Partnership-08.png" class="mx-auto" alt="digital-marketing-agency">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
@@ -129,7 +129,7 @@
           <div class="lg:w-1/4">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-07.png" class="mx-auto" alt="">
+                <img src="./Assets/partnership/sections/Partnership-07.png" class="mx-auto" alt="branding-agency">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -141,7 +141,7 @@
           <div class="lg:w-1/4">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-06.png" class="mx-auto" alt="">
+                <img src="./Assets/partnership/sections/Partnership-06.png" class="mx-auto" alt="design-agency">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
@@ -153,7 +153,7 @@
           <div class="lg:w-1/4">
             <div>
               <div>
-                <img src="./Assets/partnership/sections/Partnership-05.png" class="mx-auto" alt="">
+                <img src="./Assets/partnership/sections/Partnership-05.png" class="mx-auto" alt="ad-agency">
               </div>
               <div class="text-center">
                 <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">

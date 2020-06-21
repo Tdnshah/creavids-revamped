@@ -94,7 +94,7 @@
             <p class="text-gray-800 text-lg text-justify py-2 px-12">
               Email: info@creavids.co
             </p>
-            <img src="./Assets/contact/Contact_illustration-01.png" class="text-center" alt="" />
+            <img src="./Assets/contact/Contact_illustration-01.png" class="text-center" alt="creavids-contact-details" />
           </div>
         </div>
       </section>
