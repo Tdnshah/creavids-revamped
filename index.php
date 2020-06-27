@@ -96,7 +96,7 @@
                 </div>
                 <div class="text-center">
                   <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                    Orignal content for </br> every video
+                    Original content for </br> every video
                   </h1>
                 </div>
               </div>

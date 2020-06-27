@@ -193,8 +193,9 @@
 
                <select name="choiceofpartnership" class="py-4 px-2 bg-white my-4 w-full border-b-4 border-teal-400 font-hairline text-xl text-gray-500 focus:text-black ">
                 <option>Choice Of Partnership.</option>
-                <option value=""></option>
-                <option value=""></option>
+                <option value="commission">Commission</option>
+                <option value="whitelabel">White label</option>
+                <option value="upsell">Up sell</option>
                 <option value="notsure">Not Sure</option>
               </select>
 
