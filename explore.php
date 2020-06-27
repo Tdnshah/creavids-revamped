@@ -19,7 +19,7 @@
           <div class="flex flex-wrap mx-auto p-5 lg:p-10">
             <ul class="flex flex-wrap mx-auto justify-center">
               <li class="my-3 lg:my-5" v-for="(catName , index) in this.catName">
-                <a class="border-2 cursor-pointer border-teal-300 text-gray-800 mr-1 lg:mr-2 lg:mt-5 px-2 lg:px-4 py-2 text-xs lg:text-base font-semibold lg:font-bold uppercase hover:shadow-outline rounded-full" :class="{ 'active' : index == active }" v-on:click="filterVideos(catName, index)">{{ catName }}</a>
+                <a class="border-2 cursor-pointer border-teal-300 text-gray-800 mr-1 lg:mr-2 lg:mt-5 px-1 lg:px-4 py-2 text-xs lg:text-base font-semibold lg:font-bold uppercase hover:shadow-outline rounded-full" :class="{ 'active' : index == active }" v-on:click="filterVideos(catName, index)">{{ catName }}</a>
               </li>
             </ul>
           </div>
