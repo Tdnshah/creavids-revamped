@@ -32,7 +32,7 @@
     <section class="w-full lg:my-24">
       <div class="w-full flex flex-wrap mx-auto">
         <div class="flex mx-auto pb-8 lg:pb-24 lg:px-64">
-          <h1 class="flex text-2xl lg:text-5xl font-bold px-20 text-creavidsTeal capitalize">
+          <h1 class="flex text-2xl lg:text-5xl font-bold px-20 text-creavidsGreen capitalize">
             How it works
           </h1>
         </div>
@@ -76,7 +76,7 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-16 lg:px-56 flex flex-wrap">
+          <div class="w-full px-16 lg:px-56 lg:pt-24 flex flex-wrap">
             <div class="lg:w-1/2">
               <div>
                 <div>
@@ -109,7 +109,7 @@
     <section class="w-full lg:my-24 ">
       <div class="w-full flex flex-wrap mx-auto">
         <div class="flex mx-auto pb-8 lg:pb-24 lg:px-64">
-          <h1 class="flex text-2xl lg:text-5xl font-bold px-20 text-creavidsTeal capitalize">
+          <h1 class="flex text-2xl lg:text-5xl font-bold px-20 text-creavidsGreen capitalize">
             Agencies we work with
           </h1>
         </div>
@@ -168,14 +168,14 @@
     <section class="w-full lg:my-24">
       <div class="py-8 lg:pb-0 flex flex-wrap lg:py-6 lg:px-32">
         <div class="w-full py12 lg:py-6">
-          <div data-aos="zoom-in" class="text-center lg:px-40">
-            <p class="text-justify text-sm text-gray-600 px-4 lg:text-center lg:text-lg lg:font-bold tracking-wide py-6 captalise ">
+          <div data-aos="zoom-in" class="text-center lg:px-16">
+            <p class="text-justify text-sm text-gray-600 px-4 lg:text-center lg:text-xl lg:font-bold tracking-wide py-6 captalise ">
               All that is left to you is getting the client on-board and we
               take care of the rest! Wait there’s more.... If you decide to
               book our “multiple video package” we would even offer you a
               discounted budget. Talk to our sales today
             </p>
-            <h1 class="text-2xl lg:text-4xl py-8 font-semibold uppercase text-teal-400">
+            <h1 class="text-2xl lg:text-5xl py-8 font-semibold uppercase text-teal-400">
               LET’S WORK TOGETHER.
             </h1>
             <div class="lg:m-6">
