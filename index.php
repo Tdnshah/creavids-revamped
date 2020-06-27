@@ -71,7 +71,7 @@
                   <img src="./Assets/landingPage/clients/dollars.png" class="mx-auto" alt="money-dollar">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl px-8 text-creavidsDarkGray font-bold">
                     All-inclusive fixed budget cost
                   </h1>
                 </div>
@@ -83,7 +83,7 @@
                   <img src="./Assets/landingPage/clients/hunderd.png" class="mx-auto" alt="assurance-100%">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl px-4 text-creavidsDarkGray font-bold">
                     Your money is safe with us 100% money back guarantee
                   </h1>
                 </div>
@@ -95,7 +95,7 @@
                   <img src="./Assets/landingPage/clients/orignal.png" class="mx-auto" alt="original-videos">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl px-4 text-creavidsDarkGray font-bold">
                     Original content for </br> every video
                   </h1>
                 </div>
@@ -107,7 +107,7 @@
                   <img src="./Assets/landingPage/clients/laptop.png" class="mx-auto" alt="digital-laptop">
                 </div>
                 <div class="text-center">
-                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                  <h1 class="py-1 lg:text-2xl px-4 text-creavidsDarkGray font-bold">
                     Multiple iteration included in the budget
                   </h1>
                 </div>
