@@ -37,7 +37,7 @@
                   </a>
                   <div class="px-6 py-4 border-t border-b border-creavidsTeal">
                     <div class="mb-2"><a :href="blogArticle.id">
-                        <h1 class="font-semibold" :inner-html.prop="blogArticle.Title">
+                        <h1 class="font-semibold" :inner-html.prop="blogArticle.Title | truncate(48)">
                       </a></div>
                   </div>
                   <div class="px-6 py-4 bg-white text-center">
