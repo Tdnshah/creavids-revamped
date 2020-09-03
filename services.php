@@ -110,7 +110,7 @@
           <div class=" flex flex-wrap lg:px-16 py-6 text-center ">
             <div class="w-full py-6 lg:w-1/2 lg:pl-24">
               <!-- <a href="" class="text-white mr-2 mt-5 px-10 py-3 text-lg font-semibold uppercase shadow-xl rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">Process</a> -->
-              <a href="/process.html" class="hover:text-creavidsGreen text-gray-500 mr-2 mt-5 py-8 px-16 lg:py-16 lg:px-32 text-base lg:text-3xl font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Process</a>
+              <a href="/process" class="hover:text-creavidsGreen text-gray-500 mr-2 mt-5 py-8 px-16 lg:py-16 lg:px-32 text-base lg:text-3xl font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Process</a>
 
             </div>
             <div class="w-full py-6 lg:w-1/2 lg:pr-24">

@@ -69,6 +69,9 @@
           </div>
         </div>
       </div>
+      <div class="flex flex-wrap justify-center w-full pt-4 lg:pt-0 text-base text-creavidsDarkGray font-semibold">
+        ©️ 2020 Creavids. All rights reserved.
+      </div>
     </div>
   </footer>
 

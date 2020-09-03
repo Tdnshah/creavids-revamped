@@ -2,6 +2,10 @@
 
 html {
   font-family: "Montserrat", sans-serif;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
   /* background-color: #f7fafc; */
 }
 ::-webkit-scrollbar {
@@ -551,6 +555,13 @@ svg {
 #rowBlog {
     background-image: none;
   }
+ #beferAfter::before {
+   display: none;
+ }
+
+ #beferAfter::after {
+   display: none;
+ }
 
 }
 
@@ -572,6 +583,13 @@ svg {
 #rowBlog {
     background-image: none;
   }
+ #beferAfter::before {
+   display: none;
+ }
+
+ #beferAfter::after {
+   display: none;
+ }
 }
 
 @media only screen and (max-width: 640px) {
@@ -591,6 +609,12 @@ svg {
   #service-section1,
   #rowBlog {
     background: none;
+  }
+  #beferAfter::before{
+    display: none;
+  }
+  #beferAfter::after {
+    display: none;
   }
 }
 
