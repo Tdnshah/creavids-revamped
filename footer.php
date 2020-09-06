@@ -12,8 +12,8 @@
           </a>
           </a>
         </div>
-        <div class="lg:w-1/2 p-8 justify-center">
-          <p class="py-4 text-xl text-creavidsDarkGray font-semibold uppercase">
+        <div class="lg:w-1/2 p-8 lg:px-0 lg:py-8 justify-center">
+          <p class="py-4 text-xl text-creavidsGreen font-semibold uppercase">
             Company
           </p>
           <div class="flex flex-wrap">
@@ -33,9 +33,9 @@
         </div>
       </div>
       <div class="flex flex-wrap lg:w-1/2 mx-auto">
-        <div class="lg:w-1/3 p-8 justify-center hidden lg:block">
+        <div class="lg:w-1/3 p-8 lg:py-8 justify-center hidden lg:block">
           <ul>
-            <p class="py-4 text-xl text-creavidsDarkGray uppercase font-semibold">
+            <p class="py-4 text-xl text-creavidsGreen uppercase font-semibold">
               INDUSTRIES
             </p>
             <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/healthcare">Healthcare</a></li>
@@ -43,12 +43,15 @@
             <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/blockchain">Blockchain</a></li>
           </ul>
         </div>
-        <div class="lg:w-2/3 my-auto">
-          <p class="text-xl p-4 tex text-creavidsDarkGray font-semibold">
-            Lane No. 5 Koregaon Park, Pune - 411001 <br>
+        <div class="lg:w-2/3 p-8">
+          <p class="py-4 text-xl text-creavidsGreen uppercase font-semibold">
+            Contact Us
+          </p>
+          <p class="text-xl tex text-creavidsDarkGray font-semibold">
+            Address: Lane No. 5 Koregaon Park, Pune - 411001 <br>
             Email: info@creavids.co
           </p>
-          <div class="flex flex-wrap">
+          <div class="pt-4 flex flex-wrap">
             <ul class="w-full flex flex-wrap text-creavidsDarkGray text-2xl mx-16 justify-between">
               <li class="">
                 <a href="https://www.facebook.com/creavidsvideo/" target="_blank"><i class="fab fa-facebook-f"></a></i>
