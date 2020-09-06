@@ -13,6 +13,11 @@ html {
     background: transparent; /* make scrollbar transparent */
 }
 
+
+body {
+  overflow-x: hidden
+}
+
 a:hover{
   color: #afe776;
 }
