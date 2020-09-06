@@ -120,7 +120,7 @@
       <!--OurWork-->
       <section class="w-full lg:my-24">
         <div class="w-full flex flex-wrap mx-auto">
-          <div class="flex mx-auto pb-24 px-64">
+          <div class="flex mx-auto py-12 lg:pb-24 lg:px-64">
             <img src="./Assets/landingPage/Landing Page-08.png" class="w-1/2 mx-auto" alt="landing-page-08" />
           </div>
           <div class="w-full px-16 flex flex-wrap">
