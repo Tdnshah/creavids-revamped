@@ -40,7 +40,7 @@
       <!--Scripting Writing-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
-        <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
+        <div data-aos="fade-down-right" class="w-full hidden lg:flex md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
             <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
               <span>Script Writing</span>
@@ -58,6 +58,22 @@
         </div>
         <div data-aos="fade-down-left" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Process_0.3-01-03.png" alt="script-writing" class="mx-auto my-auto w-1/2 h-1/2" />
+        </div>
+        <div data-aos="fade-down-right" class="w-full block lg:hidden md:w-1/2 lg:w-1/2 my-auto flex text-right">
+          <div>
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
+              <span>Script Writing</span>
+            </h1>
+            <p class="teext-base lg:text-xl lg:pl-32 tracking-wide font-medium text-gray-600">
+              Our team lays out to you how they envisage the video to unfold
+              both in narrative and written visuals.
+            </p>
+          </div>
+          <div>
+            <svg class="my-4 mx-8">
+              <polygon fill="#81e6d9" stroke="#81e6d9" stroke-width="1" points="0,10 20,20 20,0"></polygon>
+            </svg>
+          </div>
         </div>
       </section>
       <!--Styles-->
@@ -87,7 +103,7 @@
       <!--Story Boarding Writing Wrong Image Pending-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
-        <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
+        <div data-aos="fade-down-right" class="w-full hidden lg:flex md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
             <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
               <span>Storyboard</span>
@@ -105,6 +121,22 @@
         </div>
         <div data-aos="fade-down-left" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Story board-01.png" alt="storyboarding" class="mx-auto my-auto w-1/2 h-1/2" />
+        </div>
+        <div data-aos="fade-down-right" class="w-full  block lg:hidden md:w-1/2 lg:w-1/2 my-auto flex text-right">
+          <div>
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
+              <span>Storyboard</span>
+            </h1>
+            <p class="text-base lg:text-xl font-medium lg:pl-32 text-justify text-gray-600">
+              This is a frame by frame illustration of the script created
+              using the approved assets
+            </p>
+          </div>
+          <div>
+            <svg class="my-4 mx-8">
+              <polygon fill="#81e6d9" stroke="#81e6d9" stroke-width="1" points="0,10 20,20 20,0"></polygon>
+            </svg>
+          </div>
         </div>
       </section>
       <!--Voice Over-->
@@ -134,7 +166,7 @@
       <!--Animation-->
       <section data-aos="fade-down" class="flex flex-wrap py-6 relative">
         <div class="divider hidden lg:block"></div>
-        <div data-aos="fade-down-right" class="w-full md:w-1/2 lg:w-1/2 my-auto flex text-right">
+        <div data-aos="fade-down-right" class="w-full hidden lg:flex md:w-1/2 lg:w-1/2 my-auto flex text-right">
           <div>
             <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
               <span>Animation</span>
@@ -152,6 +184,22 @@
         </div>
         <div data-aos="fade-down-left" class="w-full md:w- lg:w-1/2 p-0">
           <img src="./Assets/process/Process_0.3-01-06.png" alt="animation" class="mx-auto my-auto w-1/2 h-1/2" />
+        </div>
+        <div data-aos="fade-down-right" class="w-full block lg:hidden md:w-1/2 lg:w-1/2 my-auto flex text-right">
+          <div>
+            <h1 class="text-teal-300 text-xl lg:text-4xl font-bold">
+              <span>Animation</span>
+            </h1>
+            <p class="text-base lg:text-xl lg:pl-32 font-medium tracking-wider text-justify text-gray-600">
+              Your video is coming to life, all the characters are assigned
+              motion and the scenarios change from being static.
+            </p>
+          </div>
+          <div>
+            <svg class="my-4 mx-8">
+              <polygon fill="#81e6d9" stroke="#81e6d9" stroke-width="1" points="0,10 20,20 20,0"></polygon>
+            </svg>
+          </div>
         </div>
       </section>
       <!--Music-->
@@ -209,7 +257,7 @@
 
               <div class="w-full py-6 lg:w-1/2">
                 <div class="text-center my-4">
-                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 px-16 py-8 font-semibold uppercase" style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
+                  <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-lg px-12 lg:px-16 py-8 font-semibold uppercase" style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Talk To Our Experts</a>
                 </div>
               </div>
             </div>

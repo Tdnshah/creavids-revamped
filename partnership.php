@@ -76,30 +76,30 @@
               </div>
             </div>
           </div>
-          <div class="w-full px-16 lg:px-56 lg:pt-24 flex flex-wrap">
-            <div class="lg:w-1/2">
+        </div>
+        <div class="w-full px-16 lg:px-56 lg:pt-24 flex flex-wrap">
+          <div class="lg:w-1/2">
+            <div>
               <div>
-                <div>
-                  <img src="./Assets/partnership/sections/Partnership-04.png" class="mx-auto h-64" alt="transfer-copyrights">
-                </div>
-                <div class="text-center">
-                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                    Transfer of Copyrights
-                  </h1>
-                </div>
+                <img src="./Assets/partnership/sections/Partnership-04.png" class="mx-auto h-64" alt="transfer-copyrights">
+              </div>
+              <div class="text-center">
+                <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                  Transfer of Copyrights
+                </h1>
               </div>
             </div>
-            <div class="lg:w-1/2">
+          </div>
+          <div class="lg:w-1/2">
+            <div>
               <div>
-                <div>
-                  <img src="./Assets/partnership/sections/Partnership-09.png" class="mx-auto h-64" alt="hd-video">
-                </div>
-                <div class="text-center">
-                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                    High-Resolution
-                    final video
-                  </h1>
-                </div>
+                <img src="./Assets/partnership/sections/Partnership-09.png" class="mx-auto h-64" alt="hd-video">
+              </div>
+              <div class="text-center">
+                <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                  High-Resolution
+                  final video
+                </h1>
               </div>
             </div>
           </div>

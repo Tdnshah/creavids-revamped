@@ -12,24 +12,24 @@
           </a>
           </a>
         </div>
-        <div class="lg:w-1/4 p-8 justify-center">
-          <ul>
-            <p class="py-4 text-xl text-creavidsDarkGray font-semibold uppercase">
-              Company
-            </p>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/about"><img src="/Assets/footer/About.svg" class="mr-2 -ml-2 -mt-2 h-10" alt="about-icon"> About</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/process"><img src="/Assets/footer/Process.svg" class="mr-4  -mt-1 -ml-2 w-8 h-10" alt="process-icon">Process</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/explore"><img src="/Assets/footer/Explore.svg" class="mr-4  -mt-2 -ml-2 w-8 h-10" alt="explore-icon">Explore</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/services"><img src="/Assets/footer/Service.svg" class="mr-4 -mt-2 -ml-3 w-8 h-10" alt="service-icon"> Service</a></li>
-          </ul>
-        </div>
-        <div class="lg:w-1/4 pt-20 mt-2 pl-8 justify-center">
-          <ul>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/partnership"><img src="/Assets/footer/Agencies.svg" class="mt-2 mr-4 w-6 h-6" alt="agencies-icon">Partnership</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/"><img src="/Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="learn-icon">Learn</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/faq"><img src="/Assets/footer/FAQ.svg" class="mt-2 mr-4 w-6 h-6" alt="FAQ-icon">FAQ</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/blog"><img src="/Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="blog-icon">Blog</a></li>
-          </ul>
+        <div class="lg:w-1/2 p-8 justify-center">
+          <p class="py-4 text-xl text-creavidsDarkGray font-semibold uppercase">
+            Company
+          </p>
+          <div class="flex flex-wrap">
+            <ul class="">
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/about"><img src="/Assets/footer/About.svg" class="mr-2 -ml-2 -mt-2 h-10" alt="about-icon"> About</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/process"><img src="/Assets/footer/Process.svg" class="mr-4  -mt-1 -ml-2 w-8 h-10" alt="process-icon">Process</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/explore"><img src="/Assets/footer/Explore.svg" class="mr-4  -mt-2 -ml-2 w-8 h-10" alt="explore-icon">Explore</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/services"><img src="/Assets/footer/Service.svg" class="mr-4 -mt-2 -ml-3 w-8 h-10" alt="service-icon"> Service</a></li>
+            </ul>
+            <ul class="lg:ml-8">
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/partnership"><img src="/Assets/footer/Agencies.svg" class="mt-2 mr-4 w-6 h-6" alt="agencies-icon">Partnership</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/"><img src="/Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="learn-icon">Learn</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/faq"><img src="/Assets/footer/FAQ.svg" class="mt-2 mr-4 w-6 h-6" alt="FAQ-icon">FAQ</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/blog"><img src="/Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="blog-icon">Blog</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="flex flex-wrap lg:w-1/2 mx-auto">

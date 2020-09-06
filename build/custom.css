@@ -537,6 +537,7 @@ svg {
    background-repeat: no-repeat;
    background-position: right;
    background-size: 60rem;
+   height: 100vh;
  }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
