@@ -13,7 +13,7 @@
 
     <section class="w-full lg:h-screen bg-no-repeat bg-contain bg-center flex flex-wrap relative" id="service-section1">
       <div class="w-full lg:w-8/12 py-8 lg:py-40">
-        <h1 class="text-teal-400 font-bold text-xl lg:text-6xl lg:pl-12">Here's what client's <br> love about creavids</h1>
+        <h1 class="text-teal-400 font-bold text-xl text-center lg:text-left lg:text-6xl lg:pl-12">Here's what client's <br> love about creavids</h1>
       </div>
     </section>
 
