@@ -72,9 +72,17 @@
           </div>
         </div>
       </div>
-      <div class="flex flex-wrap justify-center w-full pt-4 lg:pt-0 text-base text-creavidsDarkGray font-semibold">
-        ©️ 2020 Creavids. All rights reserved.
+      <div class="flex flex-wrap w-full">
+        <div class="mx-auto pt-4 lg:pt-0 text-base text-creavidsDarkGray font-thin">
+          <a href="/privacypolicy">Privacy Policy</a> | <a href="/termsofuse">Terms Of Use</a>
+        </div>
       </div>
+      <div class="flex flex-wrap w-full">
+        <div class="mx-auto pt-4 lg:pt-0 text-base text-creavidsDarkGray font-thin">
+          ©️ 2020 Creavids. All rights reserved.
+        </div>
+      </div>
+
     </div>
   </footer>
 

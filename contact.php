@@ -1,7 +1,7 @@
 <?php include('./header.php') ?>
 
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
-  <?php include "./sendMail.php" ?>
+  <?php include('./sendMail.php') ?>
   <main class="lg:pt-20">
     <section class="items-center h-full" style="background:url('./Assets/contact/Contact-bg.png'),linear-gradient(90deg, #41e1f2 0%, #AFE776 100%); background-repeat: no-repeat,no-repeat; background-size: cover,cover;background-position: center,center;">
       <section class="flex flex-wrap">
@@ -43,10 +43,9 @@
               </input>
             </form>');
               } elseif (!$newPage && $messageSuccessful) {
-
                 echo ("<p class='text-center text-xl p-4 text-creavidsGreen font-semibold'>Thank you for contacting Creavids.co. <br> You Message has been successfully send and our executive will connect with you soon.");
               } elseif (!$newPage && $messageFailed) {
-                '<p class="text-center text-red-600 text-xl"> Seems Like something went wrong please try again</p>
+                echo ('<p class="text-center text-red-600 text-xl"> Seems Like something went wrong please try again</p>
               <form action="" method="POST" class="p-6">
               <input type="hidden" name="formName" value="contactusForm">
               <input type="text" class="py-4 px-2  my-4 w-full border-b-4 border-teal-400 font-hairline text-xl focus:outline-none" name="name" placeholder="Name" />
@@ -72,7 +71,7 @@
 
               <input id="send" name="submit" type="submit" value="submit" class="lg:w-1/2 lg:text-5xl lg:ml-40 uppercase p-2 mt-5 text-xl tracking-widest text-white shadow-2xl hover:font-bold" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
               </input>
-            </form>';
+            </form>');
               }
               ?>
             </div>
