@@ -233,6 +233,106 @@
           <div class="text-center">
             <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
           </div>
+        </div>
+      </section>
+
+      <!-- Testimonial -->
+      <section class="w-full lg:my-16 my-16">
+        <div class="w-full mx-auto">
+          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
+            Client Testimonial
+          </h1>
+          <div class="gallery">
+            <div class="gallery-container">
+              <!--<div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="p-10 pb-5">
+                  <div class="flex items-center">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                    <div class="text-sm">
+                      <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Joel Flaker</h1>
+                      <h4 class="text-sm text-creavidsDarkGray" id="designation">CEO & Founder at Suncrest Solutions</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-10">
+                  <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
+                    Final output and satisfaction were my major concerns before opting to work with Creavids. Their
+                    ability to understand the purpose of the video and the use of creativity is simply amazing!!
+                  </p>
+                </div>
+              </div>-->
+              <!--<div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="p-10 pb-5">
+                  <div class="flex items-center">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                    <div class="text-sm">
+                      <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mieke Marple</h1>
+                      <h4 class="text-sm text-creavidsDarkGray" id="designation">Freelance Artist</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-10">
+                  <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
+                    Process-driven approach along with professionalism stands out for Creavids. Extremely happy
+                    with the way they handhold you during production, I never realised that I was producing a video
+                    for the first time. They are simply awesome and I highly recommend them for all your video
+                    production needs.
+                  </p>
+                </div>
+              </div>-->
+              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="p-10 pb-5">
+                  <div class="flex items-center">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Heidi_Link.jpg" alt="Avatar of Jonathan Reinink">
+                    <div class="text-sm">
+                      <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Heidi Link</h1>
+                      <h4 class="text-sm text-creavidsDarkGray" id="designation">Art Director at Ungerboeck`</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-10">
+                  <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
+                    Full-service, professional animation video production company. They ace it when it comes to
+                    collaboration, communication, adherence to timelines and output quality.
+                  </p>
+                </div>
+              </div>
+              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="p-10 pb-5">
+                  <div class="flex items-center">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Lindsey_Rogerson.jpg" alt="Avatar of Jonathan Reinink">
+                    <div class="text-sm">
+                      <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Lindsey Rogerson</h1>
+                      <h4 class="text-sm text-creavidsDarkGray" id="designation">Technical Content Developer at MetricFire</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-10">
+                  <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
+                    A very responsive design team that focuses on realizing the exact image in the client's head. My request was very detailed and I requested many improvements and changes. Creavids completed every request I made and made the exact video that I wanted. Thank you!
+                  </p>
+                </div>
+              </div>
+              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="p-10 pb-5">
+                  <div class="flex items-center">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Mark_Hickinbotham.jpg" alt="Avatar of Jonathan Reinink">
+                    <div class="text-sm">
+                      <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mark Hickinbotham</h1>
+                      <h4 class="text-sm text-creavidsDarkGray" id="designation">President at Sawcross, Inc</h4>
+                    </div>
+                  </div>
+                </div>
+                <div class="px-10">
+                  <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
+                    Great people and great products. A Good company that aced all apartments during the entire production phase.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-controls"></div>
+          </div>
+        </div>
       </section>
     </section>
   </main>

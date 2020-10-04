@@ -1,5 +1,6 @@
-  <script src="/build/animation/aos.js"></script>
+  <script type="text/javascript" src="/build/animation/aos.js"></script>
   <script type="text/javascript" src="/build/customScript.js"></script>
+  <script type="text/javascript" src="/build/testimonial/carousel.js"></script>
   <footer>
     <div class="flex flex-wrap shadow-crevidsShadowFooter">
       <div class="flex flex-wrap lg:w-1/2">
@@ -74,7 +75,7 @@
       </div>
       <div class="flex flex-wrap w-full">
         <div class="mx-auto pt-4 lg:pt-0 text-base text-creavidsDarkGray font-thin">
-          <a href="/privacypolicy">Privacy Policy</a> | <a href="/termsofuse">Terms Of Use</a>
+          <a href="/sitemap.xml">Sitemap</a> | <a href="/privacypolicy">Privacy Policy</a> | <a href="/termsofuse">Terms Of Use</a>
         </div>
       </div>
       <div class="flex flex-wrap w-full">
