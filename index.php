@@ -223,23 +223,10 @@
           </div>
         </div>
       </section>
-
-      <!--Consult Now For -->
-      <section class="w-full lg:my-24 my-16">
-        <div class="w-full mx-auto">
-          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
-            Consult Now For<br />Custom Tailored Projects
-          </h1>
-          <div class="text-center">
-            <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
-          </div>
-        </div>
-      </section>
-
       <!-- Testimonial -->
-      <section class="w-full lg:my-16 my-16">
+      <section class="w-full lg:my-16 my-4">
         <div class="w-full mx-auto">
-          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
+          <h1 class="lg:pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
             Client Testimonial
           </h1>
           <div class="gallery">
@@ -280,8 +267,8 @@
                   </p>
                 </div>
               </div>-->
-              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
-                <div class="p-10 pb-5">
+              <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
                     <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Heidi_Link.jpg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
@@ -290,15 +277,15 @@
                     </div>
                   </div>
                 </div>
-                <div class="px-10">
+                <div class="lg:px-10 px-4 pb-4">
                   <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
                     Full-service, professional animation video production company. They ace it when it comes to
                     collaboration, communication, adherence to timelines and output quality.
                   </p>
                 </div>
               </div>
-              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
-                <div class="p-10 pb-5">
+              <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
                     <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Lindsey_Rogerson.jpg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
@@ -307,14 +294,14 @@
                     </div>
                   </div>
                 </div>
-                <div class="px-10">
+                <div class="lg:px-10 px-4 pb-4">
                   <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
                     A very responsive design team that focuses on realizing the exact image in the client's head. My request was very detailed and I requested many improvements and changes. Creavids completed every request I made and made the exact video that I wanted. Thank you!
                   </p>
                 </div>
               </div>
-              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
-                <div class="p-10 pb-5">
+              <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+                <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
                     <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Mark_Hickinbotham.jpg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
@@ -323,7 +310,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="px-10">
+                <div class="lg:px-10 px-4 pb-4">
                   <p class=" text-creavidsDarkGray text-sm font-medium" id="description">
                     Great people and great products. A Good company that aced all apartments during the entire production phase.
                   </p>
@@ -331,6 +318,17 @@
               </div>
             </div>
             <div class="gallery-controls"></div>
+          </div>
+        </div>
+      </section>
+      <!--Consult Now For -->
+      <section class="w-full lg:my-24 my-16">
+        <div class="w-full mx-auto">
+          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
+            Consult Now For<br />Custom Tailored Projects
+          </h1>
+          <div class="text-center">
+            <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
           </div>
         </div>
       </section>

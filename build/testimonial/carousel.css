@@ -196,3 +196,31 @@
 .reducedFont {
   font-size: 10%;
 }
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .gallery-container{
+    margin:10px;
+    height: 350px;
+
+  }
+  .gallery-item.gallery-item-previous,
+  .gallery-item.gallery-item-next{
+    opacity: 0;
+  }
+
+  .gallery-item.gallery-item-selected{
+    width: fit-content;
+    height: fit-content;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+}

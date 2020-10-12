@@ -4,7 +4,7 @@
   <footer>
     <div class="flex flex-wrap shadow-crevidsShadowFooter">
       <div class="flex flex-wrap lg:w-1/2">
-        <div class="lg:w-1/2 p-12 justify-center my-auto">
+        <div class="lg:w-1/2 p-12 justify-center my-auto sm:mx-auto">
           <a href="/">
             <img src="/Assets/staticLogo.png" class="w-1/3 mx-auto" alt="creavids-logo" />
             <p class="text-sm text-center p-4 text-creavidsDarkGray font-semibold">
@@ -13,7 +13,7 @@
           </a>
           </a>
         </div>
-        <div class="lg:w-1/2 p-8 lg:px-0 lg:py-8 justify-center">
+        <div class="lg:w-1/2 p-8 lg:px-0 lg:py-8 justify-center sm:mx-auto">
           <p class="py-4 text-xl text-creavidsGreen font-semibold uppercase">
             Company
           </p>
