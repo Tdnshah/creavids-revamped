@@ -62,7 +62,7 @@ if (isset($_POST["submit"])) {
   $header .= "Content-type: text/html\r\n";
 
   $retval = mail($to, $subject, $message, $header);
-  var_dump($retval);
+
   if ($retval == TRUE) {
     $newPage = FALSE;
     $messageSuccessful = TRUE;
