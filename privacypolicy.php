@@ -4,7 +4,7 @@
   <main class="w-full lg:pt-24 items-center">
     <section class="mx-auto w-2/3 pt-20 py-16">
       <div class="w-full">
-        <h1 class="text-6xl text-gray-800 font-bold font-sans py-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Privacy Policy</h1>
+        <h1 class="text-6xl text-gray-800 font-bold font-sans py-6" data-aos="fade-up" data-aos-anchor-placement="top-bottom">Privacy Policy Testing Git Hub Actions</h1>
         <hr>
         <div id="blogmd" data-aos="fade-in" data-aos-duration="2000">
           <p>
