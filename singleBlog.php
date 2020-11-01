@@ -4,6 +4,7 @@
   <main class="">
     <div id="app">
       <div class="flex items-center justify-center h-screen" id="loader" v-if="loader">
+      <?php var_dump($_GET) ?>
         <svg>
           <g>
             <path d="M 50,100 A 1,1 0 0 1 50,0" />
@@ -22,7 +23,7 @@
       <div v-else>
         <section class="mx-auto w-2/3 pt-20 py-16">
           <div class="w-full">
-            <h1 class="text-5xl text-gray-800 font-bold font-sans py-6"> {{ blogSingleArticle.Title }}</h1>
+            <h1 class="text-5xl text-gray-800 font-bold font-sans py-6"> {{ blogSingleArticle[0].Title }}</h1>
             <div class="flex flex-wrap justify-between">
               <div class="p-4 pl-0">
                 <p class="text-gray-800">
@@ -54,12 +55,12 @@
                 </div>
               </div>
             </div>
-            <h4 class="text-lg text-gray-700 font-sans py-2" v-if="blogSingleArticle.description">
-              {{ blogSingleArticle.description }}
+            <h4 class="text-lg text-gray-700 font-sans py-2" v-if="blogSingleArticle[0].description">
+              {{ blogSingleArticle[0].description }}
             </h4>
-            <div id="blogmd" v-html="$options.filters.marked(blogSingleArticle.Body)">
+            <div id="blogmd" v-html="$options.filters.marked(blogSingleArticle[0].Body)">
             </div>
-            <div id="videoComponent" class="py-2" v-for="videocomponent in  blogSingleArticle.VideoSection">
+            <div id="videoComponent" class="py-2" v-for="videocomponent in  blogSingleArticle[0].VideoSection">
               <h1 class="text-center text-creavidsDarkGray text-4xl font-bold font-sans"> {{ videocomponent.VideoTitle }}</h1>
               <iframe :src="videocomponent.VideoLink" class="my-4" width="100%" height="360" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
               <div id="blogmd" v-html="$options.filters.marked(videocomponent.VideoBody)">
@@ -112,39 +113,42 @@
         relatedBlogArticle: [],
         blogSingleArticle: [],
         loader: true,
-        postId: <?php echo $_REQUEST['param1'] ?>,
+        postId: '<?php echo $_REQUEST['param1'] ?>',
         api_url: '<?php echo getenv('CREAVIDS_API_URI') ?>'
       },
       computed: {
         getCreatedDate: function() {
-          if (this.blogSingleArticle) {
-            var publishedDate = new Date(this.blogSingleArticle.created_at);
+          if (this.blogSingleArticle[0]) {
+            var publishedDate = new Date(this.blogSingleArticle[0].created_at);
             return publishedDate.toDateString()
           }
         }
       },
       methods: {
         loadSingleBlogArticle: async function() {
-          await axios.get(this.api_url + '/blogs/' + this.postId)
+          await axios.get(this.api_url + '/blogs/?slug=' + this.postId)
             .then(function(response) {
               this.loader = false;
               this.blogSingleArticle = response.data;
-              document.title = "Creavids | " + this.blogSingleArticle.Title;
+              document.title = "Creavids | " + this.blogSingleArticle[0].Title;
               this.loadRelatedBlogArticle();
             }.bind(this))
         },
         loadRelatedBlogArticle: async function() {
-          await axios.get(this.api_url + '/blogs/?categories.categoryname_eq=' + this.blogSingleArticle.categories[0].categoryname)
+          if(this.blogSingleArticle[0].categories.length != 0){
+            await axios.get(this.api_url + '/blogs/?categories.categoryname_eq=' + this.blogSingleArticle[0].categories[0].categoryname)
             .then(function(response) {
               this.loader = false;
               this.showAllPost = true;
+              console.log(response);
               var relatedPostExcludingSelf = response.data.filter(
                 function(relatedPosts) {
-                  return relatedPosts.id != <?php echo $_REQUEST['param1'] ?>;
+                  return relatedPosts.slug != '<?php echo $_REQUEST['param1'] ?>';
                 }
               )
               this.relatedBlogArticle = relatedPostExcludingSelf;
             }.bind(this))
+          }
         },
 
       },

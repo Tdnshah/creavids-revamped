@@ -36,12 +36,12 @@
                     <img class="w-full" :src="api_url + blogArticle.FeaturedImage.url" :alt="blogArticle.FeaturedImage.name">
                   </a>
                   <div class="px-6 py-4 border-t border-b border-creavidsTeal">
-                    <div class="mb-2"><a :href="blogArticle.id">
+                    <div class="mb-2"><a :href="blogArticle.slug">
                         <h1 class="font-semibold" :inner-html.prop="blogArticle.Title | truncate(48)">
                       </a></div>
                   </div>
                   <div class="px-6 py-4 bg-white text-center">
-                    <a :href="'/singleBlog/' + blogArticle.id" class="mr-2 mt-5 px-4 py-1 no-underline hover:underline text-blue-500 text-base border-2 border-teal-300 hover:shadow-outline rounded-full">Read More</a>
+                    <a :href="'/singleBlog/' + blogArticle.slug" class="mr-2 mt-5 px-4 py-1 no-underline hover:underline text-blue-500 text-base border-2 border-teal-300 hover:shadow-outline rounded-full">Read More</a>
                   </div>
                 </div>
               </div>
@@ -72,6 +72,7 @@
           axios.get(this.api_url + '/blogs').then(function(response) {
             this.loader = false;
             this.blogArticles = (response.data)
+            console.log(this.blogArticles);
           }.bind(this))
         },
       },
