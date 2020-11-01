@@ -1,87 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>https://creavids.co/</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://creavids.co/process</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/about</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/explore</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/contact</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/services</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/partnership</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/faq</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/blog</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/healthcare</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/manufacturing</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/blockchain</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/privacypolicy</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/termsofuse</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://creavids.co/404/</loc>
-  <lastmod>2020-09-27T21:04:42+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
-</urlset>
+<?xml version='1.0' encoding='UTF-8'?><urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
+<url><loc>https://creavids.co/</loc></url>
+<url><loc>https://creavids.co/about</loc></url>
+<url><loc>https://creavids.co/blockchain</loc></url>
+<url><loc>https://creavids.co/blog</loc></url>
+<url><loc>https://creavids.co/contact</loc></url>
+<url><loc>https://creavids.co/explore</loc></url>
+<url><loc>https://creavids.co/faq</loc></url>
+<url><loc>https://creavids.co/healthcare</loc></url>
+<url><loc>https://creavids.co/manufacturing</loc></url>
+<url><loc>https://creavids.co/partnership</loc></url>
+<url><loc>https://creavids.co/privacypolicy</loc></url>
+<url><loc>https://creavids.co/process</loc></url>
+<url><loc>https://creavids.co/questionarie</loc></url>
+<url><loc>https://creavids.co/services</loc></url>
+<url><loc>https://creavids.co/singleBlog/why-you-need-an-e-learning-video-too-</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-video-examples-for-the-education-industry</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/best-explainer-videos-for-b2-c-businesses</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-brilliant-video-examples-that-explain-block-chain-technology</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/here-s-how-organizations-use-explainer-videos-to-enthrall-audiences-at-business-conferences</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/best-animated-video-examples-for-company-overview</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-engaging-explainer-video-examples-for-company-website-overview</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-impactful-2d-explainer-video-examples-used-in-the-food-and-beverage-industry</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-captivating-2d-infographic-style-business-explainer-video-examples</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-creative-video-examples-for-the-retail-and-lifestyle-industry</loc></url></urlset>
+<url><loc>https://creavids.co/singleBlog/10-amazing-2d-explainer-video-examples-for-the-travel-industry</loc></url></urlset>
