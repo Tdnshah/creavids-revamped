@@ -4,7 +4,6 @@
   <main class="">
     <div id="app">
       <div class="flex items-center justify-center h-screen" id="loader" v-if="loader">
-      <?php var_dump($_GET) ?>
         <svg>
           <g>
             <path d="M 50,100 A 1,1 0 0 1 50,0" />
@@ -75,12 +74,12 @@
             <div class="sm:full md:1/2 lg:w-2/6 overflow-hidden my-4 px-2 h-auto" v-for="relatedPost in relatedBlogArticle">
               <p class="py-2">Related reads</p>
               <div>
-                <a :href="'/singleBlog/' + relatedPost.id" class="">
+                <a :href="'/singleBlog/' + relatedPost.slug" class="">
                   <img class="w-full h-56" :src="api_url + relatedPost.FeaturedImage.url" :alt="relatedPost.FeaturedImage.name">
                 </a>
                 <div class="py-4">
                   <div class="mb-2">
-                    <a :href="'/singleBlog/' + relatedPost.id">
+                    <a :href="'/singleBlog/' + relatedPost.slug">
                       <h1 class="text-xl" :inner-html.prop="relatedPost.Title"></h1>
                     </a>
                   </div>
