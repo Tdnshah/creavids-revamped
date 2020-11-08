@@ -29,31 +29,31 @@ if (isset($_POST["submit"])) {
   }
   elseif ($formName == 'questionarieForm') {
     $subject = "Video Brife Questionnarie From " . $_POST['name'];
+    $email = $_POST['email'];
     $name = $_POST['name'];
     $website = $_POST['website'];
     $purpose = $_POST['purpose'];
     $videoStyle = $_POST['videoStyle'];
     $videoSec = $_POST['videoSec'];
-    $product_solution = $_POST['product-solution'];
-    $brief_about_product = $_POST['brief-about-product'];
+    $product_solution = $_POST['product_solution'];
+    $brief_about_product = $_POST['brief_about_product'];
     $moodOfVideo = $_POST['moodOfVideo'];
-    $audience = $_POST['audience'];
-    $sees = $_POST['sees'];
-    $targetSegment = $_POST['targetSegment'];
+    $audience = implode(',', $_POST['audience']);
+    $sees = implode(',', $_POST['sees']);
+    $targetSegment = implode(',', $_POST['targetSegment']);
     $whatCustomProspects = $_POST['whatCustomProspects'];
     $voice_over = $_POST['voice-over'];
-    $voice_accent = $_POST['voice-accent'];
+    $voice_accent = $_POST['accent'];
     $background_music = $_POST['background-music'];
     $terms_of_video = $_POST['terms-of-video'];
-    $brand_tagline = $_POST['brand_tagline'];
+    $brand_tagline = $_POST['brand-tagline'];
     $call_to_action = $_POST['call-to-action'];
     $call_to_action_if_yes = $_POST['call-to-action-if-yes'];
     $reference_video = $_POST['reference-video'];
     $offering_better = $_POST['offering-better'];
     $competitors = $_POST['competitors'];
     $did_we_miss_something = $_POST['did_we_miss_something'];
-
-    $message = "Hi Creavids, You have got a video brief questionnarie submitted by " . $name . "there company webiste is " . $website . " below are the answers of the question in the form: <br> 1. What is the purpose of this video? (In one line why are you having this video created and what do you hope to accomplish?)? <br> Answer: " . $purpose . "<br> 2. What video style you are looking for? <br> Answer: " . $video_style . ". <br> 3. How long do you anticipate your video to be? <br> Answer: " . $videoSec . ". <br> 4. Product / Solution is for...? <br> Answer: " . $product_solution . ". <br> 5.Brief about the Product / Solution / Service / Concept? <br> Answer: " . $brief_about_product . ".<br> 6.Mood of the video – Businesslike/Humorous etc (you can choose multiple Moods)? <br> Answer: " . $moodOfVideo . " .<br> 7. Where is your audience? <br> Answer: " . $audience . ". <br> 7.Who sees the video? <br> Answer: " . $sees . " .<br> 8. Target segment age group? <br> Answer: "  . $targetSegment . ". <br> 9. What do your customers / prospects / audience want the most? <br> Answer: " . $whatCustomProspects . " . <br> 10. Do you need a voice-over for this video? <br> Answer: " . $voice_over . " .<br> 11. If yes, which voice accent do you prefer? <br> Answer: " . $voice_accent . " . <br> 12. Do you want background music in your video? <br> Answer: " . $background_music . " . <br> 13. Any “do’s and don’ts” in terms of the video? <br> Answer: " . $terms_of_video . " . <br> 14. Any brand tagline or slogan that you’d like to include in the video? <br> Answer: " . $brand_tagline . " . <br> 15. Do you have a call-to-action that you’d like to include? <br> Answer: " . $call_to_action . " . <br> 16. If Yes, the call-to-action will be...? <br> Answer: " . $call_to_action_if_yes . " . <br> 17. Is there any reference videos or styles that you would like us to refer for this production? <br> Answer: " . $reference_video . " . <br> 18. To know your offering better please suggest any other web link we should refer to? <br> Answer:  " . $offering_better . " . <br> 19. Name two of your direct competitors. <br> Answer: " . $company_website . " . <br> 20. Did we miss something? <br> Answer: " . $did_we_miss_something . ".  <br> <strong> Thank You </strong>";
+    $message = "Hi Creavids, You have got a video brief questionnarie submitted by " . $name . "there company webiste is " . $website . " and email id of the contactor is " . $email . " & below are the answers of the question in the form: <br> 1. What is the purpose of this video? (In one line why are you having this video created and what do you hope to accomplish?)? <br> Answer: " . $purpose . "<br> 2. What video style you are looking for? <br> Answer: " . $video_style . ". <br> 3. How long do you anticipate your video to be? <br> Answer: " . $videoSec . ". <br> 4. Product / Solution is for...? <br> Answer: " . $product_solution . ". <br> 5.Brief about the Product / Solution / Service / Concept? <br> Answer: " . $brief_about_product . ".<br> 6.Mood of the video – Businesslike/Humorous etc (you can choose multiple Moods)? <br> Answer: " . $moodOfVideo . " .<br> 7. Where is your audience? <br> Answer: " . $audience . ". <br> 7.Who sees the video? <br> Answer: " . $sees . " .<br> 8. Target segment age group? <br> Answer: "  . $targetSegment . ". <br> 9. What do your customers / prospects / audience want the most? <br> Answer: " . $whatCustomProspects . " . <br> 10. Do you need a voice-over for this video? <br> Answer: " . $voice_over . " .<br> 11. If yes, which voice accent do you prefer? <br> Answer: " . $voice_accent . " . <br> 12. Do you want background music in your video? <br> Answer: " . $background_music . " . <br> 13. Any “do’s and don’ts” in terms of the video? <br> Answer: " . $terms_of_video . " . <br> 14. Any brand tagline or slogan that you’d like to include in the video? <br> Answer: " . $brand_tagline . " . <br> 15. Do you have a call-to-action that you’d like to include? <br> Answer: " . $call_to_action . " . <br> 16. If Yes, the call-to-action will be...? <br> Answer: " . $call_to_action_if_yes . " . <br> 17. Is there any reference videos or styles that you would like us to refer for this production? <br> Answer: " . $reference_video . " . <br> 18. To know your offering better please suggest any other web link we should refer to? <br> Answer:  " . $offering_better . " . <br> 19. Name two of your direct competitors. <br> Answer: " . $competitors . " . <br> 20. Did we miss something? <br> Answer: " . $did_we_miss_something . ".  <br> <strong> Thank You </strong>";
   }
 
   $to = 'info@creavids.co';
