@@ -231,10 +231,10 @@
           </h1>
           <div class="gallery">
             <div class="gallery-container">
-              <!--<div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="p-10 pb-5">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Joel Flaker</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">CEO & Founder at Suncrest Solutions</h4>
@@ -247,11 +247,11 @@
                     ability to understand the purpose of the video and the use of creativity is simply amazing!!
                   </p>
                 </div>
-              </div>-->
-              <!--<div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
+              </div>
+              <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="p-10 pb-5">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mieke Marple</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">Freelance Artist</h4>
@@ -266,7 +266,7 @@
                     production needs.
                   </p>
                 </div>
-              </div>-->
+              </div>
               <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
