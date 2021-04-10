@@ -188,36 +188,42 @@
         </div>
         <div class="lg:mx-20">
           <div class="px-1">
-            <div class="flex flex-wrap">
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="bajaj"></div>
+            <div class="marquee">
+              <div class="flex marquee-content"> 
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="bajaj"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="gharda"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="spenn"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="board"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="life-hub"></div>
+                </div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="gharda"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="spenn"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="board"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="life-hub"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="dream-factory"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="ungerboeck"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="garadia"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="moovila"></div>
-              </div>
-              <div class="w-full lg:w-1/5 px-1 py-1">
-                <div class="h-56 mx-auto w-1/2" id="virvita"></div>
+            </div>
+            <div class="marquee">
+              <div class="flex marquee-content">
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="dream-factory"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="ungerboeck"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="garadia"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="moovila"></div>
+                </div>
+                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                  <div class="h-56 mx-auto w-1/2" id="virvita"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -234,7 +240,7 @@
               <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="p-10 pb-5">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Joel Flaker</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">CEO & Founder at Suncrest Solutions</h4>
@@ -251,7 +257,7 @@
               <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="p-10 pb-5">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mieke Marple</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">Freelance Artist</h4>
@@ -270,7 +276,7 @@
               <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Heidi_Link.jpg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/Heidi_Link.jpg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Heidi Link</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">Art Director at Ungerboeck`</h4>
@@ -287,7 +293,7 @@
               <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Lindsey_Rogerson.jpg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/Lindsey_Rogerson.jpg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Lindsey Rogerson</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">Technical Content Developer at MetricFire</h4>
@@ -303,7 +309,7 @@
               <div class=" lg:h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="lg:p-10 lg:pb-5 p-4">
                   <div class="flex items-center">
-                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="../Assets/testimonial/Mark_Hickinbotham.jpg" alt="Avatar of Jonathan Reinink">
+                    <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/Mark_Hickinbotham.jpg" alt="Avatar of Jonathan Reinink">
                     <div class="text-sm">
                       <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mark Hickinbotham</h1>
                       <h4 class="text-sm text-creavidsDarkGray" id="designation">President at Sawcross, Inc</h4>
@@ -328,7 +334,7 @@
             Consult Now For<br />Custom Tailored Projects
           </h1>
           <div class="text-center">
-            <a href="/contact" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
+            <a href="./contact" class="hover:text-creavidsGreen text-gray-500 text-xl lg:px-16 lg:py-8 px-12 py-4 font-semibold uppercase " style="background-image: url('./Assets/buttons/button.png');background-size:contain;background-repeat:no-repeat;background-position: center;">Let's Talk</a>
           </div>
         </div>
       </section>

@@ -239,6 +239,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
 }
 
 #gharda {
@@ -246,6 +247,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 
 #spenn {
@@ -253,6 +255,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
 }
 
 #board {
@@ -260,12 +263,14 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 #life-hub {
   background-image: url(../Assets/about/clients/Life-Hub.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
 }
 
 #dream-factory {
@@ -273,6 +278,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 
 #ungerboeck {
@@ -280,6 +286,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
 }
 
 #garadia {
@@ -287,6 +294,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 
 #moovila {
@@ -294,6 +302,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
 }
 
 #virvita {
@@ -301,30 +310,35 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 #scoutapm{
    background-image: url(../Assets/about/clients/scoutapm.png);
    background-position: center center;
    background-repeat: no-repeat;
    background-size: contain;
+   animation: float 4s ease-in-out infinite;
 }
 #Sysplorer {
   background-image: url(../Assets/about/clients/Sysplorer.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 #MetricFire {
   background-image: url(../Assets/about/clients/MetricFire.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
 }
 #gmt_g7 {
   background-image: url(../Assets/about/clients/GMT_G7.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: invfloat 4s ease-in-out infinite;
 }
 
 #Blockbonds {
@@ -332,8 +346,49 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes invfloat {
+  0%{
+    transform: translateY(-40px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-40px);
+  }
+}
+@keyframes float {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(-40px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
 }
 
+.marquee{
+  overflow: hidden;  
+}
+
+.marquee-content{
+}
+
+.marquee-item{
+  animation: scrolling 10s linear infinite;
+
+}
+
+@keyframes scrolling {
+  from { transform: translateX(0px); }
+  
+  to { transform: translateX(-1000px)}; 
+   
+}
 
 #service-section1 {
   background-image: url("./../Assets/services/png/Service\ feature-01.png");
