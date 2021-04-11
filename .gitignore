@@ -8,3 +8,4 @@ git/*
 #custom
 env.php
 .htaccess
+.lando.yml
