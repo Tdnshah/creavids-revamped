@@ -1,4 +1,4 @@
-<?php include('../header.php') ?>
+<?php include('./header.php') ?>
 
 <body>
   <main class="">
@@ -157,4 +157,4 @@
     })
   </script>
 </body>
-<?php include('../footer.php') ?>
+<?php include('./footer.php') ?>
