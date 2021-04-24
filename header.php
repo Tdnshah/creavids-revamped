@@ -5,9 +5,7 @@ $currentPage = str_replace('/', '', $currentPage);
 if ($currentPage == 'index' || $currentPage == '') {
   $currentPage = 'Home';
 }
-$metaDescription = 'We are Creavids, literally meaning creavitve animated video We believe every brand has a story. We work with our clients to help them identify that story and showcase it in the way your target audience will connect with. Our goal is to produce quality content that helps our clients fulfill the purpose that they started the project with.
-
-Being a part of over 1000 videos globally, we are a team of passionate artists. Integrity, flexibility, transparency and of course creativity are some of the things that you can depend upon us for. We are not afraid to put our money where our mouth is, we offer you unlimited edits during the video production process and even refund your money if the product is not worth the buck you paid us. Talk to us about what we can do for you.';
+$metaDescription = 'Creavids is the best animated advertising, explainer video makling company exprtised in character animations, whiteboard animations trusted by industries leaders.';
 $keywords = ['Animated Videos', 'Explainer Videos', 'Educational Videos', 'Commercial Videos', 'Increase Business', 'Marketing Material'];
 
 function echoKeyword($keywords)
