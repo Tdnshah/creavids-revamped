@@ -6,7 +6,7 @@
       <div class="flex flex-wrap lg:w-1/2">
         <div class="lg:w-1/2 p-12 justify-center my-auto sm:mx-auto">
           <a href="">
-            <img src="Assets/staticLogo.png" class="w-1/3 mx-auto" alt="creavids-logo" />
+            <img src="/Assets/staticLogo.png" class="w-1/3 mx-auto" alt="creavids-logo" />
             <p class="text-sm text-center p-4 text-creavidsDarkGray font-semibold">
               Creavids is a boutique video</br> production company.
             </p>
