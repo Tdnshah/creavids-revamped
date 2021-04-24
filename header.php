@@ -32,10 +32,10 @@ function echoKeyword($keywords)
   <meta property="og:image" content="<?php echo getenv('CREAVIDS_SERVER_ENV') ?>Assets/creavids_screenshot.png" />
 
   <title>Creavids | <?php echo ucfirst($currentPage) ?> </title>
-  <link rel="stylesheet" href="build/tailwind.css" />
-  <link rel="stylesheet" href="build/custom.css" />
-  <link rel="stylesheet" href="build/animation/aos.css" />
-  <link rel="stylesheet" href="build/testimonial/carousel.css" />
+  <link rel="stylesheet" href="/build/tailwind.css" />
+  <link rel="stylesheet" href="/build/custom.css" />
+  <link rel="stylesheet" href="/build/animation/aos.css" />
+  <link rel="stylesheet" href="/build/testimonial/carousel.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -77,7 +77,7 @@ function echoKeyword($keywords)
 <header class="lg:bg-white lg:fixed lg:px-16 px-6 bg-white flex flex-wrap items-center lg:w-full lg:py-0 py-2 lg:z-50 shadow-crevidsShadowHeader">
   <div class="flex-1 flex justify-between items-center">
     <div class="flex flex-wrap items-center">
-      <img src="Assets/staticLogo.png" class="p-3	w-20" alt="creavids-logo" />
+      <img src="/Assets/staticLogo.png" class="p-3	w-20" alt="creavids-logo" />
       <a href="/" class="text-3xl text-teal-300 font-hairline">Creavids</a>
     </div>
   </div>
