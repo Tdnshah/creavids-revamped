@@ -1,4 +1,4 @@
-<?php include('./header.php') ?>
+<?php include('header.php') ?>
 
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
   <?php include('./sendMail.php'); ?>
@@ -569,4 +569,4 @@
     });
   </script>
 </body>
-<?php include('./footer.php') ?>
+<?php include('footer.php') ?>

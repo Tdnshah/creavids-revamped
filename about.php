@@ -1,4 +1,4 @@
-<?php include('./header.php'); ?>
+<?php include('header.php'); ?>
 
 <body class="antialiased bg-grey-200 overflow-x-hidden mx-auto">
   <main class="lg:py-20">
@@ -194,4 +194,4 @@
     </section>
   </main>
 </body>
-<?php include('./footer.php'); ?>
+<?php include('footer.php'); ?>

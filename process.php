@@ -1,4 +1,4 @@
-<?php include('./header.php') ?>
+<?php include('header.php') ?>
 
 <body class="antialiased bg-grey-200 mx-auto overflow-x-hidden mx-auto">
   <main class="p-6 lg:pt-20 items-center">
@@ -279,4 +279,4 @@
     </section>
   </main>
 </body>
-<?php include('./footer.php') ?>
+<?php include('footer.php') ?>

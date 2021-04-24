@@ -1,5 +1,5 @@
 <?php
-include('./env.php');
+include('env.php');
 $currentPage = $_SERVER['REQUEST_URI'];
 $currentPage = str_replace('/', '', $currentPage);
 if ($currentPage == 'index' || $currentPage == '') {
