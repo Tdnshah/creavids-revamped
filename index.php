@@ -186,44 +186,61 @@
             </h1>
           </div>
         </div>
-        <div class="lg:mx-20">
-          <div class="px-1">
-            <div class="marquee">
-              <div class="flex marquee-content"> 
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="bajaj"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="gharda"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="spenn"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="board"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="life-hub"></div>
-                </div>
+        <div class="">
+          <div class="marquee">
+            <div class="flex marquee-content"> 
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="bajaj"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="gharda"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="spenn"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="board"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="life-hub"></div>
               </div>
             </div>
-            <div class="marquee">
-              <div class="flex marquee-content">
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="dream-factory"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="ungerboeck"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="garadia"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="moovila"></div>
-                </div>
-                <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                  <div class="h-56 mx-auto w-1/2" id="virvita"></div>
-                </div>
+          </div>
+          <div class="marquee">
+            <div class="flex marquee-content">
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="dream-factory"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="ungerboeck"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="garadia"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="moovila"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="virvita"></div>
+              </div>
+            </div>
+          </div>
+          <div class="marquee">
+            <div class="flex marquee-content">
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="scoutapm"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="gmt_g7"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="MetricFire"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="Sysplorer"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="Blockbonds"></div>
               </div>
             </div>
           </div>

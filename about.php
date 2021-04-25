@@ -135,53 +135,63 @@
           CLIENTS
         </h1>
       </div>
-      <div class="my-2 mx-20">
-        <div class="py-2 px-1">
-          <div class="flex flex-wrap">
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="bajaj"></div>
+      <div class="my-2">
+        <div class="px-1">
+          <div class="marquee">
+            <div class="flex marquee-content"> 
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="bajaj"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="gharda"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="spenn"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="board"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="life-hub"></div>
+              </div>
             </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="gharda"></div>
+          </div>
+          <div class="marquee">
+            <div class="flex marquee-content">
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="dream-factory"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="ungerboeck"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="garadia"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="moovila"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="virvita"></div>
+              </div>
             </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="spenn"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="board"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="life-hub"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="dream-factory"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="ungerboeck"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="garadia"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="moovila"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="virvita"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="scoutapm"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="gmt_g7"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="MetricFire"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="Sysplorer"></div>
-            </div>
-            <div class="w-full lg:w-1/5 px-1 py-1">
-              <div class="h-32 mx-auto lg:w-1/2 hoverAnimation" id="Blockbonds"></div>
+          </div>
+          <div class="marquee">
+            <div class="flex marquee-content">
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="scoutapm"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="gmt_g7"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="MetricFire"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="Sysplorer"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
+                <div class="h-40 mx-auto w-1/2" id="Blockbonds"></div>
+              </div>
             </div>
           </div>
         </div>

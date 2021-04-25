@@ -379,8 +379,7 @@ svg {
 }
 
 .marquee-item{
-  animation: scrolling 10s linear infinite;
-
+  animation: scrolling 20s linear infinite;
 }
 
 @keyframes scrolling {
