@@ -187,7 +187,7 @@
           </div>
         </div>
         <!-- logo slider mobile-->
-        <div class="py-10">
+        <div class="py-10 lg:hidden">
           <div id="mobileSlider">      <!-- Give wrapper ID to target with jQuery & CSS -->
               <div class="MS-content">
                   <div class="item"> <img src="Assets/about/clients/Alliance.png" alt=""> </div>
