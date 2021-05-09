@@ -186,65 +186,111 @@
             </h1>
           </div>
         </div>
-        <div class="">
-          <div class="marquee">
-            <div class="flex marquee-content"> 
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="bajaj"></div>
+        <!-- logo slider mobile-->
+        <div class="py-10">
+          <div id="mobileSlider">      <!-- Give wrapper ID to target with jQuery & CSS -->
+              <div class="MS-content">
+                  <div class="item"> <img src="Assets/about/clients/Alliance.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Assertion.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Bajaj-Finserv.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Board.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/carl.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/coinfirm.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/comtex.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/cubastion.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/d3.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Dream-Factory.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/exxat.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Gharda.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/GMT_G7.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/identity.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Insly.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/insplorion.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/ivaworx.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/keeno.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/main_care.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/meazon.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/MetricFire.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Moovila.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/opti.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/puro.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/qlite.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/rising_phoenix.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/safetymate.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/santex.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/sawcross.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/sciencelogic.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/scoutapm.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/sensorflow.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/sneed.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/spenn.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Underboeck.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/virvite.png" alt=""> </div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="gharda"></div>
+          </div>
+        </div>    
+        <!--Ends logo slider laptop -->
+        <!-- logo slider laptop -->
+        <div class="w-full hidden lg:block">
+          <div id="slider-1">
+            <div class="flex flex-wrap MS-content"> 
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="bajaj"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="spenn"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="gharda"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="board"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="spenn"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="life-hub"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="board"></div>
+              </div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="Assertion"></div>
               </div>
             </div>
           </div>
-          <div class="marquee">
-            <div class="flex marquee-content">
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="dream-factory"></div>
+          <div id="slider-2">
+            <div class="flex flex-wrap MS-content">
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="dream-factory"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="ungerboeck"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="ungerboeck"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="garadia"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="carl"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="moovila"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="moovila"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="virvita"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="virvite"></div>
               </div>
             </div>
           </div>
-          <div class="marquee">
-            <div class="flex marquee-content">
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="scoutapm"></div>
+          <div id="slider-3">
+            <div class="flex flex-wrap MS-content">
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="scoutapm"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="gmt_g7"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="gmt_g7"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="MetricFire"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="MetricFire"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="Sysplorer"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="opti"></div>
               </div>
-              <div class="w-full lg:w-1/5 px-1 py-1 marquee-item">
-                <div class="h-40 mx-auto w-1/2" id="Blockbonds"></div>
+              <div class="w-full lg:w-1/5 px-1 py-1 item">
+                <div class="h-40 mx-auto w-2/3" id="AllianceTek"></div>
               </div>
             </div>
           </div>
         </div>
+        <!--Ends logo slider laptop -->
       </section>
       <!-- Testimonial -->
       <section class="w-full lg:my-16 my-4">
@@ -358,5 +404,4 @@
     </section>
   </main>
 </body>
-
 <?php include('footer.php'); ?>

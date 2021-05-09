@@ -74,12 +74,12 @@
             <div class="sm:full md:1/2 lg:w-2/6 overflow-hidden my-4 px-2 h-auto" v-for="relatedPost in relatedBlogArticle">
               <p class="py-2">Related reads</p>
               <div>
-                <a :href="'/singleBlog/' + relatedPost.slug" class="">
+                <a :href="'singleBlog/' + relatedPost.slug" class="">
                   <img class="w-full h-56" :src="api_url + relatedPost.FeaturedImage.url" :alt="relatedPost.FeaturedImage.name">
                 </a>
                 <div class="py-4">
                   <div class="mb-2">
-                    <a :href="'/singleBlog/' + relatedPost.slug">
+                    <a :href="'singleBlog/' + relatedPost.slug">
                       <h1 class="text-xl" :inner-html.prop="relatedPost.Title"></h1>
                     </a>
                   </div>
@@ -139,7 +139,6 @@
             .then(function(response) {
               this.loader = false;
               this.showAllPost = true;
-              console.log(response);
               var relatedPostExcludingSelf = response.data.filter(
                 function(relatedPosts) {
                   return relatedPosts.slug != '<?php echo $_REQUEST['param1'] ?>';

@@ -41,7 +41,7 @@
                       </a></div>
                   </div>
                   <div class="px-6 py-4 bg-white text-center">
-                    <a :href="'/singleBlog/' + blogArticle.slug" class="mr-2 mt-5 px-4 py-1 no-underline hover:underline text-blue-500 text-base border-2 border-teal-300 hover:shadow-outline rounded-full">Read More</a>
+                    <a :href="'singleBlog/' + blogArticle.slug" class="mr-2 mt-5 px-4 py-1 no-underline hover:underline text-blue-500 text-base border-2 border-teal-300 hover:shadow-outline rounded-full">Read More</a>
                   </div>
                 </div>
               </div>

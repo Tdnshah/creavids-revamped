@@ -226,14 +226,7 @@ svg {
   height: 4px;
 }
 
-/* clients section */
-.hoverAnimation:hover{
-  animation: pulse;
-  /* referring directly to the animation's @keyframe declaration */
-  animation-duration: 2s;
-  /* don't forget to set a duration! */
-}
-
+/* Client Section logo  */
 #bajaj {
   background-image: url(../Assets/about/clients/Bajaj-Finserv.png);
   background-position: center center;
@@ -247,7 +240,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
 
 #spenn {
@@ -263,10 +256,10 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
-#life-hub {
-  background-image: url(../Assets/about/clients/Life-Hub.png);
+#Assertion {
+  background-image: url(../Assets/about/clients/Assertion.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -278,7 +271,7 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
 
 #ungerboeck {
@@ -289,12 +282,12 @@ svg {
   animation: float 4s ease-in-out infinite;
 }
 
-#garadia {
-  background-image: url(../Assets/about/clients/Garadia.png);
+#carl {
+  background-image: url(../Assets/about/clients/carl.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
 
 #moovila {
@@ -305,12 +298,12 @@ svg {
   animation: float 4s ease-in-out infinite;
 }
 
-#virvita {
+#virvite {
   background-image: url(../Assets/about/clients/Virvite.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
 #scoutapm{
    background-image: url(../Assets/about/clients/scoutapm.png);
@@ -319,12 +312,12 @@ svg {
    background-size: contain;
    animation: float 4s ease-in-out infinite;
 }
-#Sysplorer {
-  background-image: url(../Assets/about/clients/Sysplorer.png);
+#opti {
+  background-image: url(../Assets/about/clients/opti.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
 #MetricFire {
   background-image: url(../Assets/about/clients/MetricFire.png);
@@ -338,15 +331,21 @@ svg {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
-  animation: invfloat 4s ease-in-out infinite;
+  /* animation: invfloat 4s ease-in-out infinite; */
 }
 
-#Blockbonds {
-  background-image: url(../Assets/about/clients/Blockbonds.jpg);
+#AllianceTek {
+  background-image: url(../Assets/about/clients/AllianceTek.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
   animation: float 4s ease-in-out infinite;
+}
+.item{
+  z-index: -100;
+}
+.item img{
+  border: none;
 }
 @keyframes invfloat {
   0%{
@@ -369,24 +368,6 @@ svg {
   100%{
     transform: translateY(0px);
   }
-}
-
-.marquee{
-  overflow: hidden;  
-}
-
-.marquee-content{
-}
-
-.marquee-item{
-  animation: scrolling 20s linear infinite;
-}
-
-@keyframes scrolling {
-  from { transform: translateX(0px); }
-  
-  to { transform: translateX(-1000px)}; 
-   
 }
 
 #service-section1 {
@@ -1204,4 +1185,39 @@ pre tt {
     stroke-dasharray: 156px 157px;
     stroke-dashoffset: -156px;
   }
+}
+
+
+
+
+
+#mobileSlider {
+  position: relative;      /* recommended */
+}
+#mobileSlider .MS-content {
+  white-space: nowrap;     /* required */
+  overflow: hidden;        /* required */
+  margin: 0 5%;            /* makes room for L/R arrows */
+}
+#mobileSlider .MS-content .item {
+  display: inline-block;   /* required */
+  width: 50%;              /* required * Determines number of visible slides */
+  position: relative;      /* required */
+  vertical-align: top;     /* required */
+  overflow: hidden;        /* required */
+  height: 100%;            /* recommended */
+  white-space: normal;     /* recommended */
+}
+#mobileSlider .MS-content .item img{
+  border-radius: 0;
+}
+#mobileSlider .MS-controls button {
+  position: absolute;      /* recommended */
+  top: 35px;
+}
+#mobileSlider .MS-controls .MS-left {
+  left: 10px;
+}
+#mobileSlider .MS-controls .MS-right {
+  right: 10px;
 }

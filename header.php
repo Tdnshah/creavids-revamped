@@ -20,6 +20,7 @@ function echoKeyword($keywords)
 <html lang="en">
 
 <head>
+  <base href="<?php echo getenv('CREAVIDS_SERVER_ENV') ?>">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -29,13 +30,13 @@ function echoKeyword($keywords)
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Creavids An Animated Video making Company" />
   <meta property="og:description" content="| Marketing | Media | Animation | Video Making Company |" />
-  <meta property="og:image" content="<?php echo getenv('CREAVIDS_SERVER_ENV') ?>Assets/creavids_screenshot.png" />
+  <meta property="og:image" content="Assets/creavids_screenshot.png" />
 
   <title>Creavids | <?php echo ucfirst($currentPage) ?> </title>
-  <link rel="stylesheet" href="/build/tailwind.css" />
-  <link rel="stylesheet" href="/build/custom.css" />
-  <link rel="stylesheet" href="/build/animation/aos.css" />
-  <link rel="stylesheet" href="/build/testimonial/carousel.css" />
+  <link rel="stylesheet" href="build/tailwind.css" />
+  <link rel="stylesheet" href="build/custom.css" />
+  <link rel="stylesheet" href="build/animation/aos.css" />
+  <link rel="stylesheet" href="build/testimonial/carousel.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,900|Open+Sans&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -58,26 +59,26 @@ function echoKeyword($keywords)
       "url": "https://creavids.co"
     }
   </script>
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/manifest.json">
-  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="favicon/manifest.json">
+  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
 </head>
 <header class="lg:bg-white lg:fixed lg:px-16 px-6 bg-white flex flex-wrap items-center lg:w-full lg:py-0 py-2 lg:z-50 shadow-crevidsShadowHeader">
   <div class="flex-1 flex justify-between items-center">
     <div class="flex flex-wrap items-center">
-      <img src="/Assets/staticLogo.png" class="p-3	w-20" alt="creavids-logo" />
+      <img src="Assets/staticLogo.png" class="p-3	w-20" alt="creavids-logo" />
       <a href="/" class="text-3xl text-teal-300 font-hairline">Creavids</a>
     </div>
   </div>
@@ -91,13 +92,13 @@ function echoKeyword($keywords)
     <nav>
       <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
         <li>
-          <a href="/process" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Process</a>
+          <a href="process" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Process</a>
         </li>
         <li>
-          <a href="/about" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">About</a>
+          <a href="about" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">About</a>
         </li>
         <li>
-          <a href="/explore" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Explore</a>
+          <a href="explore" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Explore</a>
         </li>
         <!-- <li>
           <a href="/services" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Services</a>
@@ -110,7 +111,7 @@ function echoKeyword($keywords)
         </li> -->
       </ul>
     </nav>
-    <a href="/contact" class="lg:ml-4 flex items-center justify-start mb-4
+    <a href="contact" class="lg:ml-4 flex items-center justify-start mb-4
       pointer-cursor text-white mr-2 mt-5 px-4 py-2 font-bold uppercase shadow-xl
       rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
       Request A Quote
