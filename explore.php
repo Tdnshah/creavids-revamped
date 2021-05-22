@@ -597,7 +597,7 @@
           (this.active = ""), (this.active = $index);
           this.exploreVideos.forEach(element => {
             console.log(element);
-            if (element.categories[0].categoryname == $videoCatName) {
+            if (element.categories.categoryname == $videoCatName) {
               this.filteredVideo.push(element);
             }
           });
