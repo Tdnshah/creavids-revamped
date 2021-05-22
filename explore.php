@@ -18,8 +18,8 @@
         <section>
           <div class="flex flex-wrap mx-auto p-5 lg:p-10">
             <ul class="flex flex-wrap mx-auto justify-center">
-              <li class="my-3 lg:my-5" v-for="(catName , index) in this.catName">
-                <a class="border-2 cursor-pointer border-teal-300 text-gray-800 mr-1 lg:mr-2 lg:mt-5 px-1 lg:px-4 py-2 text-xs lg:text-base font-semibold lg:font-bold uppercase hover:shadow-outline rounded-full" :class="{ 'active' : index == active }" v-on:click="filterVideos(catName, index)">{{ catName }}</a>
+              <li class="my-3 lg:my-5" v-for="(item, index) in this.catName">
+                <a class="border-2 cursor-pointer border-teal-300 text-gray-800 mr-1 lg:mr-2 lg:mt-5 px-1 lg:px-4 py-2 text-xs lg:text-base font-semibold lg:font-bold uppercase hover:shadow-outline rounded-full" :class="{ 'active' : index == active }" v-on:click="filterVideos(item.categoryname, index)">{{ item.categoryname }}</a>
               </li>
             </ul>
           </div>
@@ -28,12 +28,12 @@
           <div class="flex flex-wrap mx-auto p-5 lg:p-10" id="videoShowCase">
             <div class="px-2 mb-5 w-full lg:w-4/12" v-if="filteredVideo.length == 0" v-for="(exploreVideo , index) in this.paginated">
               <div class="h-56 bg-teal-200">
-                <iframe class="w-full h-full" :src="getId(exploreVideo.link)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="w-full h-full" :src="getId(exploreVideo.VideoLink)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
             <div class="px-2 mb-5 w-full lg:w-4/12" v-if="filteredVideo.length > 0" v-for="(exploreVideo , index) in this.filteredVideo">
               <div class="h-56 bg-teal-200">
-                <iframe class="w-full h-full" :src="getId(exploreVideo.link)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="w-full h-full" :src="getId(exploreVideo.VideoLink)" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
           </div>
@@ -62,7 +62,7 @@
     var app = new Vue({
       el: "#appexplore",
       data: {
-        exploreVideos: [{
+        exploreVideos1: [{
             link: "https://www.youtube.com/watch?v=dIgHoJrZ3jM",
             catName: "Explainer Videos"
           },
@@ -571,31 +571,14 @@
             catName: "Education Videos"
           }
         ],
-        catName: [
-          "Explainer Videos",
-          "Intro Videos",
-          "App Videos",
-          "Promo Video",
-          "UI / UX Videos",
-          "How-to Videos",
-          "Service Videos",
-          "Infographic Videos",
-          "3D Product Videos",
-          "Educational Videos",
-          "Kinetic Typography",
-          "Social Media Ads",
-          "Landing Page Videos",
-          "3D Walkthrough Video",
-          "Teaser",
-          "Whiteboard",
-          "Minimalistic",
-          "Overview"
-        ],
+        exploreVideos: '',
+        catName: '',
         filteredVideo: [],
         paginated: [],
         loader: true,
         active: 0,
-        index: 1
+        index: 1,
+        api_url: '<?php echo getenv('CREAVIDS_API_URI') ?>',
       },
       methods: {
         getId(url) {
@@ -608,18 +591,22 @@
             return null;
           }
         },
+
         filterVideos($videoCatName, $index) {
           this.filteredVideo = [];
           (this.active = ""), (this.active = $index);
           this.exploreVideos.forEach(element => {
-            if (element.catName == $videoCatName) {
+            console.log(element);
+            if (element.categories[0].categoryname == $videoCatName) {
               this.filteredVideo.push(element);
             }
           });
         },
+        
         showAllVideos() {
           this.filteredVideo = [];
         },
+
         paginate(array, index, size) {
           // transform values
           index = Math.abs(parseInt(index));
@@ -634,13 +621,28 @@
             })
           ];
         },
+        
         letsPage(index) {
-          this.paginated = this.paginate(this.exploreVideos, index, 15);
-          this.index++;
-          var videoShowCaseDiv = document.getElementById("videoShowCase");
-          videoShowCaseDiv.classList.remove("animated");
-          videoShowCaseDiv.classList.remove("fadeInUpBig");
-          videoShowCaseDiv.className += " animated fadeInUpBig";
+          axios.get(this.api_url + '/categories').then(function(response) {
+            this.loader = false;
+            this.catName = response.data
+          }.bind(this));
+          
+          axios.get(this.api_url + '/explore-videos').then(function(response) {
+            this.loader = false;
+            this.exploreVideos = response.data;
+            this.paginated = this.paginate(this.exploreVideos, index, 15);
+            this.index++;
+          
+            var videoShowCaseDiv = document.getElementById("videoShowCase");
+            
+            videoShowCaseDiv.classList.remove("animated");
+            
+            videoShowCaseDiv.classList.remove("fadeInUpBig");
+            
+            videoShowCaseDiv.className += " animated fadeInUpBig";
+            console.log(this.exploreVideos);
+          }.bind(this));
         }
       },
       created() {
