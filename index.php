@@ -190,7 +190,7 @@
         <div class="py-10 lg:hidden">
           <div id="mobileSlider">      <!-- Give wrapper ID to target with jQuery & CSS -->
               <div class="MS-content">
-                  <div class="item"> <img src="Assets/about/clients/Alliance.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/AllianceTek.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Assertion.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Bajaj-Finserv.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Board.png" alt=""> </div>
@@ -206,8 +206,8 @@
                   <div class="item"> <img src="Assets/about/clients/identity.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Insly.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/insplorion.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients/ivaworx.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients/keeno.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/invaworx.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/keeano.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/main_care.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/meazon.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/MetricFire.png" alt=""> </div>
@@ -224,7 +224,7 @@
                   <div class="item"> <img src="Assets/about/clients/sensorflow.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/sneed.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/spenn.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients/Underboeck.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/Ungerboeck.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/virvite.png" alt=""> </div>
               </div>
           </div>

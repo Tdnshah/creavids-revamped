@@ -84,7 +84,14 @@
     </div>
     <script type="text/javascript" src="build/animation/aos.js"></script>
     <script  script type="text/javascript" src="build/customScript.js"></script>
-    <script type="text/javascript" src="build/testimonial/carousel.js"></script>
+    
+    <?php
+      echo $currentPage;
+      if ($currentPage == 'index' || $currentPage == '' || $currentPage == 'Home') {
+        echo '<script type="text/javascript" src="build/testimonial/carousel.js"></script>';
+      }
+     ?>
+    
     <!-- Include jQuery -->
     <script src="build/multislider/js/jquery-2.2.4.min.js"></script>
 

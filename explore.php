@@ -596,8 +596,7 @@
           this.filteredVideo = [];
           (this.active = ""), (this.active = $index);
           this.exploreVideos.forEach(element => {
-            console.log(element);
-            if (element.categories.categoryname == $videoCatName) {
+            if (element.category.categoryname == $videoCatName) {
               this.filteredVideo.push(element);
             }
           });
@@ -641,7 +640,6 @@
             videoShowCaseDiv.classList.remove("fadeInUpBig");
             
             videoShowCaseDiv.className += " animated fadeInUpBig";
-            console.log(this.exploreVideos);
           }.bind(this));
         }
       },
