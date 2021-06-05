@@ -57,7 +57,7 @@
       <!--Heres What Client-->
       <section class="w-full lg:my-24 ">
         <div class="w-full flex flex-wrap mx-auto">
-          <div class="flex mx-auto pb-8 lg:pb-24 lg:px-64">
+          <div class="flex mx-auto pb-8 lg:pb-24">
             <h1 class="flex text-2xl lg:text-5xl font-semibold px-20 text-creavidsDarkGray capitalize">
               Here's What Clients<br>
               Love About Creavids
@@ -180,7 +180,7 @@
       <section class="lg:w-full my-8 lg:my-24">
         <div class="w-full flex flex-wrap mx-auto">
           <div class="mx-auto lg:pb-12">
-            <h1 class="capitalize text-2xl lg:text-5xl font-bold text-creavidsDarkGray lg:px-40 text-center">
+            <h1 class="capitalize text-2xl lg:text-5xl font-bold text-creavidsDarkGray text-center">
               We Collabrate With <br />Ambitious
               Brands and People
             </h1>
@@ -295,7 +295,7 @@
       <!-- Testimonial -->
       <section class="w-full lg:my-16 my-4">
         <div class="w-full mx-auto">
-          <h1 class="lg:pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
+          <h1 class="lg:pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:text-5xl">
             Client Testimonial
           </h1>
           <div class="gallery">
@@ -393,7 +393,7 @@
       <!--Consult Now For -->
       <section class="w-full lg:my-24 my-16">
         <div class="w-full mx-auto">
-          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:px-64 lg:text-5xl">
+          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:text-5xl">
             Consult Now For<br />Custom Tailored Projects
           </h1>
           <div class="text-center">
