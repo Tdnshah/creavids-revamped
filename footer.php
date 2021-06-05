@@ -14,7 +14,7 @@
           <p class="py-4 text-xl text-creavidsGreen font-semibold uppercase">
             Company
           </p>
-          <div class="flex flex-wrap">
+          <div class="flex">
             <ul class="">
               <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="about"><img src="Assets/footer/About.svg" class="mr-2 -ml-2 -mt-2 h-10" alt="about-icon"> About</a></li>
               <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="process"><img src="Assets/footer/Process.svg" class="mr-4  -mt-1 -ml-2 w-8 h-10" alt="process-icon">Process</a></li>
@@ -86,7 +86,6 @@
     <script  script type="text/javascript" src="build/customScript.js"></script>
     
     <?php
-      echo $currentPage;
       if ($currentPage == 'index' || $currentPage == '' || $currentPage == 'Home') {
         echo '<script type="text/javascript" src="build/testimonial/carousel.js"></script>';
       }
