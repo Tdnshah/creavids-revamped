@@ -596,9 +596,12 @@
           this.filteredVideo = [];
           (this.active = ""), (this.active = $index);
           this.exploreVideos.forEach(element => {
-            if (element.category.categoryname == $videoCatName) {
-              this.filteredVideo.push(element);
-            }
+            var categories = element.categories;
+            categories.forEach(category => {
+              if (category.categoryname == $videoCatName) {
+                this.filteredVideo.push(element);
+              }
+            })
           });
         },
         
