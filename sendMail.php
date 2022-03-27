@@ -22,8 +22,8 @@ $mail->SMTPAuth = TRUE;
 $mail->Port = 587; // TLS only
 $mail->SMTPSecure = "tls"; // ssl is depracated
 $mail->Host = "smtp.gmail.com"; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
-$mail->Username = "info@creavids.co";
-$mail->Password = "creavids212#$";
+$mail->Username = "sankettejas@gmail.com";
+$mail->Password = "jlmfrlosgictmlwa";
 $mail->setFrom($smtpUsername, 'Creavids Admin');
 $mail->addAddress("sankettejas@gmail.com", 'Tejas Shah');
 $mail->Subject = 'PHPMailer GMail SMTP test';
