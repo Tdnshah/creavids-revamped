@@ -31,9 +31,9 @@ $mail->AltBody = 'HTML messaging not supported';
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
 if(!$mail->send()){
-    echo "Mailer Error: " . $mail->ErrorInfo;
+    print_r("Mailer Error: " . $mail->ErrorInfo;);
 }else{
-    echo "Message sent!";
+    print_r("Message sent!");
 }
 
 
