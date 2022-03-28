@@ -71,37 +71,36 @@ if (isset($_POST["submit"])) {
     $did_we_miss_something = $_POST['did_we_miss_something'];
     $message = "Hi Creavids, You have got a video brief questionnarie submitted by " . $name . "there company webiste is " . $website . " and email id of the contactor is " . $email . " & below are the answers of the question in the form: <br> 1. What is the purpose of this video? (In one line why are you having this video created and what do you hope to accomplish?)? <br> Answer: " . $purpose . "<br> 2. What video style you are looking for? <br> Answer: " . $video_style . ". <br> 3. How long do you anticipate your video to be? <br> Answer: " . $videoSec . ". <br> 4. Product / Solution is for...? <br> Answer: " . $product_solution . ". <br> 5.Brief about the Product / Solution / Service / Concept? <br> Answer: " . $brief_about_product . ".<br> 6.Mood of the video – Businesslike/Humorous etc (you can choose multiple Moods)? <br> Answer: " . $moodOfVideo . " .<br> 7. Where is your audience? <br> Answer: " . $audience . ". <br> 7.Who sees the video? <br> Answer: " . $sees . " .<br> 8. Target segment age group? <br> Answer: "  . $targetSegment . ". <br> 9. What do your customers / prospects / audience want the most? <br> Answer: " . $whatCustomProspects . " . <br> 10. Do you need a voice-over for this video? <br> Answer: " . $voice_over . " .<br> 11. If yes, which voice accent do you prefer? <br> Answer: " . $voice_accent . " . <br> 12. Do you want background music in your video? <br> Answer: " . $background_music . " . <br> 13. Any “do’s and don’ts” in terms of the video? <br> Answer: " . $terms_of_video . " . <br> 14. Any brand tagline or slogan that you’d like to include in the video? <br> Answer: " . $brand_tagline . " . <br> 15. Do you have a call-to-action that you’d like to include? <br> Answer: " . $call_to_action . " . <br> 16. If Yes, the call-to-action will be...? <br> Answer: " . $call_to_action_if_yes . " . <br> 17. Is there any reference videos or styles that you would like us to refer for this production? <br> Answer: " . $reference_video . " . <br> 18. To know your offering better please suggest any other web link we should refer to? <br> Answer:  " . $offering_better . " . <br> 19. Name two of your direct competitors. <br> Answer: " . $competitors . " . <br> 20. Did we miss something? <br> Answer: " . $did_we_miss_something . ".  <br> <strong> Thank You </strong>";
   }
-//We have moved to smpt method to ensure email delivery.
-  // $to = 'info@creavids.co';
-  // $header = "From:admin@creavids.co \r\n";
-  // $header .= "MIME-Version: 1.0\r\n";
-  // $header .= "Content-type: text/html\r\n";
+  //We have moved to smpt method to ensure email delivery.
+    // $to = 'info@creavids.co';
+    // $header = "From:admin@creavids.co \r\n";
+    // $header .= "MIME-Version: 1.0\r\n";
+    // $header .= "Content-type: text/html\r\n";
 
-  // $retval = mail($to, $subject, $message, $header);
-$mail = new PHPMailer();
-$mail->IsSMTP();
-$mail->Mailer = "smtp";
-$mail->SMTPDebug = 1; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
-$mail->SMTPAuth = TRUE;
-$mail->Port = $smtpPort; // TLS only
-$mail->SMTPSecure = $smtpSecureMethod; // ssl is depracated
-$mail->Host = $smtpHost; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
-$mail->Username = $smtpUsername;
-$mail->Password = $smtpPassword;
-$mail->setFrom($smtpUsername, 'Creavids Admin');
-$mail->addAddress($smtpUsername, 'Creavids Website Enquiry.');
-$mail->Subject = $subject;
-$mail->msgHTML($message); //$mail->msgHTML(file_get_contents('contents.html'), __DIR__); //Read an HTML message body from an external file, convert referenced images to embedded,
-// $mail->AltBody = 'HTML messaging not supported';
-// $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
+    // $retval = mail($to, $subject, $message, $header);
+  $mail = new PHPMailer();
+  $mail->IsSMTP();
+  $mail->Mailer = "smtp";
+  $mail->SMTPDebug = 1; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
+  $mail->SMTPAuth = TRUE;
+  $mail->Port = $smtpPort; // TLS only
+  $mail->SMTPSecure = $smtpSecureMethod; // ssl is depracated
+  $mail->Host = $smtpHost; // use $mail->Host = gethostbyname('smtp.gmail.com'); // if your network does not support SMTP over IPv6
+  $mail->Username = $smtpUsername;
+  $mail->Password = $smtpPassword;
+  $mail->setFrom($smtpUsername, 'Creavids Admin');
+  $mail->addAddress($smtpUsername, 'Creavids Website Enquiry.');
+  $mail->Subject = $subject;
+  $mail->msgHTML($message); //$mail->msgHTML(file_get_contents('contents.html'), __DIR__); //Read an HTML message body from an external file, convert referenced images to embedded,
+  // $mail->AltBody = 'HTML messaging not supported';
+  // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
-$mailStatus = $mail->send();
-  if($mailStatus){
+  if($mail->send()){
     $newPage = FALSE;
     $messageSuccessful = TRUE;
     $_POST = [];
   }
-  elseif(!$mailStatus){
+  elseif(!$mail->send()){
       print_r("Mailer Error: " . $mail->ErrorInfo);
   }
   else{
