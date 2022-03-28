@@ -100,7 +100,6 @@ $mailStatus = $mail->send();
     $newPage = FALSE;
     $messageSuccessful = TRUE;
     $_POST = [];
-    print_r("Message sent!");
   }
   elseif(!$mailStatus){
       print_r("Mailer Error: " . $mail->ErrorInfo);
