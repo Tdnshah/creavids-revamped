@@ -104,10 +104,12 @@ print_r($mailStatus);
     $_POST = [];
     print_r("Message sent!");
   }
-  else(!$mailStatus){
-      $newPage = FALSE;
-      $messageFailed = TRUE;
-      $_POST = [];
+  elseif(!$mailStatus){
       print_r("Mailer Error: " . $mail->ErrorInfo);
+  }
+  else{
+    $newPage = FALSE;
+    $messageFailed = TRUE;
+    $_POST = [];
   }
 }
