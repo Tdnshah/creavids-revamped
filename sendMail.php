@@ -95,14 +95,15 @@ $mail->msgHTML($message); //$mail->msgHTML(file_get_contents('contents.html'), _
 // $mail->AltBody = 'HTML messaging not supported';
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
+$mailStatus = $mail->send()
 
-  if($mail->send()){
+  if($mailStatus){
     $newPage = FALSE;
     $messageSuccessful = TRUE;
     $_POST = [];
     print_r("Message sent!");
   }
-  else(!$mail->send()){
+  else(!$mailStatus){
       $newPage = FALSE;
       $messageFailed = TRUE;
       $_POST = [];
