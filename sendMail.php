@@ -81,7 +81,7 @@ if (isset($_POST["submit"])) {
   $mail = new PHPMailer();
   $mail->IsSMTP();
   $mail->Mailer = "smtp";
-  $mail->SMTPDebug = 1; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
+  $mail->SMTPDebug = 0; // 0 = off (for production use) - 1 = client messages - 2 = client and server messages
   $mail->SMTPAuth = TRUE;
   $mail->Port = $smtpPort; // TLS only
   $mail->SMTPSecure = $smtpSecureMethod; // ssl is depracated
