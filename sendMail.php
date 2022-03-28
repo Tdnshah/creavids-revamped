@@ -96,6 +96,7 @@ $mail->msgHTML($message); //$mail->msgHTML(file_get_contents('contents.html'), _
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
 $mailStatus = $mail->send();
+print_r($mailStatus);
 
   if($mailStatus){
     $newPage = FALSE;
@@ -109,5 +110,4 @@ $mailStatus = $mail->send();
       $_POST = [];
       print_r("Mailer Error: " . $mail->ErrorInfo);
   }
-  echo $mailStatus;
 }
