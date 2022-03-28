@@ -95,7 +95,7 @@ $mail->msgHTML($message); //$mail->msgHTML(file_get_contents('contents.html'), _
 // $mail->AltBody = 'HTML messaging not supported';
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
-$mailStatus = $mail->send()
+$mailStatus = $mail->send();
 
   if($mailStatus){
     $newPage = FALSE;
