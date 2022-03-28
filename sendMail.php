@@ -7,11 +7,11 @@ require 'phpmailer/src/Exception.php';
 require 'phpmailer/src/PHPMailer.php';
 require 'phpmailer/src/SMTP.php';
 
-$smtpHost = echo getenv('smtpHost');
-$smtpSecureMethod = echo getenv('smtpSecureMethod');
-$smtpPort = echo getenv('smtpPort');
-$smtpUsername = echo getenv('smtpUserEmail');
-$smtpPassword = echo getenv('smtpPassword'); 
+$smtpHost =  getenv('smtpHost');
+$smtpSecureMethod =  getenv('smtpSecureMethod');
+$smtpPort =  getenv('smtpPort');
+$smtpUsername =  getenv('smtpUserEmail');
+$smtpPassword =  getenv('smtpPassword'); 
 
 $messageSuccessful = FALSE;
 
