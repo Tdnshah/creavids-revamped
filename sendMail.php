@@ -109,4 +109,5 @@ $mailStatus = $mail->send();
       $_POST = [];
       print_r("Mailer Error: " . $mail->ErrorInfo);
   }
+  echo $mailStatus;
 }
