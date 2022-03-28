@@ -18,7 +18,9 @@ $messageSuccessful = FALSE;
 $messageFailed = FALSE;
 
 $newPage = TRUE;
+
 $formName = $_POST['formName'];
+
 if (isset($_POST["submit"])) {
   if ($formName == 'contactusForm') {
     $your_name = $_POST['name'];
@@ -76,10 +78,6 @@ if (isset($_POST["submit"])) {
   // $header .= "Content-type: text/html\r\n";
 
   // $retval = mail($to, $subject, $message, $header);
-}
-
-
-
 $mail = new PHPMailer();
 $mail->IsSMTP();
 $mail->Mailer = "smtp";
@@ -98,15 +96,16 @@ $mail->msgHTML($message); //$mail->msgHTML(file_get_contents('contents.html'), _
 // $mail->addAttachment('images/phpmailer_mini.png'); //Attach an image file
 
 
-if($mail->send()){
-  $newPage = FALSE;
-  $messageSuccessful = TRUE;
-  $_POST = [];
-  print_r("Message sent!");
-}
-else(!$mail->send()){
+  if($mail->send()){
     $newPage = FALSE;
-    $messageFailed = TRUE;
+    $messageSuccessful = TRUE;
     $_POST = [];
-    print_r("Mailer Error: " . $mail->ErrorInfo);
+    print_r("Message sent!");
+  }
+  else(!$mail->send()){
+      $newPage = FALSE;
+      $messageFailed = TRUE;
+      $_POST = [];
+      print_r("Mailer Error: " . $mail->ErrorInfo);
+  }
 }
