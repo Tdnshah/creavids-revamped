@@ -46,6 +46,7 @@ function echoKeyword($keywords)
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M" crossorigin="anonymous" />
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123320683-1"></script>
+  <script async defer data-website-id="8a657aba-595f-4ea3-8fd1-3c97df4895af" src="https://analytics.thehigglers.com/umami.js"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
 
