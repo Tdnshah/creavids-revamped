@@ -3,7 +3,7 @@
       <div class="flex flex-wrap lg:w-1/2">
         <div class="lg:w-1/2 p-12 justify-center my-auto sm:mx-auto">
           <a href="">
-            <img src="Assets/staticLogo.png" class="w-1/3 mx-auto" alt="creavids-logo" />
+            <img src="../Assets/staticLogo.png" class="w-1/3 mx-auto" alt="creavids-logo" />
             <p class="text-sm text-center p-4 text-creavidsDarkGray font-semibold">
               Creavids is a boutique video</br> production company.
             </p>
@@ -16,16 +16,16 @@
           </p>
           <div class="flex">
             <ul class="">
-              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="about"><img src="Assets/footer/About.svg" class="mr-2 -ml-2 -mt-2 h-10" alt="about-icon"> About</a></li>
-              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="process"><img src="Assets/footer/Process.svg" class="mr-4  -mt-1 -ml-2 w-8 h-10" alt="process-icon">Process</a></li>
-              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="explore"><img src="Assets/footer/Explore.svg" class="mr-4  -mt-2 -ml-2 w-8 h-10" alt="explore-icon">Explore</a></li>
-              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="services"><img src="Assets/footer/Service.svg" class="mr-4 -mt-2 -ml-3 w-8 h-10" alt="service-icon"> Service</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/about"><img src="../Assets/footer/About.svg" class="mr-2 -ml-2 -mt-2 h-10" alt="about-icon"> About</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/process"><img src="../Assets/footer/Process.svg" class="mr-4  -mt-1 -ml-2 w-8 h-10" alt="process-icon">Process</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/explore"><img src="../Assets/footer/Explore.svg" class="mr-4  -mt-2 -ml-2 w-8 h-10" alt="explore-icon">Explore</a></li>
+              <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/services"><img src="../Assets/footer/Service.svg" class="mr-4 -mt-2 -ml-3 w-8 h-10" alt="service-icon"> Service</a></li>
             </ul>
             <ul class="lg:ml-8">
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="partnership"><img src="Assets/footer/Agencies.svg" class="mt-2 mr-4 w-6 h-6" alt="agencies-icon">Partnership</a></li>
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href=""><img src="Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="learn-icon">Learn</a></li>
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="faq"><img src="Assets/footer/FAQ.svg" class="mt-2 mr-4 w-6 h-6" alt="FAQ-icon">FAQ</a></li>
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="blog"><img src="Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="blog-icon">Blog</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="partnership"><img src="../Assets/footer/Agencies.svg" class="mt-2 mr-4 w-6 h-6" alt="agencies-icon">Partnership</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href=""><img src="../Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="learn-icon">Learn</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="faq"><img src="../Assets/footer/FAQ.svg" class="mt-2 mr-4 w-6 h-6" alt="FAQ-icon">FAQ</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="blog"><img src="../Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="blog-icon">Blog</a></li>
             </ul>
           </div>
         </div>
@@ -82,20 +82,20 @@
       </div>
 
     </div>
-    <script type="text/javascript" src="build/animation/aos.js"></script>
-    <script  script type="text/javascript" src="build/customScript.js"></script>
+    <script type="text/javascript" src="../build/animation/aos.js"></script>
+    <script  script type="text/javascript" src="../build/customScript.js"></script>
     
     <?php
       if ($currentPage == 'index' || $currentPage == '' || $currentPage == 'Home') {
-        echo '<script type="text/javascript" src="build/testimonial/carousel.js"></script>';
+        echo '<script type="text/javascript" src="../build/testimonial/carousel.js"></script>';
       }
      ?>
     
     <!-- Include jQuery -->
-    <script src="build/multislider/js/jquery-2.2.4.min.js"></script>
+    <script src="../build/multislider/js/jquery-2.2.4.min.js"></script>
 
     <!-- Include Multislider -->
-    <script src="build/multislider/js/multislider.min.js"></script>
+    <script src="../build/multislider/js/multislider.min.js"></script>
 
     <!-- Initialize element with Multislider -->
     <script>
