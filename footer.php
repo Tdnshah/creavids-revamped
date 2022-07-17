@@ -22,10 +22,10 @@
               <li class="my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/services"><img src="../Assets/footer/Service.svg" class="mr-4 -mt-2 -ml-3 w-8 h-10" alt="service-icon"> Service</a></li>
             </ul>
             <ul class="lg:ml-8">
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="partnership"><img src="../Assets/footer/Agencies.svg" class="mt-2 mr-4 w-6 h-6" alt="agencies-icon">Partnership</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/partnership"><img src="../Assets/footer/Agencies.svg" class="mt-2 mr-4 w-6 h-6" alt="agencies-icon">Partnership</a></li>
               <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href=""><img src="../Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="learn-icon">Learn</a></li>
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="faq"><img src="../Assets/footer/FAQ.svg" class="mt-2 mr-4 w-6 h-6" alt="FAQ-icon">FAQ</a></li>
-              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="blog"><img src="../Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="blog-icon">Blog</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/faq"><img src="../Assets/footer/FAQ.svg" class="mt-2 mr-4 w-6 h-6" alt="FAQ-icon">FAQ</a></li>
+              <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/blog"><img src="../Assets/footer/Learn.svg" class="mt-2 mr-4 w-6 h-6" alt="blog-icon">Blog</a></li>
             </ul>
           </div>
         </div>
@@ -36,9 +36,9 @@
             <p class="py-4 text-xl text-creavidsGreen uppercase font-semibold">
               INDUSTRIES
             </p>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="healthcare">Healthcare</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="manufacturing">Manufacturing</a></li>
-            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="blockchain">Blockchain</a></li>
+            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/healthcare">Healthcare</a></li>
+            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/manufacturing">Manufacturing</a></li>
+            <li class="flex my-2 text-xl text-creavidsDarkGray font-semibold"><a class="flex" href="/blockchain">Blockchain</a></li>
           </ul>
         </div>
         <div class="lg:w-2/3 p-8">
@@ -72,7 +72,7 @@
       </div>
       <div class="flex flex-wrap w-full">
         <div class="mx-auto pt-4 lg:pt-0 text-base text-creavidsDarkGray font-thin">
-          <a href="sitemap.xml">Sitemap</a> | <a href="privacypolicy">Privacy Policy</a> | <a href="termsofuse">Terms Of Use</a>
+          <a href="/sitemap.xml">Sitemap</a> | <a href="/privacypolicy">Privacy Policy</a> | <a href="termsofuse">Terms Of Use</a>
         </div>
       </div>
       <div class="flex flex-wrap w-full">

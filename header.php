@@ -98,7 +98,7 @@ function echoKeyword($keywords)
     <nav>
       <ul class="lg:flex items-center justify-between text-base text-gray-700 pt-4 lg:pt-0">
         <li>
-          <a href="process" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Process</a>
+          <a href="/process" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">Process</a>
         </li>
         <li>
           <a href="/about" class="lg:p-4 py-3 px-0 block border-b-2 border-transparent hover:border-creavidsTeal text-gray-800 uppercase text-sm font-semibold ">About</a>
@@ -117,7 +117,7 @@ function echoKeyword($keywords)
         </li> -->
       </ul>
     </nav>
-    <a href="contact" class="lg:ml-4 flex items-center justify-start mb-4
+    <a href="/contact" class="lg:ml-4 flex items-center justify-start mb-4
       pointer-cursor text-white mr-2 mt-5 px-4 py-2 font-bold uppercase shadow-xl
       rounded-full" style="background: linear-gradient(90deg, #41e1f2 0%, #AFE776 100%)">
       Request A Quote
