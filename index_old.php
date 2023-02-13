@@ -3,15 +3,16 @@
 <body class="antialiased overflow-x-hidden mx-auto">
   <main id="landMain" class="">
     <!--Show Features-->
-    <section class="lg:h-screen w-full flex z-0 background-banner" style="background-repeat:no-repeat;background-size: cover; background-position:
-        center;min-height:600px;">
-      <div class=" mt-32 lg:my-auto ml-4 lg:ml-20">
+    <section class="lg:h-screen w-full flex z-0" style="background-image: url('./Assets/landingPage/image10.png');
+        background-repeat:no-repeat;background-size: cover; background-position:
+        center;">
+      <div class="my-auto ml-4 lg:ml-20">
         <div class="my-8">
-          <h1 class="text-white font-bold lg:text-6xl text-4xl uppercase">
-            <span class="full-width-create"> CREATE </span> VIDEOS FOR
+          <h1 class="text-white font-bold lg:text-6xl uppercase">
+            CREATE VIDEOS FOR
           </h1>
           <h1>
-            <span class="text-gray-900 font-extrabold  uppercase typewrite lg:text-6xl text-3xl">YOUR </span><a href="" class="text-gray-900 font-extrabold  uppercase typewrite lg:text-6xl text-3xl" data-period="" data-type='[ "BRAND.", "PRODUCT.", "SERVICE." ]'>
+            <span class="text-gray-900 font-extrabold  uppercase typewrite lg:text-6xl">YOUR </span><a href="" class="text-gray-900 font-extrabold  uppercase typewrite lg:text-6xl" data-period="" data-type='[ "BRAND.", "PRODUCT.", "SERVICE." ]'>
               <span class="wrap"></span>
             </a>
           </h1>
@@ -39,75 +40,78 @@
 				</div> -->
     </section>
 
-    <section class="mx-auto max-w-screenFullWidth overlap ">
+    <section class="mx-auto max-w-screenFullWidth">
       <!--Video-->
-      <section class="w-full my-12 lg:my-24 lg:mx-auto lg:w-8/12 lg:justify-center">
-        <div class="mx-auto  justify-center">
+      <section class="w-full my-8 lg:my-24 ">
+        <div class="mx-auto w-9/12 justify-center">
           <div id="thumbnail" class="" onclick="myFunction()">
-            <img width="100%" height="400" class="mx-auto justify-center shadow-crevidsShadow" src="Assets/landingPage/showreelThumbnail.jpg" alt="video-animation" />
+            <img width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="./Assets/landingPage/showreelThumbnail.jpg" alt="video-animation" />
             <i class="fas fa-play-circle" id="thumbnail-icon"></i>
           </div>
           <div id="video">
-            <iframe width="100%" height="400" class="mx-auto justify-center shadow-crevidsShadow" src="https://www.youtube.com/embed/VfzfQaPcd7U?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="https://www.youtube.com/embed/VfzfQaPcd7U?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </section>
 
       <!--Heres What Client-->
       <section class="w-full lg:my-24 ">
-        <div class="w-full  flex-wrap mx-auto">
-          <div class="flex lg:mx-auto lg:ml-10 pb-8 lg:pb-24 w-full">
-            <h1 class="flex text-1xl lg:text-5xl flex-row-reverse lg:flex-row font-semibold  w-full md:px-20  justify-center md:justify-center text-creavidsDarkGray capitalize ">
-              Here's What Clients<br class='display-none lg:display-block '>
+        <div class="w-full flex flex-wrap mx-auto">
+          <div class="flex mx-auto pb-8 lg:pb-24">
+            <h1 class="flex text-2xl lg:text-5xl font-semibold px-20 text-creavidsDarkGray capitalize">
+              Here's What Clients<br>
               Love About Creavids
-              <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class="h-16 lg:h-40 ml-5 md:ml-0" alt="client-testimonial">
+              <img src="./Assets/landingPage/love_lady.png" alt="Creavids_love_lady" class="h-16 lg:h-40" alt="client-testimonial">
             </h1>
           </div>
-
-          
-      
-          <div class="px-10 lg:px-16">
-            <div class="owl-carousel owl-theme clients-advide-carousel ">
+          <div class="w-full px-16 flex flex-wrap">
+            <div class="lg:w-1/4">
+              <div>
                 <div>
-                  <div>
-                    <img src="./Assets/landingPage/clients/dollars.png" class="mx-auto" alt="money-dollar">
-                  </div>
-                  <div class="text-center">
-                    <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
-                      All-inclusive fixed budget cost
-                    </h1>
-                  </div>
+                  <img src="./Assets/landingPage/clients/dollars.png" class="mx-auto" alt="money-dollar">
                 </div>
+                <div class="text-center">
+                  <h1 class="py-1 lg:text-lg px-8 text-creavidsDarkGray font-bold">
+                    All-inclusive fixed budget cost
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/4">
+              <div>
                 <div>
-                  <div>
-                    <img src="./Assets/landingPage/clients/hunderd.png" class="mx-auto" alt="assurance-100%">
-                  </div>
-                  <div class="text-center">
-                    <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                      Your money is safe with us 100% money back guarantee
-                    </h1>
-                  </div>
+                  <img src="./Assets/landingPage/clients/hunderd.png" class="mx-auto" alt="assurance-100%">
                 </div>
+                <div class="text-center">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                    Your money is safe with us 100% money back guarantee
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/4">
+              <div>
                 <div>
-                  <div>
-                    <img src="./Assets/landingPage/clients/orignal.png" class="mx-auto" alt="original-videos">
-                  </div>
-                  <div class="text-center">
-                    <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                      Original content for </br> every video
-                    </h1>
-                  </div>
+                  <img src="./Assets/landingPage/clients/orignal.png" class="mx-auto" alt="original-videos">
                 </div>
+                <div class="text-center">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                    Original content for </br> every video
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div class="lg:w-1/4">
+              <div>
                 <div>
-                  <div>
-                    <img src="./Assets/landingPage/clients/laptop.png" class="mx-auto" alt="digital-laptop">
-                  </div>
-                  <div class="text-center">
-                    <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
-                      Multiple iteration included in the budget
-                    </h1>
-                  </div>
+                  <img src="./Assets/landingPage/clients/laptop.png" class="mx-auto" alt="digital-laptop">
                 </div>
+                <div class="text-center">
+                  <h1 class="py-1 lg:text-lg px-4 text-creavidsDarkGray font-bold">
+                    Multiple iteration included in the budget
+                  </h1>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -115,12 +119,12 @@
 
       <!--OurWork-->
       <section class="w-full lg:my-24">
-        <div class="w-full flex-wrap mx-auto">
+        <div class="w-full flex flex-wrap mx-auto">
           <div class="flex mx-auto py-12 lg:pb-24 lg:px-64">
             <img src="./Assets/landingPage/Landing Page-08.png" class="w-1/2 mx-auto" alt="landing-page-08" />
           </div>
-          <div class=" px-10 lg:px-16">
-          <div class=" owl-carousel owl-theme clients-advide-carousel">
+          <div class="w-full px-16 flex flex-wrap">
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/scriptWriting.png" class="mx-auto" alt="script-writing">
@@ -131,6 +135,8 @@
                   </h1>
                 </div>
               </div>
+            </div>
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/styles.png" class="mx-auto" alt="styles">
@@ -141,6 +147,8 @@
                   </h1>
                 </div>
               </div>
+            </div>
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/storyBoard.png" class="mx-auto" alt="story-boarding">
@@ -151,6 +159,8 @@
                   </h1>
                 </div>
               </div>
+            </div>
+            <div class="lg:w-1/4">
               <div>
                 <div>
                   <img src="./Assets/landingPage/ourProcess/animation.png" class="mx-auto" alt="ourprocess-animation">
@@ -161,7 +171,7 @@
                   </h1>
                 </div>
               </div>
-          </div>
+            </div>
           </div>
         </div>
       </section>
@@ -170,7 +180,7 @@
       <section class="lg:w-full my-8 lg:my-24">
         <div class="w-full flex flex-wrap mx-auto">
           <div class="mx-auto lg:pb-12">
-            <h1 class="capitalize text-md lg:text-5xl font-bold text-creavidsDarkGray text-center">
+            <h1 class="capitalize text-2xl lg:text-5xl font-bold text-creavidsDarkGray text-center">
               We Collabrate With <br />Ambitious
               Brands and People
             </h1>
@@ -180,7 +190,7 @@
         <div class="py-10 lg:hidden">
           <div id="mobileSlider">      <!-- Give wrapper ID to target with jQuery & CSS -->
               <div class="MS-content">
-                  <!-- <div class="item"> <img src="Assets/about/clients/AllianceTek.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/AllianceTek.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Assertion.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Bajaj-Finserv.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Board.png" alt=""> </div>
@@ -215,22 +225,7 @@
                   <div class="item"> <img src="Assets/about/clients/sneed.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/spenn.png" alt=""> </div>
                   <div class="item"> <img src="Assets/about/clients/Ungerboeck.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients/virvite.png" alt=""> </div> -->
-                  <div class="item"> <img src="Assets/about/clients2/Logos-01.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-02.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-03.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-04.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-05.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-06.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-07.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-08.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-09.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-10.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-11.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-12.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-13.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-14.png" alt=""> </div>
-                  <div class="item"> <img src="Assets/about/clients2/Logos-15.png" alt=""> </div>
+                  <div class="item"> <img src="Assets/about/clients/virvite.png" alt=""> </div>
               </div>
           </div>
         </div>    
@@ -299,202 +294,11 @@
       </section>
       <!-- Testimonial -->
       <section class="w-full lg:my-16 my-4">
-        <div class="w-full mx-auto p-4  lg:px-10">
+        <div class="w-full mx-auto">
           <h1 class="lg:pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:text-5xl">
             Client Testimonial
           </h1>
-          <div class="owl-carousel owl-theme testimonials" id="testimonials-owl-carousel">
-            <!-- <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Joel Flaker</h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">CEO & Founder at Suncrest Solutions</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                    Final output and satisfaction were my major concerns before opting to work with Creavids. Their
-                    ability to understand the purpose of the video and the use of creativity is simply amazing!!
-                  </p>
-                </div>
-            </div>
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/userPlaceholder.jpeg" alt="Avatar of Jonathan Reinink">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mieke Marple</h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">Freelance Artist</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Process-driven approach along with professionalism stands out for Creavids. Extremely happy with the way they handhold you during production, I never realised that I was producing a video for the first time. They are simply awesome and I highly recommend them for all your video production needs.
-                  </p>
-                </div>
-            </div> -->
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/Heidi_Link.jpg" alt="Avatar of Jonathan Reinink">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Heidi Link</h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">Art Director at Ungerboeck</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Full-service, professional animation video production company. They ace it when it comes to collaboration, communication, adherence to timelines and output quality.
-                  </p>
-                </div>
-            </div>
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/Lindsey_Rogerson.jpg" alt="Avatar of Jonathan Reinink">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Lindsey Rogerson</h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">Technical Content Developer at MetricFire</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  A very responsive design team that focuses on realizing the exact image in the client's head. My request was very detailed and I requested many improvements and changes. Creavids completed every request I made and made the exact video that I wanted. Thank you!
-                  </p>
-                </div>
-            </div>
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="./Assets/testimonial/Mark_Hickinbotham.jpg" alt="Avatar of Jonathan Reinink">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Mark Hickinbotham</h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">President at Sawcross, Inc</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                   
-                  Great people and great products. A Good company that aced all apartments during the entire production phase.
-                  
-                  </p>
-                </div>
-            </div>
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="Assets/testimonial/Assertion.jpg" alt="Avatar of Pradeep Vasudev ">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Pradeep Vasudev  </h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">COO at Assertion</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Had reservations about design and quality and if Creavids would be able to live upto the expectation. Extremely happy with the end result. Great team, Quality work, Responsive, Solid, Reliable.
-                  
-                  </p>
-                </div>
-            </div>
-
-            
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="Assets/testimonial/Comtex.jpg" alt="Avatar of Anna Wagner">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Anna Wagner </h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">Business Development Associate at Comtex News Network</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Creavids took the time to fix every detail as we asked them to and made sure we received a quality product. They were always courteous and followed up in between project reviews.
-                  
-                  </p>
-                </div>
-            </div>
-
-            
-            
-            
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="Assets/testimonial/Keeano.jpg" alt="Avatar of Erin O'Boyle ">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Erin O'Boyle </h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">VP of Clinical Operations at Rezolute, Inc.</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Very easy to work with, professional, timelines were met and final output was better than expected.  For future projects will go back to Creavids!
-                 
-                  </p>
-                </div>
-            </div>
-
-            
-            
-            
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="Assets/testimonial/Optifreeze.jpg" alt="Avatar of Ilias Bogordos ">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Ilias Bogordos </h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">Co-Founder and CEO at Keeano</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Creavids can be best described as extremely Agile, Fast and Efficient.
-                 
-                  </p>
-                </div>
-            </div>
-
-            
-            
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="Assets/testimonial/Rezolute.jpg" alt="Avatar of Eda Demir Westman">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Eda Demir Westman </h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">COO at OptiFreeze</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  <!-- Creavids can be best described as extremely Agile, Fast and Efficient. -->
-                  Very skilful team! Their project delivery guarantee helped ease my payment security concern. Love the end result.
-
-                 
-                  </p>
-                </div>
-            </div>
-
-            
-            
-            
-            
-            <div class="items p-4">
-              <div class="flex flex-wrap items-center headerr my-2">
-                  <img class="w-16 h-16 rounded-full mr-4" id="avatar" src="Assets/testimonial/Sensorflow.jpg" alt="Avatar of Peyton Tang">
-                  <div class="text-sm">
-                    <h1 class="text-lg text-creavidsDarkGray font-semibold" id="name">Peyton Tang </h1>
-                    <h4 class="text-sm text-creavidsDarkGray" id="designation">Sales Manager at SensorFlow Pte Ltd</h4>
-                  </div>
-              </div>
-              <div>
-                  <p class=" text-creavidsDarkGray text-sm font-medium para-height" id="description">
-                  Creavids has a group of professional individuals who will be emotionally invested in your project as much as you because they understand how important your videos are to you and your business. They value their clients and have exceeded my expectation in regard of service and quality of work.                 
-                  </p>
-                </div>
-            </div>
-
-            
-            
-            
-            
-            
-            
-          </div>
-          <!-- <div class="gallery">
+          <div class="gallery">
             <div class="gallery-container">
               <div class=" h-64 w-64 rounded-creavidsTestimonnial bg-white gallery-item">
                 <div class="p-10 pb-5">
@@ -583,13 +387,13 @@
               </div>
             </div>
             <div class="gallery-controls"></div>
-          </div> -->
+          </div>
         </div>
       </section>
       <!--Consult Now For -->
       <section class="w-full lg:my-24 my-16">
         <div class="w-full mx-auto">
-          <h1 class="pb-12 font-bold text-xl lg:text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:text-5xl">
+          <h1 class="pb-12 font-bold text-2xl text-creavidsDarkGray mx-auto text-center capitalize lg:text-5xl">
             Consult Now For<br />Custom Tailored Projects
           </h1>
           <div class="text-center">

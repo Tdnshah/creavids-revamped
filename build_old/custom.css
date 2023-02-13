@@ -67,12 +67,10 @@ a:hover{
 .active {
   background-color: aqua;
 }
-.owl-carousel.owl-drag .owl-item.active{
-  background-color: #fff !important;
-}
+
 #landMain {
-  /* background-image: url("../Assets/landingPage/Landing\ Page-09.png"),
-    url("../Assets/landingPage/Landing\ Page-10.png"); */
+  background-image: url("../Assets/landingPage/Landing\ Page-09.png"),
+    url("../Assets/landingPage/Landing\ Page-10.png");
   background-repeat: no-repeat, no-repeat;
   background-position: left, right;
   background-position-y: 97rem, 140rem;
@@ -583,9 +581,6 @@ svg {
  }
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
-  .f-12{
-    font-size: 12px !important;
-  }
 #BlockChainHero,
 #manufacturing-hero,
 #partnership-hero,
@@ -1226,16 +1221,3 @@ pre tt {
 #mobileSlider .MS-controls .MS-right {
   right: 10px;
 }
-
-.owl-next, .owl-prev{
-  background: #64E3C9 !important;
-}
-.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
-  background: #64E3C9 !important;
-}
-
-.owl-carousel .owl-next, .owl-carousel .owl-prev{
-  background-color: #38D5DC !important;
-}
-
-

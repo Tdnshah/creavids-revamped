@@ -1,6 +1,8 @@
 <?php
 include('env.php');
+
 $hostName = $_SERVER['HTTP_HOST'];
+
 $currentPage = $_SERVER['REQUEST_URI'];
 $currentPage = str_replace('/', '', $currentPage);
 if ($currentPage == 'index' || $currentPage == '') {
@@ -15,6 +17,8 @@ function echoKeyword($keywords)
     echo $keyword . ',';
   }
 };
+
+
 
 ?>
 <!DOCTYPE html>
@@ -76,109 +80,6 @@ function echoKeyword($keywords)
   <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
   <link rel="manifest" href="../favicon/manifest.json">
   <meta name="msapplication-TileImage" content="../favicon/ms-icon-144x144.png">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <style>
-  .owl-carousel .owl-item.active{
-  background-color: #fff !important;
-}
-.f-12{
-    font-size: 12px !important;
-  }
-.owl-next,
-.owl-prev
-{
-  position: absolute;
-  top:30%;
-  width:40px;
-  height:40px;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  font-size:20px !important;
-  background-color:#81e6d9 !important;
-  color:#fff !important;
-  border-radius:100% !important;
-  padding-bottom:5px !important;
-}
-
-.owl-next{
-  right:-35px;
-}
-.owl-prev{
-  left:-35px;
-}
-.owl-carousel .owl-item img{
-  width:unset;
-}
-.testimonials .owl-item .items{
-  padding:20px 40px; 
-  border-radius:1.75rem;
-}
-.testimonials .owl-item.center .items{
-  box-shadow:0 0 30px rgb(52 207 237 / 60%), 0 0 60px rgb(52 207 237 / 45%), 0 0 110px rgb(52 207 237 / 25%), 0 0 100px rgb(52 207 237 / 10%);
-  border-radius:1.75rem;
-  transform:scale(1)
-  
-}
-
-
-.testimonials .owl-item {
-  padding:20px ;
-  opacity:.5;
-}
-.testimonials .owl-item.center {
-  opacity:1;
-  transform:scale(1)
-}
-.testimonials.owl-carousel .owl-stage-outer{
-overflow:unset;
-}
-#testimonials-owl-carousel.owl-carousel .owl-item.active{
-  background-color: transparent !important;
-  
-}
-.background-banner{
-
-  background-image: url('./Assets/landingPage/image10.png')
-}
-@media (max-width:500px) {
-  .background-banner{
-
-background-image: url('Assets/landingPage/landing_page_bg_mob.jpg')
-}
-  .testimonials{
-    position: relative;
-    z-index:1000;
-  }
-  .testimonials .owl-item .items{
-    padding:20px 30px;
-  }
-  .shadow-crevidsShadowFooter{
-  
-  background-image: url('./Assets/landingPage/Landing Page-09.png') !important;
-    background-repeat: no-repeat, no-repeat;
-    background-position: center;
-    /* background-position-y: 97rem, 140rem; */
-    background-position-x: -8rem, 60rem;
-    background-size: 50rem, 80rem;
-}
-  
-#mobileSlider .MS-content .item {
-  width:100px;
-
-}
-#landMain{
-  background-image:none
-}
-.overlap{
-  margin-top:-200px;
-}
-.full-width-create{
-  display:block;
-}
-}
-</style>
 </head>
 <header class="lg:bg-white lg:fixed lg:px-16 px-6 bg-white flex flex-wrap items-center lg:w-full lg:py-0 py-2 lg:z-50 shadow-crevidsShadowHeader">
   <div class="flex-1 flex justify-between items-center">
