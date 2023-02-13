@@ -48,7 +48,7 @@
             <i class="fas fa-play-circle" id="thumbnail-icon"></i>
           </div>
           <div id="video">
-            <iframe width="100%" height="400" class="mx-auto justify-center shadow-crevidsShadow" src="https://www.youtube.com/embed/VfzfQaPcd7U?" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="890" height="500" class="mx-auto justify-center shadow-crevidsShadow" src="https://www.youtube.com/embed/bUwpmTP2A_c" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </section>
